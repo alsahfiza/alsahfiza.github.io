@@ -11,10 +11,8 @@ image:
     480w:    /assets/projects/landmark-pic.png
 # caption:     Hyde is a brazen two-column Jekyll theme.
 description: >
-  Photo sharing and photo storage services thrive on location data for the images uploaded by their users. 
-  Location data enables useful features like automatic tagging suggestions and organization of photos, greatly 
-  enhancing the user experience. However, many uploaded photos lack location metadata due to reasons like cameras 
-  lacking GPS or privacy concerns removing metadata.
+  Photo sharing and storage services thrive on location data for the images uploaded by their users. Location data enables useful 
+  features like automatic tagging suggestions and organization of photos, greatly enhancing the user experience.
 links:
   - title:   Demo
     url:     _posts/2021-06-30-landmark.md
