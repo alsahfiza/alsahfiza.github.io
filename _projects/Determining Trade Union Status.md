@@ -11,9 +11,9 @@ image:
     480w:    /assets/projects/United Data Scientists Union.jpg
 # caption:     Hyde is a brazen two-column Jekyll theme.
 description: >
-              This Project deals with implementation of different models and doing preprocessing with the data in order to compare 
-              the results and performance of different models. Weapplied statistical techniques to see which model is performing best. 
-              In this project we will create a binary classifier which will predict that either the data scientist will remaina USDU member or not.
+              This Project deals with implementing different models and preprocessing the data to compare the results 
+              and performance of different models. We applied statistical techniques to see which model is performing best. 
+            
 links:
   - title:   Demo
     url:     _posts/2020-09-02-Trade_Union.md
