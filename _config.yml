@@ -2,7 +2,7 @@
 # Site Settings                                                                                                        #
 ########################################################################################################################
 
-url: "https://tseknet.com"
+url: ""
 baseurl: ''
 
 ########################################################################################################################
@@ -10,10 +10,16 @@ baseurl: ''
 ########################################################################################################################
 
 lang: en
-title: Dan Tsekhanskiy
-description: SRE from a Windows guy
+title: Zakaria Alsahfi
+description:     > 
+                  Data Scientist  
+                  Data Analyst  
+                  Financial Data Analyst
 # A shorter description for the sidebar.
-tagline: SRE from a Windows guy
+tagline:         > 
+                  Data Scientist  
+                  Data Analyst  
+                  Financial Data Analyst
 
 keywords: [
   'PowerShell',
@@ -35,10 +41,10 @@ logo: /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name: Dan Tsekhanskiy
-  email: dan@tseknet.com
+  name: Zakaria Alsahfi
+  email: zakaria.sahfi@gmail.com
   # # Used by `jekyll-seo-tag`:
-  twitter: tseknet
+  twitter: AlsahfiZA
   rss: true
 
 share-links-active:
@@ -48,14 +54,20 @@ share-links-active:
 
 # Add links to the sidebar.
 menu:
-  - title: Blog
-    url: /blog/
-  - title: About
-    url: /about/
+  - title:             Blog
+    url:               /projects/
+  - title:             Power Bi
+    url:               /powerbi/
+  - title:             Tableau
+    url:               /tableau/
+  - title:             Resume
+    url:               /resume/
+  - title:             About
+    url:               /about/
 
-copyright: ''
+copyright:             © 2019. Zakaria Alsahfi. All rights reserved.
 
-permalink: /blog/:title
+permalink:             /projects/:title
 
 ########################################################################################################################
 # Jekyll Customizations                                                                                                #
@@ -114,6 +126,15 @@ collections:
   featured_tags:
     permalink: /tag/:name
     output: true
+  powerbi:
+    permalink:         /powerbi/:path/
+    output:            true
+  projects:
+    permalink:         /projects/:path/
+    output:            true
+  tableau:
+    output:             true
+    permalink:          /tableau/:path/
 
 ########################################################################################################################
 # 3rd Party Integrations                                                                                               #
@@ -260,7 +281,7 @@ plugins:
 ########################################################################################################################
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-google_site_verification: UA-175070505-1
+google_site_verification: ""
 # -- or --
 # webmaster_verifications:
 # google:  <verification-id>
@@ -270,7 +291,7 @@ google_site_verification: UA-175070505-1
 
 # Used for twitter cards
 twitter:
-  username:  tseknet
+  username:  AlsahfiZA
 
 # Used for facebook open graph
 # facebook:
@@ -282,6 +303,7 @@ twitter:
 social:
   name: Dan Tsekhanskiy
 links:
-- https://twitter.com/TsekNet
-- https://github.com/TsekNet
-- https://www.linkedin.com/in/TsekNet
+- https://twitter.com/AlsahfiZA
+- https://github.com/Zakaria-Alsahfi
+- https://www.linkedin.com/in/zakariaalsahfi
+
