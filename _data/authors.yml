@@ -2,19 +2,23 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name: Dan Tsekhanskiy
-  linkedin: tseknet
-  twitter: tseknet
-  github: tseknet
-  email: dan@tseknet.com
+  name: Zakaria Alsahfi
+  linkedin: zakariaalsahfi
+  twitter: alsahfiza
+  github: zakaria-alsahfi
+  email: zakaria.sahfi@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about: >
-    SRE with an unhealthy addiction to automation. With over five years of
-    experience in IT, my primary areas of focus are PowerShell, Python,
-    automation, CI/CD, infrastructure as code, imaging/provisioning, and
-    configuration management.
+    My name is Zakaria Alsahfi, and I am the director of information affairs at the University of Business and Technology.
+    My job is mainly interpreting large amounts of data to understand the student enrollment to ensure that provide information 
+    to authorized external and internal stakeholders. As part of my job, I have the opportunity to create and optimize workflows 
+    to improve efficiency, analyze large amounts of data and extract insights to move the business forward (primarily using tools 
+    such as spreadsheets and Power bi). Then I got introduced to predictive modeling using Python (I started with R but ended up 
+    with Python), which opened up a new world of possibilities. So naturally, I decided to lean into it and deepen my knowledge 
+    of everything data. This blog/portfolio shows the projects I have completed, projects in progress, and documentation of my learnings
+    as I go deeper into this world. It has been an exciting journey, and I plan to keep adding to it!
 
   # This photo will be used in the about section
   picture:
@@ -28,10 +32,10 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    linkedin: tseknet
-    twitter: tseknet
-    github: tseknet
-    email: dan@tseknet.com
+    linkedin: zakariaalsahfi
+    twitter: alsahfiza
+    github: zakaria-alsahfi
+    email: zakaria.sahfi@gmail.com
 # Another author (optional)
 # author2:
 #   name: <firtname> <lastname>
