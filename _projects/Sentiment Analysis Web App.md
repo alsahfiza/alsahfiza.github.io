@@ -11,9 +11,8 @@ image:
     480w:    /assets/projects/SentimentAnalysis.jpeg
 # caption:     Hyde is a brazen two-column Jekyll theme.
 description: >
-  In this project we will construct a recurrent neural network for the purpose of determining the sentiment 
-  of a movie review using the IMDB data set. We will create this model using Amazon's SageMaker service. 
-  In addition, We will deploy our model and construct a simple web app which will interact with the deployed model.
+  In this project, we will construct a recurrent neural network for the purpose of determining the sentiment 
+  of a movie review using the IMDB data set.
 links:
   - title:   Demo
     url:     _posts/2021-07-13-SageMakerProject.md
