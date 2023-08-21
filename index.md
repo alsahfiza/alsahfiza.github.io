@@ -5,18 +5,14 @@ sitemap: true
 cover: true
 ---
 
-Hi, I'm Dan. I'm a Windows SRE @ Google.
+This website aims to document *interesting* data that I've visualized and analyzed and share those solutions with the world in the hopes will be beneficial.
 {:.lead}
 
-This website aims to document *interesting* tech problems I've
-solved, and share those solutions with the world in the hopes that it will make
-your life easier.
-
-TsekNet is a play on words: my last name ([**Tsek**hanskiy](/about#last-name)) + Microsoft's Tech**Net**.
+This website aims to document *interesting* data I've
+analyze, and share those solutions with the world in the hopes that it will make your life easier.
 
 ## Latest Posts
 
 <!--posts-->
-
-See [Posts](/posts/) for more
+See [Posts](/projects/) for more
 {:.read-more}
