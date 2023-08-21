@@ -67,7 +67,7 @@ menu:
 
 copyright:             © 2019. Zakaria Alsahfi. All rights reserved.
 
-permalink:             /projects/:title
+permalink:             /:categories/:year-:month-:day-:title/ #/projects/:title
 
 ########################################################################################################################
 # Jekyll Customizations                                                                                                #
