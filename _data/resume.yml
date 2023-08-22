@@ -15,10 +15,10 @@ basics:
     insights through data analysis and visualization, and I am constantly seeking new ways to improve my skills and stay 
     up-to-date with the latest industry trends.
 
-print: ""
-download_pdf: ""
-download_vcf: ""
-download_json: ""
+  print: ""
+  download_pdf: ""
+  download_vcf: ""
+  download_json: ""
   # location:
   #   address: ""
   #   postalCode: ""
