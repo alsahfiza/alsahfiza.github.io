@@ -7,7 +7,7 @@ basics:
   picture: "/assets/img/logo.png"
   email: "zakaria.sahfi@gmail.com"
   phone: "0533352211"
-  website: "https://piedpiper.com"
+  website: ""
   summary: >
     A motivated, teamwork-oriented, and responsible Data Analyst, I have significant experience in enhancing the comprehension 
     of reports and presentations for professionals of all levels. With a strong educational background and fluency in both 
@@ -33,11 +33,8 @@ work:
     website: "https://www.ubt.edu.sa/About/Home"
     startDate: "2021-07-27"
     endDate: ""
-    summary: >
-      "Provide information to authorized external and internal stakeholders. This information fulfills the requirements of
-      Ministry of Education (MoE), local authorities, accreditation bodies, university ranking authorities, and internal 
-      stakeholders (Rector, Vice-Rectors, Deans, etc.)."
-    highlights: >
+    summary: ""
+    highlights: 
       - "Performing analysis to assess the quality and meaning of data."
       - "Preparing final analysis reports for the stakeholders to understand the data-analysis steps,
           enabling them to make crucial decisions based on various facts and trends."
@@ -45,72 +42,76 @@ work:
           governance strategies. "
 
       
-  - company: "University of Business and Technology"
-    position: "Director Of Information Affairs"
+  - company: "Salla E-Commerce Platform"
+    position: "Financial Data Analyst – Freelance"
     website: "https://piedpiper.com"
-    startDate: "2021-07-27"
-    endDate: ""
-    summary: >
-      Provide information to authorized external and internal stakeholders. This information fulfills the requirements of
-      Ministry of Education (MoE), local authorities, accreditation bodies, university ranking authorities, and internal 
-      stakeholders (Rector, Vice-Rectors, Deans, etc.).
+    startDate: "2021-11-15"
+    endDate: "2022-01-15"
+    summary: ""
     highlights:
-      - "Build an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
+        -	"Examine financial records and prepare comprehensive reports."
+        -	"Compiling data from the market and various departments within the company."
+        -	"Analyzing data and creating reports for upper management."
+
 volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
+  - organization: ""
+    position: ""
+    website: ""
+    startDate: ""
+    endDate: ""
+    summary: ""
     highlights:
-      - "Awarded 'Teacher of the Month'"
+      - ""
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
-    studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
-    courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
+  - institution: "Maryville University of Saint Louis"
+    area: "Data Science"
+    studyType: "Master of Science"
+    startDate: "2019-09"
+    endDate: "2020-12"
+    gpa: ""
+    courses: ""
+  - institution: "Fontbonne University of Saint Louis"
+    area: "Data Science"
+    studyType: "Bachelor of Science"
+    startDate: "2014-01"
+    endDate: "2018-12"
+    gpa: ""
+    courses: ""
 awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
+  - title: ""
+    date: ""
+    awarder: ""
+    summary: ""
 publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+  - name: "Machine Learning Classifiers Help to Manage COVID-19 Distribution in China."
+    publisher: "Scientific Report, impact factor: 4.996(Springer Nature)"
+    releaseDate: "2022-08-18"
+    website: "https://doi.org/10.21203/rs.3.rs-1954642/v1"
+    summary: ""
 skills:
-  - name: "Web Development"
-    level: "Master"
+  - name: ""
+    level: ""
     keywords:
-      - "HTML"
-      - "CSS"
-      - "Javascript"
-  - name: "Compression"
-    level: "Master"
+      - ""
+      - ""
+      - ""
+  - name: ""
+    level: ""
     keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
+      - ""
+      - ""
+      - ""
 languages:
-  - language: "English"
+  - language: "Arabic"
     fluency: "Native speaker"
+  - language: "English"
+    fluency: "Expert"
+    
 interests:
-  - name: "Wildlife"
+  - name: ""
     keywords:
-      - "Ferrets"
-      - "Unicorns"
+      - ""
+      - ""
 references:
-  - name: "Erlich Bachman"
-    reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.
+  - name: ""
+    reference: ""
