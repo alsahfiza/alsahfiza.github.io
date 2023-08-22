@@ -17,9 +17,9 @@ basics:
 
   buttons:
     print: true
-    pdf: /assets/Resume.pdf
-    vcf: http://h2vx.com/vcf/<!--url-->
-    json: /assets/resume.json
+    pdf: "/assets/Resume.pdf"
+    vcf: "http://h2vx.com/vcf/<!--url-->"
+    json: "/assets/resume.json"
     
   profiles:
     - network: "Twitter"
@@ -68,10 +68,11 @@ education:
     endDate:   "2020-12-14"
     
   - institution: "Fontbonne University of Saint Louis"
-    area: "Data Science"
+    area: "Computer Science"
     studyType: "Bachelor of Science"
     startDate: "2014-01-14"
     endDate:   "2018-12-14"
+    
 publications:
   - name: "Machine Learning Classifiers Help to Manage COVID-19 Distribution in China."
     publisher: "Scientific Report, impact factor: 4.996(Springer Nature)"
