@@ -15,13 +15,13 @@ basics:
               insights through data analysis and visualization, and I am constantly seeking new ways to improve my skills and stay 
               up-to-date with the latest industry trends.
   
-profiles:
-  - network: "Twitter"
-    username: "Alsahfiza"
-    url: "https://twitter.com/alsahfiza"
-  - network: "LinkedIn"
-    username: "ZakariaAlsahfi"
-    url: "https://www.linkedin.com/in/zakariaalsahfi"
+  profiles:
+    - network: "Twitter"
+      username: "Alsahfiza"
+      url: "https://twitter.com/alsahfiza"
+    - network: "LinkedIn"
+      username: "ZakariaAlsahfi"
+      url: "https://www.linkedin.com/in/zakariaalsahfi"
 work:
   - company: "University of Business and Technology"
     position: "Director Of Information Affairs"
