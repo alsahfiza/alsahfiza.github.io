@@ -30,17 +30,20 @@ basics:
 work:
   - company: "University of Business and Technology"
     position: "Director Of Information Affairs"
-    website: "https://piedpiper.com"
+    website: "https://www.ubt.edu.sa/About/Home"
     startDate: "2021-07-27"
     endDate: ""
     summary: >
-      Provide information to authorized external and internal stakeholders. This information fulfills the requirements of
+      "Provide information to authorized external and internal stakeholders. This information fulfills the requirements of
       Ministry of Education (MoE), local authorities, accreditation bodies, university ranking authorities, and internal 
-      stakeholders (Rector, Vice-Rectors, Deans, etc.).
-    highlights:
-      - "Build an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
+      stakeholders (Rector, Vice-Rectors, Deans, etc.)."
+    highlights: >
+      - "Performing analysis to assess the quality and meaning of data."
+      - "Preparing final analysis reports for the stakeholders to understand the data-analysis steps,
+          enabling them to make crucial decisions based on various facts and trends."
+      - "Collaborating with programmers, and management heads to find process improvement opportunities and devise data
+          governance strategies. "
+
       
   - company: "University of Business and Technology"
     position: "Director Of Information Affairs"
