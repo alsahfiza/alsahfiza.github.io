@@ -1,14 +1,14 @@
 ---
 layout: resume
 title: Resume
-resume:
-  basics:
-    name: "Zakaria Alsahfi"
-    label: "Data Scientist | Data analyst | Financial Data Analyst"
-    picture: "/assets/img/logo.png"
-    email: "zakaria.sahfi@gmail.com"
-    phone: "0533352211"
-    summary: "A motivated, teamwork-oriented, and responsible Data Analyst, I have significant experience in enhancing the 
+
+basics:
+  name: "Zakaria Alsahfi"
+  label: "Data Scientist | Data analyst | Financial Data Analyst"
+  picture: "/assets/img/logo.png"
+  email: "zakaria.sahfi@gmail.com"
+  phone: "0533352211"
+  summary: "A motivated, teamwork-oriented, and responsible Data Analyst, I have significant experience in enhancing the 
               comprehension of reports and presentations for professionals of all levels. With a strong educational background and 
               fluency in both Arabic and English, I bring a diverse perspective to any project. I am committed to delivering accurate 
               and meaningful insights through data analysis and visualization, and I am constantly seeking new ways to improve my 
