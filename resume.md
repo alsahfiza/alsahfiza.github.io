@@ -1,7 +1,6 @@
 ---
 layout: resume
 title: Resume
-
 basics:
   name: "Zakaria Alsahfi"
   label: "Data Scientist | Data analyst | Financial Data Analyst"
