@@ -4,4 +4,81 @@ title: Resume
 description: >
               A short description of the page for search engines (~150 characters long).
 hide_description: true
+resume:
+  basics:
+    name: "Zakaria Alsahfi"
+    label: "Data Scientist | Data analyst | Financial Data Analyst"
+    picture: "/assets/img/logo.png"
+    email: "zakaria.sahfi@gmail.com"
+    phone: "0533352211"
+    website: ""
+    summary: "A motivated, teamwork-oriented, and responsible Data Analyst, I have significant experience in enhancing the 
+              comprehension of reports and presentations for professionals of all levels. With a strong educational background and 
+              fluency in both Arabic and English, I bring a diverse perspective to any project. I am committed to delivering accurate 
+              and meaningful insights through data analysis and visualization, and I am constantly seeking new ways to improve my 
+              skills and stay up-to-date with the latest industry trends."
+
+  buttons:
+    print: true
+    pdf: /assets/Resume.pdf
+    vcf: http://h2vx.com/vcf/<!--url-->
+    json: /assets/resume.json
+    
+  profiles:
+    - network: "Twitter"
+      username: "Alsahfiza"
+      url: ""
+    - network: "LinkedIn"
+      username: "ZakariaAlsahfi"
+      url: ""
+  work:
+    - company: "University of Business and Technology"
+      position: "Director Of Information Affairs"
+      website: "https://www.ubt.edu.sa/About/Home"
+      startDate: "2021-07-27"
+      endDate: ""
+      summary: ""
+      highlights: 
+              - "Performing analysis to assess the quality and meaning of data."
+              - "Preparing final analysis reports for the stakeholders to understand the data-analysis steps, enabling them to make 
+              crucial decisions based on various facts and trends."
+              - "Collaborating with programmers, and management heads to find process improvement opportunities and devise data 
+              governance strategies."
+        
+  - company: "Salla E-Commerce Platform"
+    position: "Financial Data Analyst – Freelance"
+    website: "https://salla.com/"
+    startDate: "2021-11-15"
+    endDate: "2022-01-15"
+    summary: ""
+    highlights:
+          - "Examine financial records and prepare comprehensive reports."
+          - "Compiling data from the market and various departments within the company."
+          - "Analyzing data and creating reports for upper management."
+    
+education:
+  - institution: "Maryville University of Saint Louis"
+    area: "Data Science"
+    studyType: "Master of Science"
+    startDate: "2019-09-15"
+    endDate:   "2020-12-14"
+    
+  - institution: "Fontbonne University of Saint Louis"
+    area: "Data Science"
+    studyType: "Bachelor of Science"
+    startDate: "2014-01-14"
+    endDate:   "2018-12-14"
+    
+publications:
+  - name: "Machine Learning Classifiers Help to Manage COVID-19 Distribution in China."
+    publisher: "Scientific Report, impact factor: 4.996(Springer Nature)"
+    releaseDate: "2022-08-18"
+    website: "https://doi.org/10.21203/rs.3.rs-1954642/v1"
+    summary: ""
+    
+languages:
+  - language: "Arabic"
+    fluency: "Native speaker"
+  - language: "English"
+    fluency: "Expert"
 ---
