@@ -1,9 +1,6 @@
 ---
 layout: resume
 title: Resume
-description: >
-              A short description of the page for search engines (~150 characters long).
-hide_description: true
 resume:
   basics:
     name: "Zakaria Alsahfi"
@@ -11,7 +8,6 @@ resume:
     picture: "/assets/img/logo.png"
     email: "zakaria.sahfi@gmail.com"
     phone: "0533352211"
-    website: ""
     summary: "A motivated, teamwork-oriented, and responsible Data Analyst, I have significant experience in enhancing the 
               comprehension of reports and presentations for professionals of all levels. With a strong educational background and 
               fluency in both Arabic and English, I bring a diverse perspective to any project. I am committed to delivering accurate 
