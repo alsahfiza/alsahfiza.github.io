@@ -35,10 +35,10 @@ work:
     endDate: ""
     summary: ""
     highlights: 
-      - "Performing analysis to assess the quality and meaning of data."
-      - "Preparing final analysis reports for the stakeholders to understand the data-analysis steps,
+      -"Performing analysis to assess the quality and meaning of data."
+      -"Preparing final analysis reports for the stakeholders to understand the data-analysis steps,
           enabling them to make crucial decisions based on various facts and trends."
-      - "Collaborating with programmers, and management heads to find process improvement opportunities and devise data
+      -"Collaborating with programmers, and management heads to find process improvement opportunities and devise data
           governance strategies. "
 
       
@@ -49,9 +49,9 @@ work:
     endDate: "2022-01-15"
     summary: ""
     highlights:
-        -	"Examine financial records and prepare comprehensive reports."
-        -	"Compiling data from the market and various departments within the company."
-        -	"Analyzing data and creating reports for upper management."
+        -"Examine financial records and prepare comprehensive reports."
+        -"Compiling data from the market and various departments within the company."
+        -"Analyzing data and creating reports for upper management."
 
 volunteer:
   - organization: ""
