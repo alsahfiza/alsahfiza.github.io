@@ -4,9 +4,9 @@
 basics:
   name: "Zakaria Alsahfi"
   label: "Data Scientist | Data analyst | Financial Data Analyst"
-  picture: "/assets/icons/logo.png"
-  email: ""
-  phone: "(912) 555-4321"
+  picture: "/assets/img/logo.png"
+  email: "zakaria.sahfi@gmail.com"
+  phone: "0533352211"
   website: "https://piedpiper.com"
   summary: >
     A motivated, teamwork-oriented, and responsible Data Analyst, I have significant experience in enhancing the comprehension 
@@ -15,28 +15,42 @@ basics:
     insights through data analysis and visualization, and I am constantly seeking new ways to improve my skills and stay 
     up-to-date with the latest industry trends.
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
-    countryCode: "US"
-    region: "California"
+    address: ""
+    postalCode: ""
+    city: ""
+    countryCode: ""
+    region: ""
   profiles:
     - network: "Twitter"
-      username: "RHendricksCEO"
+      username: "Alsahfiza"
       url: ""
     - network: "LinkedIn"
-      username: "Richard Hendricks"
+      username: "ZakariaAlsahfi"
       url: ""
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
+  - company: "University of Business and Technology"
+    position: "Director Of Information Affairs"
     website: "https://piedpiper.com"
-    startDate: "2013-12-01"
+    startDate: "2021-07-27"
     endDate: ""
     summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
+      Provide information to authorized external and internal stakeholders. This information fulfills the requirements of
+      Ministry of Education (MoE), local authorities, accreditation bodies, university ranking authorities, and internal 
+      stakeholders (Rector, Vice-Rectors, Deans, etc.).
+    highlights:
+      - "Build an algorithm for artist to detect if their music was violating copy right infringement laws"
+      - "Successfully won Techcrunch Disrupt"
+      - "Optimized an algorithm that holds the current world record for Weisman Scores"
+      
+  - company: "University of Business and Technology"
+    position: "Director Of Information Affairs"
+    website: "https://piedpiper.com"
+    startDate: "2021-07-27"
+    endDate: ""
+    summary: >
+      Provide information to authorized external and internal stakeholders. This information fulfills the requirements of
+      Ministry of Education (MoE), local authorities, accreditation bodies, university ranking authorities, and internal 
+      stakeholders (Rector, Vice-Rectors, Deans, etc.).
     highlights:
       - "Build an algorithm for artist to detect if their music was violating copy right infringement laws"
       - "Successfully won Techcrunch Disrupt"
