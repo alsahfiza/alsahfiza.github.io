@@ -35,11 +35,9 @@ work:
     endDate: ""
     summary: ""
     highlights: 
-      -"Performing analysis to assess the quality and meaning of data."
-      -"Preparing final analysis reports for the stakeholders to understand the data-analysis steps,
-          enabling them to make crucial decisions based on various facts and trends."
-      -"Collaborating with programmers, and management heads to find process improvement opportunities and devise data
-          governance strategies. "
+      - "Performing analysis to assess the quality and meaning of data."
+      - "Preparing final analysis reports for the stakeholders to understand the data-analysis steps, enabling them to make crucial decisions based on various facts and trends."
+      - "Collaborating with programmers, and management heads to find process improvement opportunities and devise data governance strategies. "
 
       
   - company: "Salla E-Commerce Platform"
@@ -49,69 +47,66 @@ work:
     endDate: "2022-01-15"
     summary: ""
     highlights:
-        -"Examine financial records and prepare comprehensive reports."
-        -"Compiling data from the market and various departments within the company."
-        -"Analyzing data and creating reports for upper management."
+        - "Examine financial records and prepare comprehensive reports."
+        - "Compiling data from the market and various departments within the company."
+        - "Analyzing data and creating reports for upper management."
 
-volunteer:
-  - organization: ""
-    position: ""
-    website: ""
-    startDate: ""
-    endDate: ""
-    summary: ""
-    highlights:
-      - ""
+# volunteer:
+#   - organization: ""
+#     position: ""
+#     website: ""
+#     startDate: ""
+#     endDate: ""
+#     summary: ""
+#     highlights: ""
 education:
   - institution: "Maryville University of Saint Louis"
     area: "Data Science"
     studyType: "Master of Science"
     startDate: "2019-09-15"
     endDate:   "2020-12-14"
-    gpa: ""
-    courses: ""
+   # courses: ""
   - institution: "Fontbonne University of Saint Louis"
     area: "Data Science"
     studyType: "Bachelor of Science"
     startDate: "2014-01-14"
     endDate:   "2018-12-14"
-    gpa: ""
-    courses: ""
-awards:
-  - title: ""
-    date: ""
-    awarder: ""
-    summary: ""
+#     courses: ""
+# awards:
+#   - title: ""
+#     date: ""
+#     awarder: ""
+#     summary: ""
 publications:
   - name: "Machine Learning Classifiers Help to Manage COVID-19 Distribution in China."
     publisher: "Scientific Report, impact factor: 4.996(Springer Nature)"
     releaseDate: "2022-08-18"
     website: "https://doi.org/10.21203/rs.3.rs-1954642/v1"
     summary: ""
-skills:
-  - name: ""
-    level: ""
-    keywords:
-      - ""
-      - ""
-      - ""
-  - name: ""
-    level: ""
-    keywords:
-      - ""
-      - ""
-      - ""
+# skills:
+#   - name: ""
+#     level: ""
+#     keywords:
+#       - ""
+#       - ""
+#       - ""
+#   - name: ""
+#     level: ""
+#     keywords:
+#       - ""
+#       - ""
+#       - ""
 languages:
   - language: "Arabic"
     fluency: "Native speaker"
   - language: "English"
     fluency: "Expert"
     
-interests:
-  - name: ""
-    keywords:
-      - ""
-      - ""
-references:
-  - name: ""
-    reference: ""
+# interests:
+#   - name: ""
+#     keywords:
+#       - ""
+#       - ""
+# references:
+#   - name: ""
+#     reference: ""
