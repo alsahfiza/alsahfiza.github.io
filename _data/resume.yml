@@ -8,18 +8,12 @@ basics:
   email: "zakaria.sahfi@gmail.com"
   phone: "0533352211"
   website: ""
-  summary: > " A motivated, teamwork-oriented, and responsible Data Analyst, I have significant experience in enhancing the comprehension 
+  summary: > 
+              A motivated, teamwork-oriented, and responsible Data Analyst, I have significant experience in enhancing the comprehension 
               of reports and presentations for professionals of all levels. With a strong educational background and fluency in both 
               Arabic and English, I bring a diverse perspective to any project. I am committed to delivering accurate and meaningful 
               insights through data analysis and visualization, and I am constantly seeking new ways to improve my skills and stay 
-              up-to-date with the latest industry trends."
-
-  # location:
-  #   address: ""
-  #   postalCode: ""
-  #   city: ""
-  #   countryCode: ""
-  #   region: ""
+              up-to-date with the latest industry trends.
   profiles:
     - network: "Twitter"
       username: "Alsahfiza"
@@ -65,18 +59,12 @@ education:
     studyType: "Master of Science"
     startDate: "2019-09-15"
     endDate:   "2020-12-14"
-   # courses: ""
+    
   - institution: "Fontbonne University of Saint Louis"
     area: "Data Science"
     studyType: "Bachelor of Science"
     startDate: "2014-01-14"
     endDate:   "2018-12-14"
-#     courses: ""
-# awards:
-#   - title: ""
-#     date: ""
-#     awarder: ""
-#     summary: ""
 publications:
   - name: "Machine Learning Classifiers Help to Manage COVID-19 Distribution in China."
     publisher: "Scientific Report, impact factor: 4.996(Springer Nature)"
