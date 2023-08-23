@@ -15,7 +15,7 @@
         {% capture area %}<span class="bc">{{ edu.area }}</span>{% endcapture %}
         {% capture institution %}<span class="bc">{{ edu.institution }}</span>{% endcapture %}
         {{ strings.resume.certificate_title
-          | default:"<!--area--> from <!--institution-->
+          | default:"<!--area--> from <!--institution-->"
           | replace:"<!--area-->", area
           | replace:"<!--institution-->", institution
         }}
