@@ -65,9 +65,11 @@ education:
     studyType: "Bachelor of Science"
     startDate: "2014-01-14"
     endDate:   "2018-12-14"  
-  - certificate: "Business and Data Analyst - SDA Simplilearn"
+    
+certificate: 
+    institution: "Business and Data Analyst - SDA Simplilearn"
     date: "2021-11-01"
-  - certificate: "Deep-Learning - Udacity Nano Degree"
+    institution: "Deep-Learning - Udacity Nano Degree"
     date: "2021-07-01"
     
 publications:
