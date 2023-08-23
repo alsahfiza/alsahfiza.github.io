@@ -11,7 +11,7 @@
       <p class="faded">
         <time datetime="{{ edu.date | date_to_xmlschema}}">{{ edu.date | date:from_to_format }}</time>
       </p>
-      <h3 class="h4 faded">
+      <h3 class="h4 faded"{% if edu.date > 0 %}property="alumniOf" typeof="EducationalOrganization"{% endif %}>
         {% capture certificate %}<span class="bc">{{ edu.certificate }}</span>{% endcapture %}
         {% capture area %}<span class="bc">{{ edu.area }}</span>{% endcapture %}
         {% capture institution %}<span class="bc">{{ edu.institution }}</span>{% endcapture %}
