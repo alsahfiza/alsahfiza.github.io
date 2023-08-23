@@ -14,7 +14,7 @@
       <h3 class="h4 faded">
         {% capture certificate %}<span class="bc">{{ edu.certificate }}</span>{% endcapture %}
         {{ strings.resume.certificate
-          | default:"<!--certificate-->"
+          | default:"<!--area--> from <!--institution-->
           | replace:"<!--institution-->", institution
         }}
       </h3>
