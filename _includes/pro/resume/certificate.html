@@ -14,20 +14,11 @@
       <h3 class="h4 faded">
         {% capture certificate %}<span class="bc">{{ edu.certificate }}</span>{% endcapture %}
         {{ strings.resume.certificate
-          | default:"<!--certificate-->"
-          | replace:"<!--certificate-->", certificate
+          | default:"<!--certificate-->", certificate
+          | replace:"<!--certificate-->", institution
         }}
       </h3>
     </header>
-
-    {% if edu.courses.size > 0 %}
-    <h4 class="sr-only">{{ strings.resume.courses | default:"Courses" }}</h4>
-    <ul>
-      {% for course in edu.courses %}
-        <li>{{ course }}</li>
-      {% endfor %}
-    </ul>
-    {% endif %}
   </section>
   {% if forloop.first %}</div>{% endif %}
   {% endfor %}
