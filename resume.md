@@ -9,4 +9,9 @@ description: >
               perspective to any project. I am committed to delivering accurate and 
               meaningful insights through data analysis and visualization, and I amconstantly seeking new ways to improve my skills and stay up-to-date with the latest industry trends. 
 hide_description: true
+buttons:
+  print: true
+  pdf: /assets/Resume.pdf
+  vcf: http://h2vx.com/vcf/<!--url-->
+  json: /assets/resume.json
 ---
