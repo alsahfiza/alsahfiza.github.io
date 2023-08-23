@@ -5,7 +5,7 @@
 # You can edit them here if you want to change the wording of certain phrases,
 # e.g. maybe you prefer "Fetching…" to "Loading…", etc.
 #
-# You can also use this to "translate" the theme into different langauges,
+# You can also use this to "translate" the theme into different languages,
 # but note that this may not work in all situations,
 # especially for languages that differ significantly from English.
 
@@ -127,9 +127,9 @@ resume:
   volunteer: Volunteer
   volunteer_title: <!--position--> at <!--organization-->
   education: Education
-  education_title: <!--study_type--> in <!--area--> from <!--institution--> <!--gpa-->
+  education_title: <!--study_type--> in <!--area--> &emsp <!--institution--> <!--gpa-->
   certificate: Certificate
-  certificate_title:   <!--area--><br>&emsp;&emsp;from <!--institution-->
+  certificate_title:   <!--area--><br>&emsp<!--institution-->
   courses: Courses
   awards: Awards
   awards_title: <!--title--> from <!--awarder-->
