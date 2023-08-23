@@ -9,11 +9,11 @@ basics:
   phone: "0533352211"
   website: ""
   summary: > 
-              A motivated, teamwork-oriented, and responsible Data Analyst, I have significant experience in enhancing the comprehension 
-              of reports and presentations for professionals of all levels. With a strong educational background and fluency in both 
-              Arabic and English, I bring a diverse perspective to any project. I am committed to delivering accurate and meaningful 
-              insights through data analysis and visualization, and I am constantly seeking new ways to improve my skills and stay 
-              up-to-date with the latest industry trends.
+    A motivated, teamwork-oriented, and responsible Data Analyst, I have significant experience in enhancing the comprehension 
+    of reports and presentations for professionals of all levels. With a strong educational background and fluency in both 
+    Arabic and English, I bring a diverse perspective to any project. I am committed to delivering accurate and meaningful 
+    insights through data analysis and visualization, and I am constantly seeking new ways to improve my skills and stay 
+    up-to-date with the latest industry trends.
   
   profiles:
     - network: "Twitter"
@@ -60,12 +60,15 @@ education:
     studyType: "Master of Science"
     startDate: "2019-09-15"
     endDate:   "2020-12-14"
-    
   - institution: "Fontbonne University of Saint Louis"
     area: "Computer Science"
     studyType: "Bachelor of Science"
     startDate: "2014-01-14"
-    endDate:   "2018-12-14"
+    endDate:   "2018-12-14"  
+  - certificate: "Business and Data Analyst - SDA Simplilearn"
+    date: "2021-11-01"
+  - certificate: "Deep-Learning - Udacity Nano Degree"
+    date: "2021-07-01"
     
 publications:
   - name: "Machine Learning Classifiers Help to Manage COVID-19 Distribution in China."
