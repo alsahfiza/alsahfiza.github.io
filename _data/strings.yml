@@ -128,6 +128,8 @@ resume:
   volunteer_title: <!--position--> at <!--organization-->
   education: Education
   education_title: <!--study_type--> in <!--area--> from <!--institution--> <!--gpa-->
+  certificate: Certificate
+  certificate_title:   <!--certificate-->
   courses: Courses
   awards: Awards
   awards_title: <!--title--> from <!--awarder-->
