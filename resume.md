@@ -2,25 +2,11 @@
 layout: resume
 title: Résumé
 description: >
-              This is the `description` of your resume page, as it will be seen by search engines. You'll probably want to modify it in 
-              `resume.md`, and maybe set `hide_description` to `true` in the front matter. 
+              A motivated, teamwork-oriented, and responsible Data Analyst, I have 
+              significant experience in enhancing the comprehension of reports and 
+              presentations for professionals of all levels. With a strong educational 
+              background and fluency in both Arabic and English, I bring a diverse 
+              perspective to any project. I am committed to delivering accurate and 
+              meaningful insights through data analysis and visualization, and I amconstantly seeking new ways to improve my skills and stay up-to-date with the latest industry trends. 
 hide_description: true
-left_column:
-  - work
-  - volunteer
-  - education
-  - awards
-  - publications
-  - references
-right_column:
-  - languages
-  - skills
-  - interests
-no_language_icons: false
-no_skill_icons: false
-buttons:
-  print: true
-  pdf: /assets/Resume.pdf
-  vcf: http://h2vx.com/vcf/<!--url-->
-  json: /assets/resume.json
 ---
