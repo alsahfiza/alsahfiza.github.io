@@ -67,9 +67,11 @@ education:
     endDate:   "2018-12-14"  
     
 certificate: 
-    institution: "Business and Data Analyst - SDA Simplilearn"
+    institution: "SDA Simplilearn"
+    area: "Business and Data Analyst"
     date: "2021-11-01"
-    institution: "Deep-Learning - Udacity Nano Degree"
+    institution: "Udacity Nano Degree"
+    area: "Deep-Learning"
     date: "2021-07-01"
     
 publications:
