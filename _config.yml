@@ -282,13 +282,14 @@ plugins:
 ########################################################################################################################
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-google_site_verification:  G-MCCZC99QW1
+#google_site_verification:  G-MCCZC99QW1
 # -- or --
 # webmaster_verifications:
 # google:  <verification-id>
 # bing: <verification-id>
 # alexa:<verification-id>
 # yandex:  <verification-id>
+google_analytics: G-MCCZC99QW1
 
 # Used for twitter cards
 twitter:
@@ -302,7 +303,7 @@ twitter:
 
 # Used on index and about sites
 social:
-  name: Dan Tsekhanskiy
+  name: Zakaria Alsahfi
 links:
 - https://twitter.com/AlsahfiZA
 - https://github.com/Zakaria-Alsahfi
