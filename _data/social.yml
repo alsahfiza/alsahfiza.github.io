@@ -16,6 +16,9 @@ google-plus:
 google-drive:
   name: Google Drive
   icon: icon-google-drive
+googlescholar:
+  name: Google Scholar
+  icon: icon-fa-file
 facebook:
   name: Facebook
   icon: icon-facebook
