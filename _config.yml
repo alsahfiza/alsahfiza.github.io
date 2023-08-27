@@ -51,6 +51,7 @@ share-links-active:
   twitter: true
   facebook: true
   linkedin: true
+  googlescholar: true
 
 # Add links to the sidebar.
 menu:
@@ -308,4 +309,5 @@ links:
 - https://twitter.com/AlsahfiZA
 - https://github.com/Zakaria-Alsahfi
 - https://www.linkedin.com/in/zakariaalsahfi
+- https://scholar.google.co.uk/citations?user=aJR6B78AAAAJ&hl=en
 
