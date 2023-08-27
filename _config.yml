@@ -277,6 +277,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-include-cache
   - jekyll-last-modified-at
+  - jekyll-font-awesome-sass
 
 ########################################################################################################################
 # SEO                                                                                                                  #
