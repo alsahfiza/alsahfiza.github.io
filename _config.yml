@@ -1,8 +1,8 @@
 ########################################################################################################################
 # Site Settings                                                                                                        #
 ########################################################################################################################
-#url: ''
-#baseurl: ''
+url: ''
+baseurl: ''
 
 
 ########################################################################################################################
@@ -143,7 +143,7 @@ collections:
 
 # Set the Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from the page, remove the line below.
- google_analytics: G-MCCZC99QW1
+# google_analytics: G-MCCZC99QW1
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
@@ -282,7 +282,7 @@ plugins:
 ########################################################################################################################
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-#google_site_verification:  G-MCCZC99QW1
+google_site_verification:  G-MCCZC99QW1
 # -- or --
 # webmaster_verifications:
 # google:  <verification-id>
