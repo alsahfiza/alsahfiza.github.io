@@ -143,7 +143,7 @@ collections:
 
 # Set the Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from the page, remove the line below.
-# google_analytics: <id>
+ google_analytics: G-MCCZC99QW1
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
@@ -289,7 +289,7 @@ plugins:
 # bing: <verification-id>
 # alexa:<verification-id>
 # yandex:  <verification-id>
-google_analytics: G-MCCZC99QW1
+
 
 # Used for twitter cards
 twitter:
