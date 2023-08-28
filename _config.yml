@@ -80,7 +80,7 @@ permalink:             /:categories/:year-:month-:day-:title/ #/projects/:title
 accent_image:
   background:          center / cover url(/assets/img/music-cat-no-loop.gif)
   overlay:             false
-accent_color:         rgb(79,177,186)
+accent_color:         rgb(207,164,168)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
