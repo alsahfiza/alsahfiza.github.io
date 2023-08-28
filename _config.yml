@@ -80,13 +80,13 @@ permalink:             /:categories/:year-:month-:day-:title/ #/projects/:title
 accent_image:
   background:          center / cover url(/assets/img/music-cat-no-loop.gif)
   overlay:             false
-accent_color:         rgb(207,164,168)
+accent_color:         rgb(0,174,239)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
 #theme_color:         rgb(8,46,57)
-theme_color:           rgb(207,164,168)
+theme_color:           rgb(31,55,75)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
