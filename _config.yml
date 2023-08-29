@@ -78,7 +78,7 @@ permalink:             /:categories/:year-:month-:day-:title/ #/projects/:title
 
 #accent_image:         /assets/img/sidebar.jpg
 accent_image:
-  background:          center / cover url(/assets/img/giphy.gif)
+  background:          center / cover url(/assets/img/datascience.gif)
   overlay:             true
 accent_color:         rgb(0,174,239)
 
