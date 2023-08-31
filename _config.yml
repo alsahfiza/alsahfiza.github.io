@@ -298,7 +298,7 @@ plugins:
 ########################################################################################################################
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-google_site_verification:  G-MCCZC99QW1
+google_analytics:    G-MCCZC99QW1
 # -- or --
 # webmaster_verifications:
 # google:  <verification-id>
