@@ -76,10 +76,10 @@ permalink:             /:categories/:year-:month-:day-:title/ #/projects/:title
 
 # Sidebar image and theme color of the site.
 
-#accent_image:         /assets/img/sidebar.jpg
-accent_image:
-  background:          bottom / cover url(/assets/img/datascience.gif)
-  overlay:             false
+accent_image:         /assets/img/sidebar.png
+# accent_image:
+#   background:          bottom / cover url(/assets/img/datascience.gif)
+#   overlay:             false
 accent_color:         rgb(0,174,239)
 
 # This is used for the `theme-color` meta tag,
