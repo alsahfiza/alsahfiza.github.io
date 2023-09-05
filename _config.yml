@@ -22,25 +22,24 @@ tagline:         >
                   Financial Data Analyst
 
 keywords: [
-  'zakaria alsahfi',
-  'zakaria',
-  'alsahfi',
-  'Algorithm',
+  'portfolio',
+  'Python',
+  'R',
+  'SQL',
+  'NLP',
+  'Tableau',
+  'Power Bi',
+  'Data Science',
   'Data Analysis',
-  'TensorFlow',
   'Machine Learning',
-  'Data Mining',
-  'Statistics',
-  'Statstical Modeling',
   'Deep Learning',
   'Text Mining',
   'Data Visualization',
-  'NLP',
-  'R',
-  'Python',
-  'SQL',
-  'Tableau',
-  'Power Bi'
+  'Data Mining',
+  'TensorFlow',
+  'Statistics',
+  'Statstical Modeling',
+  'Algorithm'
   ]
 
 # A (square) logo for the sidebar.
