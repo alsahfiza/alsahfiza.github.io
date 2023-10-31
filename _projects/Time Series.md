@@ -35,7 +35,7 @@ ARIMA is a combination of autoregressive (AR) and moving average (MA) models, al
 
 **from statsmodels.tsa.statespace.sarimax import SARIMAX**
 
-**# Fit ARIMA model**
+**Fit ARIMA model**
 
 **model = SARIMAX(data['Count'], order=(1, 1, 1), seasonal\_order=(1, 1, 1, 2))**
 
@@ -55,7 +55,7 @@ ETS models encapsulate the error, trend, and seasonality in a time series datase
 
 **from statsmodels.tsa.holtwinters import ExponentialSmoothing**
 
-**# Fit ETS model**
+**Fit ETS model**
 
 **model = ExponentialSmoothing(data['Count'], trend='add', seasonal='add', seasonal\_periods=12)**
 
@@ -73,7 +73,7 @@ c. Ensemble Methods
 
 Ensemble methods combine multiple forecasting models to produce an overall forecast, often yielding better results than any individual model. A simple ensemble technique averages the forecasts from multiple models. More advanced techniques can weight models differently based on their performance.
 
-**# Ensemble forecasting (average of ARIMA and ETS)**
+**Ensemble forecasting (average of ARIMA and ETS)**
 
 **ensemble\_forecast = (arima\_forecast + ets\_forecast) / 2**
 
