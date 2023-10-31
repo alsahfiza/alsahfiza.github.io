@@ -1,4 +1,3 @@
-
 ---
 # file: _projects/Time Series.md
 layout:      project
@@ -20,7 +19,7 @@ description: >
 #  - title:   Source
  #   url:     https://github.com/poole/hyde
 featured:    false
-tags: [Data Science, Machine Learning, Python]
+tags: [Data Science, Machine Learning, Python, Time Series]
 ---
 
 1\. Introduction to Time Series Forecasting
