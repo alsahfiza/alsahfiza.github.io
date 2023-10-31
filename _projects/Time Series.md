@@ -90,8 +90,10 @@ ensemble_forecast = (arima_forecast + ets_forecast) / 2
 ```
 
 3\. Comparative Analysis
+
 ![png](/images/timeseries/student count.png)
 *Note: Decompose the time series function*
+
 Using a real-world dataset, we conducted a study to evaluate the
 performance of these models:
 
