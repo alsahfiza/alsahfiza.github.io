@@ -83,7 +83,7 @@ model. A simple ensemble technique averages the forecasts from multiple
 models. More advanced techniques can weight models differently based on
 their performance.
 
-**# Ensemble forecasting (average of ARIMA and ETS)**
+**Ensemble forecasting (average of ARIMA and ETS)**
 
 ```Python
 ensemble_forecast = (arima_forecast + ets_forecast) / 2
@@ -92,10 +92,10 @@ ensemble_forecast = (arima_forecast + ets_forecast) / 2
 3\. Comparative Analysis
 
 ![png](/images/timeseries/student count.png)
+
 *Note: Decompose the time series function*
 
-Using a real-world dataset, we conducted a study to evaluate the
-performance of these models:
+Using a real-world dataset, we conducted a study to evaluate the performance of these models:
 
 Results:
 
@@ -106,6 +106,7 @@ Results:
 **Ensemble: RMSE=713.71, MAPE=18.70%**
 
 ![png](/images/timeseries/Forecasting Student Counts.png)
+
 *Note: The graph showcases the historical data, and forecasts from ARIMA,ETS, and the Ensemble method.*
 
 Interpretation:
