@@ -9,15 +9,9 @@ image:
     1920w:   /assets/projects/Time Series.jpeg
     960w:    /assets/projects/Time Series.jpeg
     480w:    /assets/projects/Time Series.jpeg
-# caption:     Hyde is a brazen two-column Jekyll theme.
 description: >
               Time series forecasting is an essential component of decision-making processes in various domains, ranging from finance and economics to healthcare and energy. 
               In this article, we'll delve into three popular forecasting techniques – ARIMA, ETS, and Ensemble methods – and evaluate their performance on a real-world dataset.
-# links:
-#  - title:   Demo
- #   url:     https://github.com/Zakaria-Alsahfi/zakariaalsahfi.github.io/blob/0961f50cde2b2a1350269f4194206c795398dffc/_posts/2019-05-15-womenclothing.md
-#  - title:   Source
- #   url:     https://github.com/poole/hyde
 featured:    false
 tags: [Data Science, Machine Learning, Python, Time Series]
 ---
