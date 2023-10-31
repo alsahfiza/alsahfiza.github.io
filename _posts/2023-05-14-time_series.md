@@ -1,7 +1,15 @@
-Time Series Forecasting: A Comparative Study of ARIMA, ETS, and Ensemble Methods
+---
+layout: post
+title: "Time Series Forecasting: A Comparative Study of ARIMA, ETS, and Ensemble Methods"
+image: "/images/perceptron/WomenClothing.jpg"
+date: 2023-05-14
+excerpt_separator: <!--more-->
+tags: [Data Science, Machine Learning, Python, Time Series]
+mathjax: "true"
+---
 
 Time series forecasting is an essential component of decision-making processes in various domains, ranging from finance and economics to healthcare and energy. In this article, we'll delve into three popular forecasting techniques – ARIMA, ETS, and Ensemble methods – and evaluate their performance on a real-world dataset.
-
+<!--more-->
 1. Introduction to Time Series Forecasting
 
 Time series data is essentially a sequence of observations recorded at regular time intervals. Forecasting is the practice of predicting future values based on past observations. Time series forecasting has been foundational in several sectors, including stock market predictions, sales forecasting, and weather prediction.
