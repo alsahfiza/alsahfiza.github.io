@@ -1,8 +1,8 @@
 ---
 # file: _projects/Time Series.md
 layout:      project
-title:       Time Series Forecasting: A Comparative Study of ARIMA, ETS, and Ensemble Methods*
-date:        14 May 2023
+title:       Time Series Forecasting: A Comparative Study of ARIMA, ETS, and Ensemble Methods
+date:        15 May 2023
 image:
   path:       /assets/projects/Time Series.jpeg
   srcset:
@@ -12,11 +12,15 @@ image:
 # caption:     Hyde is a brazen two-column Jekyll theme.
 description: >
               Time series forecasting is an essential component of decision-making processes in various domains, ranging from finance and economics to healthcare and energy. In this article, we'll delve into 
-              three popular forecasting techniques – ARIMA, ETS, and Ensemble methods – and evaluate their performance on a real-world dataset. 
+              three popular forecasting techniques – ARIMA, ETS, and Ensemble methods – and evaluate their performance on a real-world dataset.
+# links:
+#  - title:   Demo
+ #   url:     https://github.com/Zakaria-Alsahfi/zakariaalsahfi.github.io/blob/0961f50cde2b2a1350269f4194206c795398dffc/_posts/2019-05-15-womenclothing.md
+#  - title:   Source
+ #   url:     https://github.com/poole/hyde
 featured:    false
-tags: [Data Science, Machine Learning, Python, Time Series]
+tags: [Data Science, Machine Learning, Time Series, Python]
 ---
-
 
 
 1. Introduction to Time Series Forecasting
