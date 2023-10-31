@@ -10,8 +10,8 @@ image:
     960w:    /assets/projects/Time Series.jpeg
     480w:    /assets/projects/Time Series.jpeg
 description: >
-              Time series forecasting is an essential component of decision-making processes in various domains, ranging from finance and economics to healthcare and energy. 
-              In this article, we'll delve into three popular forecasting techniques – ARIMA, ETS, and Ensemble methods – and evaluate their performance on a real-world dataset.
+              Time series forecasting is an essential component of decision making processes in various domains, ranging from finance and economics to healthcare and energy. 
+              In this article, we'll delve into three popular forecasting techniques ARIMA, ETS, and Ensemble methods and evaluate their performance on a real world dataset.
 featured:    false
 tags: [Data Science, Machine Learning, Python, Time Series]
 ---
