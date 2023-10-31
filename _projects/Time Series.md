@@ -1,3 +1,4 @@
+
 ---
 # file: _projects/Time Series.md
 layout:      project
@@ -21,14 +22,6 @@ description: >
 featured:    false
 tags: [Data Science, Machine Learning, Python]
 ---
-Time Series Forecasting: A Comparative Study of ARIMA, ETS, and Ensemble
-Methods
-
-Time series forecasting is an essential component of decision-making
-processes in various domains, ranging from finance and economics to
-healthcare and energy. In this article, we'll delve into three popular
-forecasting techniques – ARIMA, ETS, and Ensemble methods – and evaluate
-their performance on a real-world dataset.
 
 1\. Introduction to Time Series Forecasting
 
@@ -111,17 +104,16 @@ performance of these models:
 
 Results:
 
-ARIMA: RMSE=645.39, MAPE=16.80%
+**ARIMA: RMSE=645.39, MAPE=16.80%**
 
-ETS: RMSE=783.58, MAPE=20.61%
+**ETS: RMSE=783.58, MAPE=20.61%**
 
-Ensemble: RMSE=713.71, MAPE=18.70%
+**Ensemble: RMSE=713.71, MAPE=18.70%**
 
 Graph depicting forecasts of ARIMA, ETS, and Ensemble against actual
 data.
 
-Note: The graph showcases the historical data, and forecasts from ARIMA,
-ETS, and the Ensemble method.
+*Note: The graph showcases the historical data, and forecasts from ARIMA,ETS, and the Ensemble method.*
 
 Interpretation:
 
