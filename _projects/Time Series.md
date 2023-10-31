@@ -4,11 +4,11 @@ layout:      project
 title:       Time Series Forecasting: A Comparative Study of ARIMA, ETS, and Ensemble Methods*
 date:        14 May 2023
 image:
-  path:       /assets/projects/Time Series.jpg
+  path:       /assets/projects/Time Series.jpeg
   srcset:
-    1920w:   /assets/projects/Time Series.jpg
-    960w:    /assets/projects/Time Series.jpg
-    480w:    /assets/projects/Time Series.jpg
+    1920w:   /assets/projects/Time Series.jpeg
+    960w:    /assets/projects/Time Series.jpeg
+    480w:    /assets/projects/Time Series.jpeg
 # caption:     Hyde is a brazen two-column Jekyll theme.
 description: >
               Time series forecasting is an essential component of decision-making processes in various domains, ranging from finance and economics to healthcare and energy. In this article, we'll delve into 
