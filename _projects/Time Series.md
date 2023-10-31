@@ -1,15 +1,24 @@
 ---
-layout: post
-title: "Time Series Forecasting: A Comparative Study of ARIMA, ETS, and Ensemble Methods"
-image: "/images/perceptron/WomenClothing.jpg"
-date: 2023-05-14
-excerpt_separator: <!--more-->
+# file: _projects/Time Series.md
+layout:      project
+title:       Time Series Forecasting: A Comparative Study of ARIMA, ETS, and Ensemble Methods*
+date:        14 May 2023
+image:
+  path:       /assets/projects/Time Series.jpg
+  srcset:
+    1920w:   /assets/projects/Time Series.jpg
+    960w:    /assets/projects/Time Series.jpg
+    480w:    /assets/projects/Time Series.jpg
+# caption:     Hyde is a brazen two-column Jekyll theme.
+description: >
+              Time series forecasting is an essential component of decision-making processes in various domains, ranging from finance and economics to healthcare and energy. In this article, we'll delve into 
+              three popular forecasting techniques – ARIMA, ETS, and Ensemble methods – and evaluate their performance on a real-world dataset. 
+featured:    false
 tags: [Data Science, Machine Learning, Python, Time Series]
-mathjax: "true"
 ---
 
-Time series forecasting is an essential component of decision-making processes in various domains, ranging from finance and economics to healthcare and energy. In this article, we'll delve into three popular forecasting techniques – ARIMA, ETS, and Ensemble methods – and evaluate their performance on a real-world dataset.
-<!--more-->
+
+
 1. Introduction to Time Series Forecasting
 
 Time series data is essentially a sequence of observations recorded at regular time intervals. Forecasting is the practice of predicting future values based on past observations. Time series forecasting has been foundational in several sectors, including stock market predictions, sales forecasting, and weather prediction.
@@ -70,15 +79,15 @@ Using a real-world dataset, we conducted a study to evaluate the performance of 
 
 Results:
 
-ARIMA: RMSE=645.39, MAPE=16.80%
+**ARIMA: RMSE=645.39, MAPE=16.80%**
 
-ETS: RMSE=783.58, MAPE=20.61%
+**ETS: RMSE=783.58, MAPE=20.61%**
 
-Ensemble: RMSE=713.71, MAPE=18.70%
+**Ensemble: RMSE=713.71, MAPE=18.70%**
 
 Graph depicting forecasts of ARIMA, ETS, and Ensemble against actual data.
 
-Note: The graph showcases the historical data, and forecasts from ARIMA, ETS, and the Ensemble method.
+*Note: The graph showcases the historical data, and forecasts from ARIMA, ETS, and the Ensemble method.*
 
 Interpretation:
 
