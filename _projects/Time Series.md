@@ -1,7 +1,7 @@
 ---
 # file: _projects/Time Series.md
 layout:      project
-title:       Time Series Forecasting: A Comparative Study of ARIMA, ETS, and Ensemble Methods
+title:       Time Series Forecasting-A Comparative Study of ARIMA, ETS, and Ensemble Methods
 date:        15 May 2023
 image:
   path:       /assets/projects/Time Series.jpeg
