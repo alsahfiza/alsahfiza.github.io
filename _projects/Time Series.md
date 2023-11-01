@@ -1,7 +1,7 @@
 ---
 # file: _projects/Time Series.md
 layout:      project
-title:       Time Series Forecasting-A Comparative Study of ARIMA, ETS, and Ensemble Methods
+title:       Analyzing Student Enrollment Trends and Forecasts with Time Series Analysis
 date:        15 May 2023
 image:
   path:       /assets/projects/Time Series.jpeg
@@ -10,122 +10,70 @@ image:
     960w:    /assets/projects/Time Series.jpeg
     480w:    /assets/projects/Time Series.jpeg
 description: >
-              Time series forecasting is an essential component of decision making processes in various domains, ranging from finance and economics to healthcare and energy. 
-              In this article, we'll delve into three popular forecasting techniques ARIMA, ETS, and Ensemble methods and evaluate their performance on a real world dataset.
+              Time series forecasting is an essential component of decision making processes in various domains, ranging from finance 
+              and economics to healthcare and energy.In this article, we'll delves deep into forecasting student counts over time using various methodologies.
 featured:    false
 tags: [Data Science, Machine Learning, Python, Time Series]
 ---
-1\. Introduction to Time Series Forecasting
+Time series analysis offers a range of tools to analyze and predict temporal data. In this article, we dive deep into understanding the patterns of student enrollment over the years, employing some powerful forecasting models.
 
-Time series data is essentially a sequence of observations recorded at
-regular time intervals. Forecasting is the practice of predicting future
-values based on past observations. Time series forecasting has been
-foundational in several sectors, including stock market predictions,
-sales forecasting, and weather prediction.
+### Historical Student Enrollments
+Understanding your data is the first step in any analysis. Let's start by observing the historical student enrollments from 2015 to 2022:
 
-2\. Overview of Forecasting Methods
+![png](/images/timeseries/data.png)
 
-a\. ARIMA (AutoRegressive Integrated Moving Average)
+From the graph, we can notice a cyclical pattern, with peaks and troughs recurring over a similar period. Such patterns can provide valuable insights for predicting future enrollments.
 
-ARIMA is a combination of autoregressive (AR) and moving average (MA)
-models, alongside an integration component to make the data stationary.
-The "I" in ARIMA stands for "integrated" and represents the number of
-differences required to make the time series stationary.
+### Decomposing the Data
+Time series data can be decomposed into multiple components:
 
-**from statsmodels.tsa.statespace.sarimax import SARIMAX**
-
-**Fit ARIMA model**
-
-```Python 
-model = SARIMAX(data\['Count'\], order=(1, 1, 1), seasonal_order=(1,1, 1, 2))
-results = model.fit(disp=-1)
-```
-Key Components:
-
-AR(p): Autoregression - a regression model that utilizes the dependent
-relationship between a current observation and a number of lagged
-observations.
-
-I(d): Integrated - differencing of observations to make the time series
-stationary.
-
-MA(q): Moving Average - a model that uses the dependency between a
-current observation and a residual error from a moving average model
-applied to lagged observations.
-
-b\. ETS (Error, Trend, Seasonality)
-
-ETS models encapsulate the error, trend, and seasonality in a time
-series dataset.
-
-```Python
-from statsmodels.tsa.holtwinters import ExponentialSmoothing
-```
-**Fit ETS model**
-
-```Python
-model = ExponentialSmoothing(data\['Count'\], trend='add',seasonal='add', seasonal_periods=12)
-results = model.fit()
-```
-Components:
-
-Error: Can be additive or multiplicative.
-
-Trend: Can be none, additive, or multiplicative.
-
-Seasonality: Can be none, additive, or multiplicative.
-
-c\. Ensemble Methods
-
-Ensemble methods combine multiple forecasting models to produce an
-overall forecast, often yielding better results than any individual
-model. A simple ensemble technique averages the forecasts from multiple
-models. More advanced techniques can weight models differently based on
-their performance.
-
-**Ensemble forecasting (average of ARIMA and ETS)**
-
-```Python
-ensemble_forecast = (arima_forecast + ets_forecast) / 2
-```
-
-3\. Comparative Analysis
-
+* Trend: The underlying pattern in the series.
+* Seasonal: The repeating short-term cycle in the series.
+* Residual: The random variation in the series.
+* 
+Here's a snapshot of the enrollment data decomposition:
 ![png](/images/timeseries/student count.png)
 
-*Note: Decompose the time series function*
+We can clearly observe a seasonal fluctuation in enrollments every year, which might be attributed to various academic and economic factors.
 
-Using a real-world dataset, we conducted a study to evaluate the performance of these models:
+### ADF Test for Stationarity
+A critical step before applying forecasting models on time series data is to check its stationarity, ensuring the mean, variance, and covariance remain constant over time. For this, we performed the Augmented Dickey-Fuller test. The results are as follows:
 
-Results:
+```Python
+ADF Statistic: -1.358822089447294
+p-value: 0.601854995584759
+```
 
-**ARIMA: RMSE=645.39, MAPE=16.80%**
+The p-value is greater than 0.05, which indicates that our data is not stationary, necessitating differencing or transformations before modeling.
 
-**ETS: RMSE=783.58, MAPE=20.61%**
+### Modeling and Forecasting
+To make accurate forecasts, we tested multiple models:
 
-**Ensemble: RMSE=713.71, MAPE=18.70%**
+1\. **ARIMA:** (AutoRegressive Integrated Moving Average): A classical model for time series forecasting that combines auto-regression, differencing, and moving averages.
+
+2\. **ETS:** (Error, Trend, Seasonality): Decomposes a time series into error, trend, and seasonality components.
+
+3\. **Prophet:** Developed by Facebook, Prophet handles daily data with multiple seasonal effects and missing values.
+
+4\. **Ensemble:** This approach combines forecasts from multiple models to improve accuracy.
+
+From our analysis, the following prediction errors were obtained:
+
+```Python
+ARIMA: RMSE=384.31, MAPE=9.19%
+ETS: RMSE=397.17, MAPE=9.52%
+Ensemble: RMSE=390.71, MAPE=9.35%
+```
+
+Based on RMSE (Root Mean Square Error) and MAPE (Mean Absolute Percentage Error), the Ensemble model provided slightly better accuracy, indicating the potential benefits of combining multiple models' strengths.
+
+Let's visualize the forecasts:
 
 ![png](/images/timeseries/Forecasting Student Counts.png)
 
-*Note: The graph showcases the historical data, and forecasts from ARIMA,ETS, and the Ensemble method.*
+The Ensemble model forecasts seem to closely align with historical data, offering confidence in our predictions for upcoming years.
 
-Interpretation:
+### Concluding Thoughts
+Time series analysis presents an invaluable toolset for understanding and predicting enrollment trends. From our study, the ensemble approach of combining ARIMA, ETS, and Prophet models yielded the most accurate forecasts.
 
-ARIMA performed the best among the three models, showcasing the lowest
-RMSE and MAPE.
-
-ETS, though a robust method, did not outperform ARIMA in this case.
-
-The Ensemble method, which averaged the forecasts of ARIMA and ETS,
-provided a balanced performance.
-
-4\. Conclusion
-
-While ARIMA outperformed the other methods in this study, the best
-forecasting method often depends on the specific dataset and problem at
-hand. It is crucial to test various models and sometimes even combine
-them to achieve the most accurate and reliable forecasts.
-
-Remember, the real world is full of uncertainties, and while forecasting
-can provide a roadmap, it's essential to continuously update models with
-new data and ensure they remain relevant and accurate.
+For institutions and stakeholders, such insights can pave the way for better resource allocation, strategic planning, and ensuring a smooth academic experience for students.
