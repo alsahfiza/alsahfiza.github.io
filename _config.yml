@@ -136,7 +136,7 @@ defaults:
   - scope:
       path:           assets/
     values:
-      sitemap:         false
+      sitemap:         true
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
@@ -323,7 +323,7 @@ plugins:
 #google_analytics:    G-MCCZC99QW1
 # -- or --
 # webmaster_verifications:
- google:  ULEUQTgeP918_7Ne8oTWQBhH5P0Yp-HV5J9Y27p9uZI
+# google:  ULEUQTgeP918_7Ne8oTWQBhH5P0Yp-HV5J9Y27p9uZI
 # bing: <verification-id>
 # alexa:<verification-id>
 # yandex:  <verification-id>
