@@ -136,7 +136,7 @@ defaults:
   - scope:
       path:           assets/
     values:
-      sitemap:         true
+      sitemap:         false
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
