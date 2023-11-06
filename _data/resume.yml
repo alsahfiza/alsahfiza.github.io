@@ -48,14 +48,6 @@ work:
         - "Compiling data from the market and various departments within the company."
         - "Analyzing data and creating reports for upper management."
 
-# volunteer:
-#   - organization: ""
-#     position: ""
-#     website: ""
-#     startDate: ""
-#     endDate: ""
-#     summary: ""
-#     highlights: ""
 education:
   - institution: "Maryville University of Saint Louis"
     area: "Data Science"
@@ -72,9 +64,20 @@ certificate:
   - institution: "SDA Simplilearn"
     area: "Business and Data Analyst"
     date: "2021-11-01"
+    highlights:
+      - Mastery of data analytics tools and techniques for practical business application.
+      - Ability to work with SQL databases, and program with R and Python for data analysis tasks.
+      - Skills in creating insightful data visualizations and applying predictive analytics.
+      - Hands-on experience through industry-based projects, enhancing job readiness.
   - institution: "Udacity Nano Degree"
     area: "Deep-Learning"
     date: "2021-07-01"
+     highlights:
+       - Generative adversarial networks (GANs), model evaluation, deep learning techniques, and more​​.
+       - Application of CNNs in real-world projects like landmark classification for social media​2.
+       - Understanding of RNNs, LSTM, and transformers, with projects on text translation and sentiment analysis​​.
+       - Skills in building and training advanced GANs for realistic image generation​2.
+       - Career services focused on improving LinkedIn and GitHub profiles to enhance job search and networking​2.
     
 publications:
   - name: "Machine Learning Classifiers Help to Manage COVID-19 Distribution in China."
@@ -82,30 +85,8 @@ publications:
     releaseDate: "2022-08-18"
     website: "https://doi.org/10.21203/rs.3.rs-1954642/v1"
     summary: ""
-# skills:
-#   - name: ""
-#     level: ""
-#     keywords:
-#       - ""
-#       - ""
-#       - ""
-#   - name: ""
-#     level: ""
-#     keywords:
-#       - ""
-#       - ""
-#       - ""
 languages:
   - language: "Arabic"
     fluency: "Native speaker"
   - language: "English"
     fluency: "4-5"
-    
-# interests:
-#   - name: ""
-#     keywords:
-#       - ""
-#       - ""
-# references:
-#   - name: ""
-#     reference: ""
