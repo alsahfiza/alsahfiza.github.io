@@ -12,14 +12,17 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about: >
-    My name is Zakaria Alsahfi, and I am the director of information affairs at the University of Business and Technology.
-    My job is mainly interpreting large amounts of data to understand the student enrollment to ensure that provides information 
-    to authorized external and internal stakeholders. As part of my job, I have the opportunity to create and optimize workflows 
-    to improve efficiency, analyze large amounts of data, and extract insights to move the business forward (primarily using tools 
-    such as spreadsheets and Power BI). Then I got introduced to predictive modeling using Python (I started with R but ended up 
-    with Python), which opened up a new world of possibilities. So naturally, I decided to lean into it and deepen my knowledge 
-    of everything data. This blog/portfolio shows the projects I have completed, projects in progress, and documentation of my learnings
-    as I go deeper into this world. It has been an exciting journey, and I plan to keep adding to it!
+    My name is Zakaria Alsahfi, and I am the Director of Information Affairs at the University of Business and Technology.
+    My primary responsibility is to interpret large amounts of data to understand trends in student enrollment and to ensure 
+    that accurate and relevant information is provided to both authorized external and internal stakeholders. In my role, 
+    I am privileged to have the opportunity to create and optimize workflows, which significantly improves efficiency. 
+    I also analyze extensive data sets and extract insights that propel the business forward, primarily using tools 
+    such as spreadsheets and Power BI. My introduction to predictive modeling using Python (having started with R 
+    but transitioning to Python) has opened a new realm of possibilities for me. I have embraced this evolution, dedicating 
+    myself to a deeper exploration of all things data-related.
+    This blog/portfolio is a showcase of the projects I have completed, those that are in progress, and a documentation of
+    my learnings as I delve further into the data world. It's been an exhilarating journey thus far, and I am committed to 
+    continually enriching this platform with my experiences and insights.
 
   # This photo will be used in the about section
   picture:
