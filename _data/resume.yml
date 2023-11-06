@@ -72,7 +72,7 @@ certificate:
   - institution: "Udacity Nano Degree"
     area: "Deep-Learning"
     date: "2021-07-01"
-     highlights:
+    highlights:
        - Generative adversarial networks (GANs), model evaluation, deep learning techniques, and more​​.
        - Application of CNNs in real-world projects like landmark classification for social media​2.
        - Understanding of RNNs, LSTM, and transformers, with projects on text translation and sentiment analysis​​.
