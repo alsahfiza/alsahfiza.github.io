@@ -26,7 +26,7 @@
     {% if edu.highlights.size > 0 %}
     <h4 class="sr-only">{{ strings.resume.highlights | default:"Highlights" }}</h4>
     <ul>
-      {% for highlight in work.highlights %}
+      {% for highlight in edu.highlights %}
         <li>{{ highlight }}</li>
       {% endfor %}
     </ul>
