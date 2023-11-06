@@ -65,19 +65,19 @@ certificate:
     area: "Business and Data Analyst"
     date: "2021-11-01"
     highlights:
-      - Mastery of data analytics tools and techniques for practical business application.
-      - Ability to work with SQL databases, and program with R and Python for data analysis tasks.
-      - Skills in creating insightful data visualizations and applying predictive analytics.
-      - Hands-on experience through industry-based projects, enhancing job readiness.
+      - "Mastery of data analytics tools and techniques for practical business application."
+      - "Ability to work with SQL databases, and program with R and Python for data analysis tasks."
+      - "Skills in creating insightful data visualizations and applying predictive analytics."
+      - "Hands-on experience through industry-based projects, enhancing job readiness."
   - institution: "Udacity Nano Degree"
     area: "Deep-Learning"
     date: "2021-07-01"
     highlights:
-       - Generative adversarial networks (GANs), model evaluation, deep learning techniques, and more​​.
-       - Application of CNNs in real-world projects like landmark classification for social media​2.
-       - Understanding of RNNs, LSTM, and transformers, with projects on text translation and sentiment analysis​​.
-       - Skills in building and training advanced GANs for realistic image generation​2.
-       - Career services focused on improving LinkedIn and GitHub profiles to enhance job search and networking​2.
+       - "Generative adversarial networks (GANs), model evaluation, deep learning techniques, and more​​."
+       - "Application of CNNs in real-world projects like landmark classification for social media​."
+       - "Understanding of RNNs, LSTM, and transformers, with projects on text translation and sentiment analysis​​."
+       - "Skills in building and training advanced GANs for realistic image generation​."
+       - "Career services focused on improving LinkedIn and GitHub profiles to enhance job search and networking​."
     
 publications:
   - name: "Machine Learning Classifiers Help to Manage COVID-19 Distribution in China."
