@@ -36,6 +36,8 @@ group :jekyll_plugins do
   gem "jekyll-include-cache", github: "hydecorp/jekyll-include-cache"
   gem "jekyll-last-modified-at"
 end
-
+source "https://rubygems.pkg.github.com/hydecorp" do
+  gem "jekyll-theme-hydejack", "9.0.4"
+end
 gem 'wdm' if Gem.win_platform?
 gem "tzinfo-data" if Gem.win_platform?
