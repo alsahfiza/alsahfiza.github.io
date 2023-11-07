@@ -85,14 +85,13 @@ share-links-active:
 menu:
   - title:             Blog
     url:               /projects/
-    menu:
-        - title:           Power Bi
-          url:              /powerbi/
-        - title:            Tableau
-          url:              /tableau/
+  - title:           Power Bi
+    url:              /powerbi/
+  - title:            Tableau
+    url:              /tableau/
   - title:             Resume
     url:               /resume/
-  - title:             About
+  - title:             About Me
     url:               /about/
 
 copyright:             © 2019. Zakaria Alsahfi. All rights reserved.
