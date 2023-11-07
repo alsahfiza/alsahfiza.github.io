@@ -85,10 +85,11 @@ share-links-active:
 menu:
   - title:             Blog
     url:               /projects/
-  - title:             Power Bi
-    url:               /powerbi/
-  - title:             Tableau
-    url:               /tableau/
+  - title:             Data Analysts   
+    - title:           Power Bi
+      url:              /powerbi/
+    - title:            Tableau
+      url:              /tableau/
   - title:             Resume
     url:               /resume/
   - title:             About
@@ -136,7 +137,7 @@ defaults:
   - scope:
       path:           assets/
     values:
-      sitemap:         false
+      sitemap:         true
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
