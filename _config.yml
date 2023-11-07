@@ -85,10 +85,11 @@ share-links-active:
 menu:
   - title:             Blog
     url:               /projects/
-  - title:           Power Bi
-    url:              /powerbi/
-  - title:            Tableau
-    url:              /tableau/
+    menu:
+        - title:           Power Bi
+          url:              /powerbi/
+        - title:            Tableau
+          url:              /tableau/
   - title:             Resume
     url:               /resume/
   - title:             About
