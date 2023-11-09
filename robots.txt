@@ -4,4 +4,5 @@ Disallow: /not-for-google
 User-agent: *
 Disallow: /archive/
 Disallow: /support/
+Allow: /
 Sitemap: https://alsahfiza.github.io/sitemap.xml
