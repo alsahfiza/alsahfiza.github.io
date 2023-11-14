@@ -13,7 +13,7 @@
           {% include components/from-to.html from=edu.startDate to=edu.endDate format=from_to_format %}
         </p>
       {% endif %}
-      <h6 class="h4 faded" {% if edu.endDate.size > 0 %}property="alumniOf" typeof="EducationalOrganization"{% endif %}>
+      <h7 class="h4 faded" {% if edu.endDate.size > 0 %}property="alumniOf" typeof="EducationalOrganization"{% endif %}>
         {% capture study_type %}<span class="bc">{{ edu.studyType }}</span>{% endcapture %}
         {% capture area %}<span class="bc">{{ edu.area }}</span>{% endcapture %}
         {% capture institution %}<span class="bc" {% if edu.endDate.size > 0 %}property="name"{% endif %}>{{ edu.institution }}</span>{% endcapture %}
@@ -23,7 +23,7 @@
           | replace:"<!--area-->", area
           | replace:"<!--institution-->", institution
         }}
-      </h6>
+      </h7>
     </header>
 
     {% if edu.highlights.size > 0 %}
