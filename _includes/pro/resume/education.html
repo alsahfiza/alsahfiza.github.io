@@ -17,7 +17,7 @@
         {% capture study_type %}<span class="bc">{{ edu.studyType }}</span>{% endcapture %}
         {% capture area %}<span class="bc">{{ edu.area }}</span>{% endcapture %}
         {% capture institution %}{% include components/link.html title=edu.company href=edu.website class=company_class span_class="bc" property="sameAs" %}{% endcapture %}
-        <!--<span class="bc" {% if edu.endDate.size > 0 %}property="name"{% endif %}>{{ edu.institution }}</span>{% endcapture %}-->
+        <!--<span class="bc" {% if edu.endDate.size > 0 %}property="name"{% endif %}>{{ edu.institution }}</span>{% endcapture %} -->
         {{ strings.resume.education_title
           | default:"<!--study_type--> in <!--area--> from <!--institution-->"
           | replace:"<!--study_type-->", study_type
