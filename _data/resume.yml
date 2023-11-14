@@ -9,13 +9,13 @@ basics:
   phone: "0533352211"
   website: ""
   highlights: >
-              "A motivated, teamwork-oriented, and responsible Data Analyst, 
+              A motivated, teamwork-oriented, and responsible Data Analyst, 
               I have significant experience in enhancing the comprehension of reports 
               and presentations for professionals of all levels. With a strong educational 
               background and fluency in both Arabic and English, I bring a diverse perspective 
               to any project. I am committed to delivering accurate and meaningful insights through 
               data analysis and visualization, and I am constantly seeking new ways to improve my skills 
-              and stay up-to-date with the latest industry trends."
+              and stay up-to-date with the latest industry trends.
   
   profiles:
     - network: "Twitter"
@@ -92,7 +92,7 @@ publications:
     publisher: "Scientific Report, impact factor: 4.996(Springer Nature)"
     releaseDate: "2022-08-18"
     website: "https://doi.org/10.21203/rs.3.rs-1954642/v1"
-    summary: >
+    highlights: >
               The authors detail the use of machine learning classifiers to predict and manage the spread of COVID-19 in China. 
               The research explores the efficacy of different algorithms in understanding the virus's transmission and informing 
               public health decisions. The findings suggest that machine learning can play a crucial role in epidemic response strategies 
