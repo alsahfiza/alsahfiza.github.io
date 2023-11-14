@@ -10,22 +10,15 @@
   {% endif %}
 
   {% include components/message.html text=page.description hide=page.hide_description %}
-</header>
-
-{% if basics.highlights.size > 0 %}
+  {% if basics.highlights.size > 0 %}
     <h4 class="sr-only">{{ strings.resume.highlights | default:"Highlights" }}</h4>
-    <ul>
-      {% for highlight in basics.highlights %}
-        <li>{{ highlight }}</li>
-      {% endfor %}
-    </ul>
+      <ul>
+        {% for highlight in basics.highlights %}
+          <li>{{ highlight }}</li>
+        {% endfor %}
+      </ul>
     {% endif %}
-  </section>
-  {% if forloop.first %}</div>{% endif %}
-  {% endfor %}
-</section>
-{% endif %}
-
+</header>
 <!--{% if basics.summary.size > 0 %}
   <p class="note p-note" property="description">
     {{ basics.summary | markdownify | replace:'<p>','' | replace:'</p>','' }}
