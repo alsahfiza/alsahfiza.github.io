@@ -49,12 +49,12 @@ work:
 education:
   - institution: "Maryville University of Saint Louis"
     area: "Data Science"
-    studyType: "Master of Science"
+    studyType: "M.Sc."
     startDate: "2019-09-15"
     endDate:   "2020-12-14"
   - institution: "Fontbonne University of Saint Louis"
     area: "Computer Science"
-    studyType: "Bachelor of Science"
+    studyType: "B.Sc."
     startDate: "2014-01-14"
     endDate:   "2018-12-14"  
     
