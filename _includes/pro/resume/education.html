@@ -28,11 +28,11 @@
       </h3>
     </header>
 
-    {% if edu.courses.size > 0 %}
-    <h4 class="sr-only">{{ strings.resume.courses | default:"Courses" }}</h4>
+    {% if edu.highlights.size > 0 %}
+    <h4 class="sr-only">{{ strings.resume.highlights | default:"Highlights" }}</h4>
     <ul>
-      {% for course in edu.courses %}
-        <li>{{ course }}</li>
+      {% for highlight in edu.highlights %}
+        <li>{{ highlight }}</li>
       {% endfor %}
     </ul>
     {% endif %}
