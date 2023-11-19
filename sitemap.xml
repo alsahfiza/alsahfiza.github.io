@@ -62,42 +62,42 @@
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
-<url>
+    <url>
         <loc>https://alsahfiza.github.io/projects/Identify%20Metastatic%20Cancer/</loc>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
-<url>
+    <url>
         <loc>https://alsahfiza.github.io/projects/Women%E2%80%99s%20Clothing%20E-Commerce%20Reviews/</loc>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
-<url>
+    <url>
         <loc>https://alsahfiza.github.io/projects/Determining%20Trade%20Union%20Status/</loc>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
-<url>
+    <url>
         <loc>https://alsahfiza.github.io/projects/TV%20Script%20Generation/</loc>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
-<url>
+    <url>
         <loc>https://alsahfiza.github.io/projects/Predicting%20Bike%20Sharing/</loc>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
-<url>
+    <url>
         <loc>https://alsahfiza.github.io/projects/Predicting%20Landmark%20Duration/</loc>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
-<url>
+    <url>
         <loc>https://alsahfiza.github.io/projects/Face%20Generation/</loc>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
-<url>
+    <url>
         <loc>https://alsahfiza.github.io/projects/Sentiment%20Analysis%20Web%20Apps/</loc>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
@@ -116,32 +116,32 @@
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
-<url>
+    <url>
         <loc>https://alsahfiza.github.io/powerbi/Student%20statistics%20in%20Saudi%20universities/</loc>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
-<url>
+    <url>
         <loc>https://alsahfiza.github.io/powerbi/Pharmaceutical%20Sales/</loc>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
-<url>
+    <url>
         <loc>https://alsahfiza.github.io/powerbi/E-Commerce%20Sales/</loc>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
-<url>
+    <url>
         <loc>https://alsahfiza.github.io/powerbi/Insurance%20Co.%20Agent%20Performance/</loc>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
-<url>
+    <url>
         <loc>https://alsahfiza.github.io/powerbi/Coffee%20Quality%20Analysis/</loc>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
-<url>
+    <url>
         <loc>https://alsahfiza.github.io/powerbi/Saudi%20Arabia%20Population%202022/</loc>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
@@ -185,16 +185,6 @@
     <url>
         <loc>https://alsahfiza.github.io/resume/</loc>
         <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://alsahfiza.github.io/assets/Resume.pdf</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://alsahfiza.github.io/images/ZAKARIA%20ABDULRAHIM%20ALSAHFI%20Resume%20.pdf</loc>
-        <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
 </urlset>
