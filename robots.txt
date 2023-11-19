@@ -6,4 +6,4 @@ User-agent: *
 Disallow: /archive/
 Disallow: /support/
 Allow: /
-Sitemap: https://alsahfiza.github.io/my_custom_sitemap.xml
+Sitemap: https://zakariaalsahfi.github.io/my_custom_sitemap.xml
