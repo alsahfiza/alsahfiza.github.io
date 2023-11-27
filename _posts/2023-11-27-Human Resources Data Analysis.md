@@ -1,21 +1,14 @@
 ---
-# file: _projects/Human Resources Data Analysis.md
-layout:      project
-title:       Human Resources Data Analysis*
-date:        27 Nov 2023
-image:
-  path:       /assets/projects/Human Resources Data Analysis.jpg
-  srcset:
-    1920w:   /assets/projects/Human Resources Data Analysis.jpg
-    960w:    /assets/projects/Human Resources Data Analysis.jpg
-    480w:    /assets/projects/Human Resources Data Analysis.jpg
-# caption:     Hyde is a brazen two-column Jekyll theme.
-description: >
-              In this project, we embark on a journey of HR Analytics to analyze and visualize our company's extensive dataset.
-featured:    false
-tags: [data science, data analysis, Python, HR]
+layout: post
+title: "Human Resources Data Analysis"
+image: "/assets/projects/Human Resources Data Analysis.jpg"
+date: 2023-11-27
+excerpt_separator: <!--more-->
+tags: [Data Science,data Analysis, Python]
+mathjax: "true"
 ---
-
+In this project, we embark on a journey of HR Analytics to analyze and visualize our company's extensive dataset.
+<!--more-->
 
 # Human Resources Data Analysis
 The multifaceted role of Human Resources professionals transcends the perceived simplicity of the job. HR experts engage in a spectrum of workplace activities, from spearheading recruitment efforts and resolving employee issues, to nurturing a positive work environment, and critically evaluating performance and efficiency.
