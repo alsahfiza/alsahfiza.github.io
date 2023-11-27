@@ -1,6 +1,32 @@
-# Human Resources Data Analysis
+---
+# file: _projects/Human Resources Data Analysis.md
+layout:      project
+title:       Human Resources Data Analysis*
+date:        27 Nov 2023
+image:
+  path:       /assets/projects/Human Resources Data Analysis.jpg
+  srcset:
+    1920w:   /assets/projects/Human Resources Data Analysis.jpg
+    960w:    /assets/projects/Human Resources Data Analysis.jpg
+    480w:    /assets/projects/Human Resources Data Analysis.jpg
+# caption:     Hyde is a brazen two-column Jekyll theme.
+description: >
+              In this project, we embark on a journey of HR Analytics to analyze and visualize our company's extensive dataset.
+featured:    false
+tags: [data science, data analysis, Python, HR]
+---
 
-In this notebook, we will explore the HR dataset to uncover insights related to employee performance, salary, age, and job level.
+
+# Human Resources Data Analysis
+The multifaceted role of Human Resources professionals transcends the perceived simplicity of the job. HR experts engage in a spectrum of workplace activities, from spearheading recruitment efforts and resolving employee issues, to nurturing a positive work environment, and critically evaluating performance and efficiency.
+
+Among their various duties, one of the most intricate tasks HR professionals face is the assessment of employee performance and efficiency. The complexity of this responsibility scales with the size of the employee base, posing a significant challenge to HR's capability to manage effectively. In response to this challenge, we have initiated an Exploratory Data Analysis (EDA) project.
+
+Within the scope of this project, we aim to conduct thorough analyses and create insightful visualizations using the Employee Engagement Dataset. Our objective is to derive valuable insights that can inform and refine HR practices. The project will dissect data on performance scores, scrutinize the link between performance and remuneration, investigate factors influencing employee attrition, and define the contours of employee satisfaction across different departments.
+
+This analysis endeavors to arm HR professionals with robust data-driven insights, bolstering their ability to foster workforce development and support. By leveraging this strategic approach, we can enhance the impact and operational efficiency of HR functions.
+
+This work is conducted under the dataset license "CC-BY-NC-ND: This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License." The license governs the use of the dataset, ensuring that it is utilized in a manner that aligns with the stipulated non-commercial and no-derivatives terms.
 
 ## Import Necessary Libraries
 
@@ -525,7 +551,7 @@ plt.show()
 
 
     
-![png](output_10_0.png)
+![png](images/HR/output_10_0.png)
     
 
 
@@ -545,7 +571,7 @@ plt.show()
 
 
     
-![png](output_12_0.png)
+![png](images/HR/output_12_0.png)
     
 
 
@@ -564,7 +590,7 @@ plt.show()
 
 
     
-![png](output_14_0.png)
+![png](images/HR/output_14_0.png)
     
 
 
@@ -634,7 +660,7 @@ plt.show()
 
 
     
-![png](output_21_0.png)
+![png](images/HR/output_21_0.png)
     
 
 
@@ -668,7 +694,7 @@ plt.show()
 
 
     
-![png](output_24_0.png)
+![png](images/HR/output_24_0.png)
     
 
 
@@ -706,7 +732,7 @@ plt.show()
 
 
     
-![png](output_29_0.png)
+![png](images/HR/output_29_0.png)
     
 
 
@@ -726,7 +752,7 @@ plt.show()
 
 
     
-![png](output_31_0.png)
+![png](images/HR/output_31_0.png)
     
 
 
@@ -760,7 +786,7 @@ plt.show()
 
 
     
-![png](output_34_0.png)
+![png](images/HR/output_34_0.png)
     
 
 
@@ -786,7 +812,7 @@ plt.show()
 
 
     
-![png](output_37_0.png)
+![png](images/HR/output_37_0.png)
     
 
 
@@ -805,7 +831,7 @@ plt.show()
 
 
     
-![png](output_39_0.png)
+![png](images/HR/output_39_0.png)
     
 
 
@@ -824,7 +850,7 @@ plt.show()
 
 
     
-![png](output_41_0.png)
+![png](images/HR/output_41_0.png)
     
 
 
