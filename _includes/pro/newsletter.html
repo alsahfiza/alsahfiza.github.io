@@ -15,8 +15,7 @@
       action="https://tinyletter.com/{{ site.tinyletter }}"
       method="post"
       target="popupwindow"
-      onsubmit="window.open('https://tinyletter.com/{{ site.tinyletter }}', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
-      >
+      onsubmit="window.open('https://tinyletter.com/{{ site.tinyletter }}', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
       <div class="form-row">
         <div class="col col-sm-6">
           <label class="sr-only" for="tlemail">{{ site.data.strings.tinyletter.label | default:"Email" }}</label>
@@ -31,9 +30,9 @@
     {% endcapture %}
 
     {{ site.data.strings.tinyletter.message
-      | default:"Subscribe to my newsletter. <--form-->"
+      | default:"Subscribe to my newsletter. <--form->"
       | markdownify
-      | replace:"<--form-->", form
+      | replace:"<--form->", form
     }}
   </aside>
 {% endif %}
