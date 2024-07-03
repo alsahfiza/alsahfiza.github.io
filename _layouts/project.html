@@ -69,7 +69,7 @@ layout: base
   {{ content }}
 </article>
 
-<!--hr class="dingbat related" /-->
+<hr class="dingbat related" />
 
 {% assign addons = page.addons | default:site.hydejack.project_addons %}
 {% unless addons %}{% assign addons = "about,newsletter,other" | split:"," %}{% endunless %}
