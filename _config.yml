@@ -325,8 +325,8 @@ plugins:
 ########################################################################################################################
 
 #  Where you proof that you own this site (used by jekyll-seo-tag)
-google_analytics:    G-MQVC3P7J7K
-google-site-verification: "ULEUQTgeP918_7Ne8oTWQBhH5P0Yp-HV5J9Y27p9uZI"
+#  google_analytics:    G-MQVC3P7J7K
+#  google-site-verification: "ULEUQTgeP918_7Ne8oTWQBhH5P0Yp-HV5J9Y27p9uZI"
 # -- or --
 # webmaster_verifications:
 # google:  ULEUQTgeP918_7Ne8oTWQBhH5P0Yp-HV5J9Y27p9uZI
