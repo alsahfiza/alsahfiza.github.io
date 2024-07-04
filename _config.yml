@@ -104,7 +104,7 @@ permalink:             /:categories/:year-:month-:day-:title/ #/projects/:title
 
 # Sidebar image and theme color of the site.
 
-accent_image:         /assets/img/idea.jpg
+accent_image:         /assets/img/background.webp
 # accent_image:
 #   background:          bottom / cover url(/assets/img/datascience.gif)
 #   overlay:             false
