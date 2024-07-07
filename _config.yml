@@ -276,6 +276,34 @@ hydejack:
   # Set to `true` to allow visitors to switch between light and dark mode.
     icon:           true
 
+
+# Separators
+# ---------------------------------------------------------------------------------------
+posted:                'Posted'
+last_modified_at:      'Last modified at'
+last_modified_at_icon: 'icon-history'
+colon:                 ':'
+separator:             '|'
+category_start:        'in '
+category_spearator:    ' / '
+tag_start:             'on '
+tag_separator:         ', '
+from_to_separator:     '–'
+breadcrumbs_home:      'home'
+breadcrumbs_separator: '/'
+
+# Date formats
+# ---------------------------------------------------------------------------------------
+date_formats:
+  post:                '%d %b %Y'
+  last_modified_at:    '%Y-%m-%d'
+  related_post:        '%d %b %Y'
+  list_group_by:       '%Y'
+  list_entry:          '%d %b'
+  project:             '%Y'
+  projects_group_by:   '%Y'
+  resume:              '%b %Y'
+  
 ########################################################################################################################
 # Only use if you know what Service Workers are and how they can impact the                                            #
 # site!                                                                                                                #
