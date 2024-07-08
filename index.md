@@ -1,6 +1,5 @@
 ---
 layout: home
-title: 👋
 sitemap: true
 cover: true
 ---
