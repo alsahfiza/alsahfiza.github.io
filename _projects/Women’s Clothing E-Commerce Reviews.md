@@ -1,6 +1,6 @@
 ---
 # file: _projects/Women’s Clothing E-Commerce Reviews.md
-layout:      project
+layout:      post
 title:       Women’s Clothing E-Commerce Reviews
 date:        15 May 2019
 image:
