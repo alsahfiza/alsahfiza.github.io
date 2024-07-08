@@ -1,6 +1,6 @@
 ---
 # file: _projects/Face Generation.md
-layout:      project
+layout:      post
 title:       Face Generation*
 date:        03 July 2021
 image:
