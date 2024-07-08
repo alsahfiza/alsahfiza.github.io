@@ -3,7 +3,7 @@ layout: welcome
 title: >
   > whoami
 permalink: /about/
-more_posts:posts.md
+
 # TODO
 image: /assets/img/blog/hydejack-8.png
 ---
