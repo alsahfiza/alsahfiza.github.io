@@ -1,6 +1,6 @@
 ---
 # file: _projects/TV Script Generation.md
-layout:      project
+layout:      post
 title:       TV Script Generation*
 date:        10 May 2021
 image:
