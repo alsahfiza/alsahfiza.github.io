@@ -1,6 +1,6 @@
 ---
 # file: _projects/Time Series.md
-layout:      project
+layout:      post
 title:       Analyzing Student Enrollment Trends and Forecasts with Time Series Analysis
 date:        15 May 2023
 image:
