@@ -74,14 +74,18 @@ error:
 
 # Separators
 # ---------------------------------------------------------------------------------------
-posted: "Posted"
-colon: ":"
-separator: "∙"
-category_start: "in "
-category_separator: ", "
-tag_start: " ∙ Tags: "
-tag_separator: ", "
-from_to_separator: "–"
+posted:                'Posted'
+last_modified_at:      'Last modified at'
+last_modified_at_icon: 'icon-history'
+colon:                 ':'
+separator:             '|'
+category_start:        'in '
+category_spearator:    ' / '
+tag_start:             'on '
+tag_separator:         ', '
+from_to_separator:     '–'
+breadcrumbs_home:      'home'
+breadcrumbs_separator: '/'
 
 # Date formats
 # ---------------------------------------------------------------------------------------
