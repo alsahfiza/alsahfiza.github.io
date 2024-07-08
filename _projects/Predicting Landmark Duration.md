@@ -1,6 +1,6 @@
 ---
 # file: _projects/Predicting Landmark Duration.md
-layout:      project
+layout:      post
 title:       Predicting Landmark Duration*
 date:        30 Jun 2021
 image:
