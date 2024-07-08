@@ -1,6 +1,6 @@
 ---
 # file: _projects/Sentiment Analysis Web App.md
-layout:      project
+layout:      post
 title:       Sentiment Analysis Web App*
 date:        13 July 2021
 image:
