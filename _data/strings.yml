@@ -9,10 +9,6 @@
 # but note that this may not work in all situations,
 # especially for languages that differ significantly from English.
 
-# Custom strings
-website_name: alsahfiza
-website_url: https://alsahfiza.github.io/about/
-
 # Free version
 home: Home
 pages: Pages
