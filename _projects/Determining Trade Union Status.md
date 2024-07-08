@@ -1,6 +1,6 @@
 ---
 # file: _projects/Determining Trade Union Status.md
-layout:      project
+layout:      post
 title:       Determining Trade Union Status*
 date:        02 Sep 2020
 image:
