@@ -1,6 +1,6 @@
 ---
 # file: _projects/Identify Metastatic Cancer.md
-layout:      project
+layout:      post
 title:       Identify Metastatic Cancer*
 date:        12 Feb 2019
 image:
