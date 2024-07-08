@@ -3,25 +3,15 @@
 # Change `author1` to your shortname.
 author1:
   name: Zakaria Alsahfi
-  linkedin: zakariaalsahfi
-  twitter: alsahfiza
-  github: zakaria-alsahfi
-  googlescholar: https://scholar.google.co.uk/citations?hl=en&user=aJR6B78AAAAJ
   email: zakaria.sahfi@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about: >
-    My name is Zakaria Alsahfi, and I am the Director of Information Affairs at the University of Business and Technology.|
-    My primary responsibility is to interpret large amounts of data to understand trends in student enrollment and to ensure 
-    that accurate and relevant information is provided to both authorized external and internal stakeholders. In my role, 
-    I am privileged to have the opportunity to create and optimize workflows, which significantly improves efficiency. 
-    I also analyze extensive data sets and extract insights that propel the business forward, primarily using tools 
-    such as spreadsheets and Power BI. My introduction to predictive modeling using Python (having started with R 
-    but transitioning to Python) has opened a new realm of possibilities for me. I have embraced this evolution, dedicating 
-    myself to a deeper exploration of all things data-related.| This blog/portfolio is a showcase of the projects I have completed,
-    those that are in progress, and a documentation of my learnings as I delve further into the data world. It's been an exhilarating
-    journey thus far, and I am committed to continually enriching this platform with my experiences and insights.
+    Director of Information Affairs at the [ University of Business and Technology](https://www.ubt.edu.sa/about).<br>
+    Please check my [Resume][resume] to find out more about me!<br>
+
+    [resume]: /resume/
 
   # This photo will be used in the about section
   picture:
