@@ -7,7 +7,7 @@ author1:
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about: >
+  about:             |
     Director of Information Affairs at the [ University of Business and Technology](https://www.ubt.edu.sa/about).<br>
     Please check my [Resume][resume] to find out more about me!<br>
 
