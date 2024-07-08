@@ -1,6 +1,6 @@
 ---
 # file: _projects/Predicting Bike Sharing.md
-layout:      project
+layout:      post
 title:       Predicting Bike Sharing*
 date:        08 Jun 2021
 image:
