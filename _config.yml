@@ -104,7 +104,7 @@ permalink:             none
 
 # Sidebar image and theme color of the site.
 
-accent_image:         /assets/img/background .webp
+accent_image:         /assets/img/bg.jpg
 # accent_image:
 #   background:          /assets/img/background .webp
 #   overlay:             false
