@@ -104,10 +104,10 @@ permalink:             none
 
 # Sidebar image and theme color of the site.
 
-# accent_image:         /assets/img/background .webp
-accent_image:
-  background:          /assets/img/background .webp
-  overlay:             false
+accent_image:         /assets/img/background .webp
+# accent_image:
+#   background:          /assets/img/background .webp
+#   overlay:             false
 accent_color:         rgb(0,174,239)
 
 # This is used for the `theme-color` meta tag,
