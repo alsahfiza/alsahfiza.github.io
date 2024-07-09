@@ -11,8 +11,10 @@ image:
     480w:    /assets/powerbi/Zomato.png
 
 description: >
-              Zomato is a restaurant search and discovery service. Operating in several countries worldwide, they provide detailed 
-              information and customer reviews of various restaurants.
+              Zomato is a restaurant search and discovery service. Operating in several countries worldwide,
+              they provide detailed information and customer reviews of various restaurants. The owners of Zomato,
+              want to unearth the hidden anomalies in their business data. The final aim is to analyze the data in 
+              a way that helps them to accurately judge their business performance.
   
 links:
   - title:   Veiw
