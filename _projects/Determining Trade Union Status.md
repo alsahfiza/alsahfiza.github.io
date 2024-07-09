@@ -1,7 +1,7 @@
 ---
 # file: _projects/Determining Trade Union Status.md
 layout:      post
-title:       Determining Trade Union Status*
+title:       Determining Trade Union Status
 date:        02 Sep 2020
 image:
   path:       /assets/projects/United Data Scientists Union.jpg
