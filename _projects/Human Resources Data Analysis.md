@@ -1,7 +1,7 @@
 ---
 # file: _projects/Human Resources Data Analysis.md
 layout:      post
-title:       Human Resources Data Analysis*
+title:       Human Resources Data Analysis
 date:        27 Nov 2023
 image:
   path:       /assets/projects/Human Resources Data Analysis.jpg
