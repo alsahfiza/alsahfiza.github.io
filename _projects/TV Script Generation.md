@@ -1,7 +1,7 @@
 ---
 # file: _projects/TV Script Generation.md
 layout:      post
-title:       TV Script Generation*
+title:       TV Script Generation
 date:        10 May 2021
 image:
   path:       /assets/projects/tvscript.jpg
