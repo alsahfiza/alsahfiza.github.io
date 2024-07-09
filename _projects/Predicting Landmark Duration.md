@@ -1,7 +1,7 @@
 ---
 # file: _projects/Predicting Landmark Duration.md
 layout:      post
-title:       Predicting Landmark Duration*
+title:       Predicting Landmark Duration
 date:        30 Jun 2021
 image:
   path:       /assets/projects/landmark-pic.png
