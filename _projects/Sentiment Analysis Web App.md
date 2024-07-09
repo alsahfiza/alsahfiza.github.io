@@ -1,7 +1,7 @@
 ---
 # file: _projects/Sentiment Analysis Web App.md
 layout:      post
-title:       Sentiment Analysis Web App*
+title:       Sentiment Analysis Web App
 date:        13 July 2021
 image:
   path:       /assets/projects/SentimentAnalysis.jpeg
