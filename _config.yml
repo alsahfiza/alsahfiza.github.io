@@ -132,6 +132,13 @@ font_heading:       Roboto Slab, Helvetica, Arial, sans-serif
 font_code:           Fira Code, Menlo, Monaco, Consolas, monospace;
 
 defaults:
+  # You can use the following to enable comments on all posts.
+  - scope:
+      type:            posts
+    values:
+      # https://applause-button.com/
+      applause_button:       true
+      
   # Don't include documents in assets in the sitemap
   - scope:
       path:           assets/
