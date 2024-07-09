@@ -1,7 +1,7 @@
 ---
 # file: _projects/Face Generation.md
 layout:      post
-title:       Face Generation*
+title:       Face Generation
 date:        03 July 2021
 image:
   path:       /assets/projects/face_data.png
