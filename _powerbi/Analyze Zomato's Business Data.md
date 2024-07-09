@@ -1,6 +1,6 @@
 ---
 # file: _powerbi/Analyze Zomato's Business Data.md
-layout:      post
+layout:      project
 title:       Analyze Zomato's Business Data*
 date:        14 May 2022
 image:
