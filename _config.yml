@@ -96,8 +96,8 @@ menu:
 
 copyright:             © 2019. Zakaria Alsahfi. All rights reserved.
 
-# permalink:             /:categories/:year-:month-:day-:title/ #/projects/:title
-permalink:             none
+permalink:             /:categories/:year-:month-:day-:title/ #/projects/:title
+# permalink:             none
 ########################################################################################################################
 # Jekyll Customizations                                                                                                #
 ########################################################################################################################
