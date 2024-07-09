@@ -15,7 +15,7 @@ description: >
               information and customer reviews of various restaurants.
   
 links:
-  - title:   Link
+  - title:   Veiw
     url:     https://app.powerbi.com/view?r=eyJrIjoiYjUyZGQ5NWEtNTE4My00ZmEzLWIyNWEtZTVmN2NkOTgzZjYzIiwidCI6IjZiY2E4MzUxLTAxZDMtNDI1Mi04NWVhLWJkYThmOGQyMzViZCIsImMiOjl9
 featured:    false
 ---
