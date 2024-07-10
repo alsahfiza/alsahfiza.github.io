@@ -1072,10 +1072,9 @@ Here we are also encoding our categorical values into binary format so that our 
 ## Plotting Histogram
 Below we are using matplotlib for Plotting of Histogram. This is used for checking the frequency distribution of different values inside a column or feature. Each column is a different unique feature for our model. As we can see from the output there are 3 labels Yes, No and Maryville.We are plotting for FeatureA and FeatureB.
 
-
-![png](/images/TradeUnion/output_24_0.png){:.centered}
-
-![png](/images/TradeUnion/output_25_0.png){:.centered}
+{:style="text-align:center;"}
+![png](/images/TradeUnion/output_24_0.png)
+![png](/images/TradeUnion/output_25_0.png)
 
 
 ##### Non binary unique values
@@ -1449,13 +1448,9 @@ Doing Box and whisker plot for Checking the availability of outliers in the code
 Checking for those rows which contain the NaN values. NaN values are supposed to beremoved before fitting the model otherwise the code will throw an error. We will remove the outlier by providing a threshold value to our column so it will remove the outlier row. Below we are also printing the data frame row which is containing NaN value. Then we are taking mean of that specific column which is containing NaN value in order to fill the NaN value.
 
 #### Checking nan for training set and test set
-
     Number of nan value in training set: 1
     Number of nan value in test set: 0
     Number of nan value in test set: 8
-
-
-
 
 #### Finding the row which contains Nan value
 
@@ -1519,7 +1514,6 @@ Checking for those rows which contain the NaN values. NaN values are supposed to
 
 #### Filling Nan values in TotalDues Column
 
-
 ```python
 df3['TotalDues'] = round(df3['TotalDues'].fillna((df3['TotalDues'].mean())),0)
 test_set['TotalDues'] = round(test_set['TotalDues'].fillna((test_set['TotalDues'].mean())),0)
@@ -1528,13 +1522,11 @@ df_test['TotalDues'] = round(df_test['TotalDues'].fillna((df_test['TotalDues'].m
 
 #### Checking Nan values again
 
-
 ```python
 df3["TotalDues"].isna().sum(axis = 0) 
 ```
 
     0
-
 
 
 ## BOX PLOT:
@@ -1712,19 +1704,18 @@ Here we are removing the outlier by simply providing the threshold value. The va
 ## Scatter and violin Plot:
 We are again plotting scatter plots to confirm that our outliers has been removed and as we cansee our values are good now. Below we are plotting a Scatter and violin plot. The violin plot simply tells the density about how much distributed values we have in our data.
 
-![png](/images/TradeUnion/output_56_0.png){:.centered}
-![png](/images/TradeUnion/output_57_1.png){:.centered}
+{:style="text-align:center;"}
+![png](/images/TradeUnion/output_56_0.png)
+![png](/images/TradeUnion/output_57_1.png)
 
 
 ## Scree plot:
 Below we are plotting the scree plot for **monthly dues** column to see how are distributed our values. It’s another way of visualization. We are using matplotlib library for scree plot.
-
 ![png](/images/TradeUnion/output_59_0.png){:.centered}
 
 
 ## Bivariate plot:
 Below we are plotting a Bivariate plot between monthly dues and Months in union to see the difference between both the column values.
-
 ![png](/images/TradeUnion/output_61_1.png){:.centered}
 
 
