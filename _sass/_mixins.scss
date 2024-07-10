@@ -13,22 +13,22 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-@mixin light-mode() {
-  --body-color: #{$body-color};
-  --body-bg: #{$body-bg};
-  --border-color: #{$border-color};
-  --gray: #{$gray};
-  --gray-bg: #{$gray-bg};
-  --gray-text: #{$gray-text};
-  --menu-text: #{$menu-text};
-  --inv-body-color: #ccc;
-  --inv-body-bg: var(--dark-mode-body-bg);
+// @mixin light-mode() {
+//   --body-color: #{$body-color};
+//   --body-bg: #{$body-bg};
+//   --border-color: #{$border-color};
+//   --gray: #{$gray};
+//   --gray-bg: #{$gray-bg};
+//   --gray-text: #{$gray-text};
+//   --menu-text: #{$menu-text};
+//   --inv-body-color: #ccc;
+//   --inv-body-bg: var(--dark-mode-body-bg);
 
-  .content {
-    -webkit-font-smoothing: initial;
-    -moz-osx-font-smoothing: initial;
-  }
-}
+//   .content {
+//     -webkit-font-smoothing: initial;
+//     -moz-osx-font-smoothing: initial;
+//   }
+// }
 
 @mixin aspect-ratio($width, $height) {
   position: relative;
