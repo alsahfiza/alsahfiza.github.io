@@ -32,9 +32,10 @@ work:
     endDate: ""
     summary: ""
     highlights: 
-      - "Performing analysis to assess the quality and meaning of data."
-      - "Preparing final analysis reports for the stakeholders to understand the data-analysis steps, enabling them to make crucial decisions based on various facts and trends."
-      - "Collaborating with programmers, and management heads to find process improvement opportunities and devise data governance strategies."
+      - "Led data infrastructure renovation, enhancing processing and storage efficiency by 30%."
+      - "Enhanced decision-making and data access through advanced analytics and management."
+      - "Implemented data visualization tools, increasing stakeholder reporting clarity and engagement by 35%."
+
   - company: "Salla E-Commerce Platform"
     position: "Financial Data Analyst – Freelance"
     website: "https://salla.com/"
@@ -42,9 +43,9 @@ work:
     endDate: "2022-01-15"
     summary: ""
     highlights:
-        - "Examine financial records and prepare comprehensive reports."
-        - "Compiling data from the market and various departments within the company."
-        - "Analyzing data and creating reports for upper management."
+        - "Automated and optimized ETL processes, boosting financial reporting efficiency by 30%."
+        - "Analyzed extensive financial datasets supplying key insights for strategic planning and market trends."
+        - "Streamlined financial data analysis, contributing to more precise business strategies and decision-making."
 
 education:
   - institution: "Maryville University of Saint Louis"
@@ -61,6 +62,12 @@ education:
     website: "https://www.fontbonne.edu/"
     
 certificate: 
+  - institution: "Coursera"
+      area: "Google Advanced Data Analytics"
+      date: "2024-05-01"
+      highlights:
+        - "Gained ability in advanced data analysis techniques, including statistical modeling and data visualization."
+        - "Applied Google Cloud tools and technologies for comprehensive data analysis solutions."
   - institution: "IBM on Coursera"
     area: "Data Visualization with Python"
     date: "2023-11-01"
