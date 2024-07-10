@@ -12,7 +12,6 @@ In this project, we will build a neural network and use it to predict daily bike
 <!--more-->
 
 ## Load and prepare the data
-
 A critical step in working with neural networks is preparing the data correctly. Variables on different scales make it difficult for the network to efficiently learn the correct weights. Below, we've written the code to load and prepare the data. 
 
 <table border="1" class="dataframe">
@@ -145,12 +144,11 @@ A critical step in working with neural networks is preparing the data correctly.
 
 
 ## Checking out the data
-
 This dataset has the number of riders for each hour of each day from January 1 2011 to December 31 2012. The number of riders is split between casual and registered, summed up in the `cnt` column. We can see the first few rows of the data above.
 
 Below is a plot showing the number of bike riders over the first 10 days or so in the data set. (Some days don't have exactly 24 entries in the data set, so it's not exactly 10 days.) We can see the hourly rentals here. This data is pretty complicated! The weekends have lower over all ridership and there are spikes when people are biking to and from work during the week. Looking at the data above, we also have information about temperature, humidity, and windspeed, all of these likely affecting the number of riders. We will be trying to capture all this with our model.
 
-![png](/images/BikeSharing/output_6_1.png)
+![png](/images/BikeSharing/output_6_1.png){:.centered}
 
 ### Dummy variables
 Here we have some categorical variables like season, weather, month. To include these in our model, we'll need to make binary dummy variables. This is simple to do with Pandas thanks to `get_dummies()`.
@@ -322,7 +320,6 @@ for each in quant_features:
 ```
 
 ### Splitting the data into training, testing, and validation sets
-
 We'll save the data for the last approximately 21 days to use as a test set after we've trained the network. We'll use this set to make predictions and compare them with the actual number of riders.
 
 
@@ -348,7 +345,6 @@ val_features, val_targets = features[-60*24:], targets[-60*24:]
 ```
 
 ## Time to build the network
-
 Below we will build our network. 
 * Implement forward pass and backwards pass through the network.
 * Set the hyperparameters: 
@@ -356,7 +352,7 @@ Below we will build our network.
   - Number of hidden units
   - Number of training passes.
 
-![png](/images/BikeSharing/neural_network.png)
+![png](/images/BikeSharing/neural_network.png){:.centered}
 
 The network has two layers, a hidden layer and an output layer. The hidden layer will use the sigmoid function for activations. The output layer has only one node and is used for the regression, the output of the node is the same as the input of the node. That is, the activation function is $f(x)=x$. A function that takes the input signal and generates an output signal, but takes into account the threshold, is called an activation function. We work through each layer of our network calculating the outputs for each neuron. All of the outputs from one layer become inputs to the neurons on the next layer. This process is called *forward propagation*.
 
@@ -442,7 +438,6 @@ unittest.TextTestRunner().run(suite)
     <unittest.runner.TextTestResult run=5 errors=0 failures=0>
 
 ## Training the network
-
 Here we will set the hyperparameters for the network. The strategy here is to find hyperparameters such that the error on the training set is low, but not overfitting to the data. If we train the network too long or have too many hidden nodes, it can become overly specific to the training set and will fail to generalize to the validation set. That is, the loss on the validation set will start increasing as the training set loss drops.
 
 We will also be using a method known as Stochastic Gradient Descent (SGD) to train the network. The idea is that for each training pass, we grab a random sample of the data instead of using the whole data set. We use many more training passes than with normal gradient descent, but each pass is much faster. This ends up training the network more efficiently.
@@ -458,12 +453,11 @@ In a model where all the weights are optimized, the more hidden nodes you have, 
 
 Try a few different numbers and see how it affects the performance. We can look at the losses dictionary for a metric of the network performance. If the number of hidden units is too low, then the model won't have enough space to learn and if it is too high there are too many options for the direction that the learning can take. The trick here is to find the right balance in number of hidden units you choose.  We will generally find that the best number of hidden nodes to use ends up being between the number of input and output nodes.
 
-![png](/images/BikeSharing/output_22_0.png)
+![png](/images/BikeSharing/output_22_0.png){:.centered}
 
 ## Check out your predictions
-
 Here, use the test data to view how well your network is modeling the data. If something is completely wrong here, make sure each step in your network is implemented correctly.
 
-![png](/images/BikeSharing/output_24_0.png)
+![png](/images/BikeSharing/output_24_0.png){:.centered}
 
 As we can see on the majority of days, the model accurately predicts the data. The model, mostly trained on data from regular days, overestimated demand over the holiday season. As we can see starting from Dec 22 till Dec 31 the model fails because of the Christmas season people do not rent bikes as much as normal days.
