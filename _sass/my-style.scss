@@ -13,6 +13,17 @@
   }
 }
 
+// Image centering
+.text-align-center {
+  text-align: center;
+}
+
+img.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 // applause-button
 applause-button {
   width: 80px;
