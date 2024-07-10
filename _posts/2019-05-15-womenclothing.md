@@ -46,7 +46,7 @@ WomensClothing.head(5)
         text-align: right;
     }
 </style>
-<pre border="1" class="dataframe">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -129,7 +129,7 @@ WomensClothing.head(5)
       <td>Blouses</td>
     </tr>
   </tbody>
-</pre>
+</table>
 </div>
 
 
