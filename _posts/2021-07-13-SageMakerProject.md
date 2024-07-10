@@ -164,7 +164,6 @@ list(word_dict.keys())[0:5]
 
 
 ### Save `word_dict`
-
 Later on when we construct an endpoint which processes a submitted review we will need to make use of the `word_dict` which we have created. As such, we will save it to a file now for future use.
 
 
@@ -181,7 +180,6 @@ with open(os.path.join(data_dir, 'word_dict.pkl'), "wb") as f:
 ```
 
 ### Transform the reviews
-
 Now that we have our word dictionary which allows us to transform the words appearing in the reviews into integers, it is time to make use of it and convert our reviews to their integer sequence representation, making sure to pad or truncate to a fixed length, which in our case is `500`.
 
 
@@ -244,11 +242,9 @@ print('Length of train_X[100]: {}'.format(len(train_X[100])))
 <a id='step3'></a>
 
 ## Step 3: Upload the data to S3
-
 As in the XGBoost notebook, we will need to upload the training dataset to S3 in order for our training code to access it. For now we will save it locally and we will upload to S3 later on.
 
 ### Save the processed training dataset locally
-
 It is important to note the format of the data that we are saving as we will need to know it when we write the training code. In our case, each row of the dataset has the form `label`, `length`, `review[500]` where `review[500]` is a sequence of `500` integers representing the words in the review.
 
 
@@ -262,7 +258,6 @@ pd.concat([pd.DataFrame(train_y), pd.DataFrame(train_X_len),
 ```
 
 ### Uploading the training data
-
 Next, we need to upload the training data to the SageMaker default S3 bucket so that we can provide access to it while training our model.
 
 
@@ -276,7 +271,6 @@ The cell above uploads the entire contents of our data directory. This includes 
 <a id='step4'></a>
 
 ## Step 4: Build and Train the PyTorch Model
-
 In the XGBoost notebook we discussed what a model is in the SageMaker framework. In particular, a model comprises three objects
 
  - Model Artifacts,
@@ -347,7 +341,6 @@ train_sample_dl = torch.utils.data.DataLoader(train_sample_ds, batch_size=50)
 ```
 
 ### Writing the training method
-
 Next we need to write the training code itself. 
 
 ```python
@@ -397,7 +390,6 @@ train(model, train_sample_dl, 5, optimizer, loss_fn, device)
 In order to construct a PyTorch model using SageMaker we must provide SageMaker with a training script. We may optionally include a directory which will be copied to the container and from which our training code will be run. When the training container is executed it will check the uploaded directory (if there is one) for a `requirements.txt` file and install any required Python libraries, after which the training script will be run.
 
 ### Training the model
-
 ```python
 from sagemaker.pytorch import PyTorch
 
@@ -586,13 +578,11 @@ estimator.fit({'training': input_data})
 <a id='step5'></a>
 
 ## Step 5: Testing the model
-
 As mentioned at the top of this notebook, we will be testing this model by first deploying it and then sending the testing data to the deployed endpoint. We will do this so that we can make sure that the deployed model is working correctly.
 
 <a id='step6'></a>
 
 ## Step 6: Deploy the model for testing
-
 Now that we have trained our model, we would like to test it to see how it performs. Currently our model takes input of the form `review_length, review[500]` where `review[500]` is a sequence of `500` integers which describe the words present in the review, encoded using `word_dict`. Fortunately for us, SageMaker provides built-in inference code for models with simple inputs such as this.
 
 There is one thing that we need to provide, however, and that is a function which loads the saved model. This function must be called `model_fn()` and takes as its only parameter a path to the directory where the model artifacts are stored. This function must also be present in the python file which we specified as the entry point. In our case the model loading function has been provided and so no changes need to be made.
@@ -608,7 +598,6 @@ predictor = estimator.deploy(initial_instance_count=1, instance_type='ml.m4.xlar
 <a id='step7'></a>
 
 ## Step 7 - Use the model for testing
-
 Once deployed, we can read in the test data and send it off to our deployed model to get some results. Once we collect all of the results we can determine how accurate our model is.
 
 
@@ -649,7 +638,6 @@ accuracy_score(test_y, predictions)
 
 
 ### More testing
-
 We now have a trained model which has been deployed and which we can send processed reviews to and which returns the predicted sentiment. However, ultimately we would like to be able to send our model an unprocessed review. That is, we would like to send the review itself as a string. For example, suppose we wish to send the following review to our model.
 
 
@@ -696,7 +684,6 @@ predictor.predict(test_data)
 Since the return value of our model is close to `1`, we can be certain that the review we submitted is positive.
 
 ### Delete the endpoint
-
 Of course, just like in the XGBoost notebook, once we've deployed an endpoint it continues to run until we tell it to shut down. Since we are done using our endpoint for now, we can delete it.
 
 
@@ -709,7 +696,6 @@ estimator.delete_endpoint()
 <a id='step6'></a>
 
 ## Step 6 (again) - Deploy the model for the web app
-
 Now that we know that our model is working, it's time to create some custom inference code so that we can send the model a review which has not been processed and have it determine the sentiment of the review.
 
 As we saw above, by default the estimator which we created, when deployed, will use the entry script and directory which we provided when creating the model. However, since we now wish to accept a string as input and our model expects a processed review, we need to write some custom inference code.
@@ -725,7 +711,6 @@ When deploying a PyTorch model in SageMaker, you are expected to provide four fu
 For the simple website that we are constructing during this project, the `input_fn` and `output_fn` methods are relatively straightforward. We only require being able to accept a string as input and we expect to return a single value as output. You might imagine though that in a more complex application the input or output may be image data or some other binary data which would require some effort to serialize.
 
 ### Writing inference code
-
 Before writing our custom inference code, we will begin by taking a look at the code which has been provided.
 
 
@@ -837,7 +822,6 @@ Before writing our custom inference code, we will begin by taking a look at the 
 As mentioned earlier, the `model_fn` method is the same as the one provided in the training code and the `input_fn` and `output_fn` methods are very simple and your task will be to complete the `predict_fn` method. 
 
 ### Deploying the model
-
 Now that the custom inference code has been written, we will create and deploy our model. To begin with, we need to construct a new PyTorchModel object which points to the model artifacts created during training and also points to the inference code that we wish to use. Then we can call the deploy method to launch the deployment container.
 
 ```python
@@ -864,7 +848,6 @@ predictor = model.deploy(initial_instance_count=1, instance_type='ml.m4.xlarge')
     -------------!
 
 ### Testing the model
-
 Now that we have deployed our model with the custom inference code, we should test to see if everything is working. Here we test our model by loading the first `250` positive and negative reviews and send them to the endpoint, then collect the results. The reason for only sending some of the data is that the amount of time it takes for our model to process the input and then perform inference is quite long and so testing the entire data set would be prohibitive.
 
 ```python
@@ -904,7 +887,6 @@ Now that we know our endpoint is working as expected, we can set up the web page
 <a id='step7'></a>
 
 ## Step 7 (again): Use the model for the web app
-
 This entire section and the next contain tasks to complete, mostly using the AWS console.
 
 So far we have been accessing our model endpoint by constructing a predictor object which uses the endpoint and then just using the predictor object to perform inference. What if we wanted to create a web app which accessed our model? The way things are set up currently makes that not possible since in order to access a SageMaker endpoint the app would first have to authenticate with AWS using an IAM role which included access to SageMaker endpoints. However, there is an easier way! We just need to use some additional AWS services.
@@ -918,9 +900,7 @@ In the middle is where some of the magic happens. We will construct a Lambda fun
 Lastly, the method we will use to execute the Lambda function is a new endpoint that we will create using API Gateway. This endpoint will be a url that listens for data to be sent to it. Once it gets some data it will pass that data on to the Lambda function and then return whatever the Lambda function returns. Essentially it will act as an interface that lets our web app communicate with the Lambda function.
 
 ### Setting up a Lambda function
-
 #### Part A: Create an IAM Role for the Lambda function
-
 #### Part B: Create a Lambda function
 
 ```python
@@ -957,16 +937,5 @@ predictor.endpoint
 
 
 ## Step 4: Deploying our web app
-
-![png](/images/SentimentAnalysis/image1.png)
-
-
-
-![png](/images/SentimentAnalysis/image2.png)
-
-
-
-
-
-
-
+![png](/images/SentimentAnalysis/image1.png){:.centered}
+![png](/images/SentimentAnalysis/image2.png){:.centered}
