@@ -35,7 +35,6 @@ work:
       - "Led data infrastructure renovation, enhancing processing and storage efficiency by 30%."
       - "Enhanced decision-making and data access through advanced analytics and management."
       - "Implemented data visualization tools, increasing stakeholder reporting clarity and engagement by 35%."
-
   - company: "Salla E-Commerce Platform"
     position: "Financial Data Analyst – Freelance"
     website: "https://salla.com/"
@@ -84,15 +83,15 @@ certificate:
       - "Ability to work with SQL databases, and program with R and Python for data analysis tasks."
       - "Skills in creating insightful data visualizations and applying predictive analytics."
       - "Hands-on experience through industry-based projects, enhancing job readiness."
-  - institution: "Udacity Nano Degree"
-    area: "Deep-Learning"
-    date: "2021-07-01"
-    highlights:
-       - "Generative adversarial networks (GANs), model evaluation, deep learning techniques, and more​​."
-       - "Application of CNNs in real-world projects like landmark classification for social media​."
-       - "Understanding of RNNs, LSTM, and transformers, with projects on text translation and sentiment analysis​​."
-       - "Skills in building and training advanced GANs for realistic image generation​."
-       - "Career services focused on improving LinkedIn and GitHub profiles to enhance job search and networking​."
+  # - institution: "Udacity Nano Degree"
+  #   area: "Deep-Learning"
+  #   date: "2021-07-01"
+  #   highlights:
+  #      - "Generative adversarial networks (GANs), model evaluation, deep learning techniques, and more​​."
+  #      - "Application of CNNs in real-world projects like landmark classification for social media​."
+  #      - "Understanding of RNNs, LSTM, and transformers, with projects on text translation and sentiment analysis​​."
+  #      - "Skills in building and training advanced GANs for realistic image generation​."
+  #      - "Career services focused on improving LinkedIn and GitHub profiles to enhance job search and networking​."
     
 publications:
   - name: "Machine Learning Classifiers Help to Manage COVID-19 Distribution in China."
