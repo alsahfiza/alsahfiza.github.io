@@ -235,7 +235,7 @@ plt.show()
 
 
     
-![png](/images/womenclothing/output_7_0.png)
+![png](/images/womenclothing/output_7_0.png){:.centered}
     
 
 
@@ -512,7 +512,7 @@ WomensClothing.groupby('Rating')['Rating'].count()
 sns.countplot(x='Rating', data=WomensClothing)
 ```
 
-![png](/images/womenclothing/output_3_2.png)
+![png](/images/womenclothing/output_3_2.png){:.centered}
     
 
 ```python
@@ -566,7 +566,7 @@ plt.axis("off")
 plt.show()
 ```
 
-![png](/images/womenclothing/output_6_0.png)
+![png](/images/womenclothing/output_6_0.png){:.centered}
     
 
 ```python
