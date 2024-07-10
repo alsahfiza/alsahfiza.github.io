@@ -144,7 +144,7 @@ WomensClothing.groupby('Recommended IND')['Recommended IND'].count()
 sns.countplot(x='Recommended IND', data=WomensClothing)
 ```
     
-![png](/images/womenclothing/output_3_1.png)
+![png](/images/womenclothing/output_3_1.png){:.centered}
     
 
 
