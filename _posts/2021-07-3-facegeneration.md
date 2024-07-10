@@ -71,7 +71,7 @@ for idx in np.arange(plot_size):
     imshow(images[idx])
 ```
 
-![png](/images/facegenration/output_9_0.png)
+![png](/images/facegenration/output_9_0.png){:.centered}
     
 
 
@@ -471,7 +471,7 @@ plt.title("Training Losses")
 plt.legend()
 ```
 
-![png](/images/facegenration/output_38_1.png)
+![png](/images/facegenration/output_38_1.png){:.centered}
     
 
 
@@ -483,7 +483,7 @@ View samples of images from the generator.
 _ = view_samples(-1, samples)
 ```
 
-![png](/images/facegenration/output_42_0.png)
+![png](/images/facegenration/output_42_0.png){:.centered}
     
 The generated faces appear that it is made of celebrity faces that are mostly white. To imrpvove on that, we need to add more images in the dataset so that it has almost equal number of white and non-white celebrity faces. Also we can make the background same color in all these images.
 
