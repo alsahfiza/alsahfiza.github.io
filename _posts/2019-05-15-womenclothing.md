@@ -133,10 +133,11 @@ WomensClothing.head(5)
 </div>
 
 
-```python
+<pre>
 WomensClothing['Review Text'] = WomensClothing['Review Text'].astype(str)
 Recommended_IND = WomensClothing[['Review Text', 'Recommended IND']]
-```
+</pre>
+
 
 
 ```python
