@@ -854,8 +854,3 @@ plt.show()
 Overall, these box plots suggest that age and tenure may have some influence on attrition, with employees who are older and have shorter tenure being more likely to leave. Performance score does not appear to be a decisive factor in attrition, as scores are relatively high for both those who have and have not left the company. It's important to note that box plots show the distribution of a dataset and can reveal the central tendency and dispersion, but they do not demonstrate causation. Further analysis would be necessary to understand the reasons behind these trends.
 
 In conclusion, while performance seems to be recognized in terms of salary to some degree, there are clear indications that the company might benefit from examining its compensation strategies, job satisfaction drivers, and career development opportunities to address attrition causes. The lack of strong correlation between performance and job level suggests that career progression might not be entirely merit-based or that the evaluation system spreads scores evenly across roles. Addressing these findings could lead to improved employee retention, better job satisfaction, and a more transparent and effective performance evaluation system.
-
-
-```python
-
-```
