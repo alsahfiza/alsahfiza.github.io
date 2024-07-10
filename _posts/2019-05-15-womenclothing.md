@@ -20,9 +20,7 @@ The chosen model will provide the company insight into which review aspects most
 
 The techniques demonstrated here for analyzing customer reviews can be generalized to other industries reliant on customer feedback to optimize products and drive business value.
 
-
-## Model 1
-### Bag Of Words
+### Model 1: Bag Of Words
 
 ##### Load the data into memory and clean the messages
 
@@ -133,10 +131,10 @@ WomensClothing.head(5)
 </div>
 
 
-<pre>
+```python
 WomensClothing['Review Text'] = WomensClothing['Review Text'].astype(str)
 Recommended_IND = WomensClothing[['Review Text', 'Recommended IND']]
-</pre>
+```
 
 
 
@@ -157,7 +155,7 @@ labels = WomensClothing['Recommended IND']
 print(features)
 print(labels)
 ```
-
+```python!
     0        Absolutely wonderful - silky and sexy and comf...
     1        Love this dress!  it's sooo pretty.  i happene...
     2        I had such high hopes for this dress and reall...
@@ -182,10 +180,10 @@ print(labels)
     23484    1
     23485    1
     Name: Recommended IND, Length: 23486, dtype: int64
+```
 
 
-
-```python
+```python!
 def clean_One_Twit(doc):
     tokens = doc.split()
     re_punc = re.compile('[%s]' % re.escape(string.punctuation))
@@ -215,14 +213,14 @@ min_occurrence = 10
 minvocab = [k for k,c in vocab.items() if c >= min_occurrence]
 print(len(minvocab))
 ```
-
+```python!
     0
     10000
     20000
     13832
     [('dress', 12061), ('love', 11350), ('fit', 11310), ('size', 10597), ('look', 9276), ('top', 8261), ('wear', 8047), ('like', 7717), ('color', 7191), ('great', 6077), ('im', 5512), ('would', 5010), ('order', 4983), ('fabric', 4852), ('small', 4564), ('thi', 4334), ('realli', 3921), ('perfect', 3808), ('nice', 3800), ('littl', 3773), ('one', 3694), ('flatter', 3649), ('tri', 3623), ('beauti', 3464), ('soft', 3369), ('comfort', 3277), ('well', 3237), ('back', 3180), ('cute', 3024), ('bought', 2981), ('usual', 2886), ('bit', 2874), ('work', 2858), ('materi', 2816), ('shirt', 2793), ('larg', 2791), ('run', 2777), ('much', 2702), ('sweater', 2689), ('length', 2629), ('jean', 2593), ('also', 2575), ('go', 2539), ('waist', 2509), ('petit', 2438), ('got', 2411), ('think', 2410), ('long', 2392), ('short', 2369), ('make', 2344)]
     2570
-
+```
 
 ##### Create and generate a word cloud image
 ```python
@@ -263,15 +261,14 @@ for index, row in Recommended_IND.iterrows():
 print(len(lines))
 print(lines[5])
 ```
-
+```python!
     0
-    10000
-    20000
-    23486
-    love traci rees dress one petit feet tall usual wear brand dress pretti packag lot dress skirt long full overwhelm small frame stranger alter shorten narrow skirt would take away embellish garment love color idea style work return dress
-
-
-
+        10000
+        20000
+        23486
+        love traci rees dress one petit feet tall usual wear brand dress pretti packag lot dress skirt long full overwhelm small frame stranger alter shorten narrow skirt would take away embellish garment love color idea style work return dress
+```
+    
 ```python
 def create_tokenizer(lines):
     tokenizer = Tokenizer()
@@ -290,7 +287,7 @@ print(n_words)
 
 
 
-```python
+```python!
 def evaluate_mode(Xtrain, ytrain, Xtest, ytest):
     scores = list()
     n_repeats = 1
@@ -312,7 +309,7 @@ def evaluate_mode(Xtrain, ytrain, Xtest, ytest):
 ```
 
 
-```python
+```python!
 labels = pd.get_dummies(labels)
 
 X_train, X_test, y_train, y_test = train_test_split(Xtrain, labels,
@@ -350,7 +347,7 @@ print(results.describe())
 #### Word Emmbading
 
 
-```python
+```python!
 filename = r'Womens Clothing E-Commerce Reviews.csv'
 WomensClothing= pd.read_csv(filename,encoding='latin-1')
 WomensClothing['Review Text'] = WomensClothing['Review Text'].astype(str)
@@ -358,13 +355,9 @@ train, test = train_test_split(WomensClothing, test_size=0.20, random_state=2019
 labels = train['Recommended IND']
 str(train)
 ```
-
-
-
-
+```python!
     '       Clothing ID  Age                                              Title  \\\n18342         1092   43            Light weight, pockets, great for summer   \n512           1078   49  Cute but skip the petite unless you are very s...   \n8334          1047   38                                            Perfect   \n22294         1077   58                                           Love it!   \n2883           829   69                                            Love it   \n...            ...  ...                                                ...   \n5714           880   39                                                NaN   \n22500         1098   57                            Embroidered masterpiece   \n16279         1078   38                      Gorgeous dress - spectacular!   \n18535           24   29                                 Super unflattering   \n17363          912   51                                        Lint magnet   \n\n                                             Review Text  Rating  \\\n18342  I run 170lbs., 36 d, 5\'4" and ordered a regula...       5   \n512    Beautiful colors, especially the pink. i am 5\'...       5   \n8334   I love these pants! waited for them to go on s...       5   \n22294  I would absolutely recommend this dress if you...       4   \n2883   I love this top! i was thinking that i was goi...       5   \n...                                                  ...     ...   \n5714   This shirt runs extremely large. looks boxy an...       3   \n22500  This dress is so beautifully embroidered with ...       5   \n16279  This dress is a beauty. i am 5\'11" and plan to...       5   \n18535  I\'m 5\' 5", 150 lbs, 32dd, normally a 28p or 29...       2   \n17363  So sad becuase i like the design. i would not ...       2   \n\n       Recommended IND  Positive Feedback Count   Division Name  \\\n18342                1                       13  General Petite   \n512                  1                        3         General   \n8334                 1                        0  General Petite   \n22294                1                        0  General Petite   \n2883                 1                        1  General Petite   \n...                ...                      ...             ...   \n5714                 0                        0         General   \n22500                1                        1         General   \n16279                1                        0  General Petite   \n18535                0                        0       Initmates   \n17363                0                        2         General   \n\n      Department Name  Class Name  \n18342         Dresses     Dresses  \n512           Dresses     Dresses  \n8334          Bottoms       Pants  \n22294         Dresses     Dresses  \n2883             Tops     Blouses  \n...               ...         ...  \n5714             Tops       Knits  \n22500         Dresses     Dresses  \n16279         Dresses     Dresses  \n18535        Intimate        Swim  \n17363            Tops  Fine gauge  \n\n[18788 rows x 10 columns]'
-
-
+```
 
 
 ```python
@@ -378,9 +371,9 @@ for index, row in train.iterrows():
     text = row['Review Text']
     encoded_docs.append(one_hot(text, vocab_size))
 ```
-
+```python!
     20000
-
+```
 
 
 ```python
@@ -470,13 +463,12 @@ for index, row in test.iterrows():
 
     encoded_docs_test.append(one_hot(text, vocab_size))
 ```
-
+```python
     0
     10000
+```
 
-
-
-```python
+```python!
 padded_docs_test = pad_sequences(encoded_docs_test, maxlen=max_length, padding='post')
 print(padded_docs_test)
 
@@ -484,7 +476,7 @@ labels_test = test['Recommended IND']
 loss, accuracy = model.evaluate(padded_docs_test, labels_test, verbose=2)
 print('Accuracy: %f' % (accuracy*100))
 ```
-
+```python
     [[2735 6907 2673 ...    0    0    0]
      [ 421 4475 8879 ...    0    0    0]
      [7325 2735 8635 ...    0    0    0]
@@ -493,6 +485,7 @@ print('Accuracy: %f' % (accuracy*100))
      [1344 6867 7953 ...    0    0    0]
      [7953 7574 8879 ...    0    0    0]]
     Accuracy: 89.016603
+```
 
 After the training, testing splitting, and the cleaning of the Reviews text. The accuracy of the model that came as the main resultant output of the first part. It states the accuracy of each model and the analytics of each mathematical computation for the data of the Bag of Words models, such as the mean and standard deviation. Based on the accuracy, the best model is the Word Embedding model with 89% accuracy.
 
@@ -555,13 +548,15 @@ minvocab = [k for k,c in vocab.items() if c >= min_occurrence]
 print(len(minvocab))
 ```
 
+```python!
     20000
     8853
     [('dress', 5041), ('fit', 4961), ('size', 4766), ('love', 4579), ('look', 3609), ('wear', 3447), ('top', 3409), ('like', 3091), ('color', 3012), ('great', 2423), ('im', 2413), ('order', 2037), ('would', 1986), ('fabric', 1970), ('small', 1904), ('perfect', 1731), ('thi', 1705), ('littl', 1695), ('nice', 1688), ('tri', 1624), ('flatter', 1623), ('realli', 1620), ('one', 1581), ('soft', 1470), ('beauti', 1404), ('usual', 1380), ('comfort', 1377), ('well', 1376), ('bit', 1314), ('bought', 1281), ('petit', 1260), ('length', 1207), ('jean', 1167), ('back', 1157), ('cute', 1157), ('run', 1154), ('waist', 1153), ('larg', 1130), ('think', 1091), ('work', 1090), ('also', 1042), ('skirt', 1038), ('store', 1035), ('much', 1035), ('sweater', 1034), ('long', 1028), ('materi', 1012), ('retail', 995), ('go', 992), ('make', 988)]
     1774
-
+```
 
 ##### Create and generate a word cloud image
+
 ```python
 wordcloud = WordCloud().generate_from_frequencies(frequencies=vocab)
 
@@ -591,10 +586,10 @@ for index, row in WomensClothing.iterrows():
     
 print(len(lines))
 ```
-
+```python
     20000
     8572
-
+```
 
 
 ```python
@@ -609,13 +604,13 @@ print(Xtrain.shape)
 n_words = Xtrain.shape[1]
 print(n_words)
 ```
-
+```python
     (8572, 1772)
     1772
+```
 
 
-
-```python
+```python!
 def evaluate_mode(Xtrain, ytrain, Xtest, ytest):
     scores = list()
     n_repeats = 1
@@ -637,7 +632,7 @@ def evaluate_mode(Xtrain, ytrain, Xtest, ytest):
 ```
 
 
-```python
+```python!
 X_train, X_test, y_train, y_test = train_test_split(Xtrain, labels,
                                                     test_size=.20,
                                                     random_state=2020,
@@ -652,7 +647,7 @@ for mode in modes:
 # summarize results
 print(results.describe())
 ```
-    
+```python  
     1 accuracy: 0.6588921284015256
     1 accuracy: 0.6728862974977354
     1 accuracy: 0.6483965016662553
@@ -666,25 +661,20 @@ print(results.describe())
     50%    0.658892  0.672886  0.648397  0.661224
     75%    0.658892  0.672886  0.648397  0.661224
     max    0.658892  0.672886  0.648397  0.661224
-
+```
 
 
 ### Word Emmbading
 
-```python
+```python!
 WomensClothing['Review Text'] = WomensClothing['Review Text'].astype(str)
 train, test = train_test_split(WomensClothing, test_size=0.20, random_state=2019, stratify = WomensClothing[['Rating']])
 labels = train['Rating']
 str(train)
 ```
-
-
-
-
+```python!
     '       Clothing ID  Age                              Title  \\\n12302          509   69  Juneberry sleep pants perfect fit   \n13962         1098   31   High quality one of a kind piece   \n5731           868   30                                NaN   \n10224          147   46                                NaN   \n7366           965   27              Cute but poor quality   \n...            ...  ...                                ...   \n22578         1070   58                           Perfect!   \n18634         1072   36                          Shape odd   \n18800         1047   53                                NaN   \n16841         1104   29             Buy if you have no fat   \n18484         1080   39                     Gorgeous print   \n\n                                             Review Text  Rating  \\\n12302  I love these sleep pants they are the perfect ...       5   \n13962  This dress had my attention immediately online...       5   \n5731   Great shirt, more of a stretch to it than i th...       5   \n10224                                                nan       5   \n7366   This sweater/jacket looks just like the photo ...       2   \n...                                                  ...     ...   \n22578  When i saw these in the store i liked how they...       5   \n18634  The shape was not as nice on model, seemed lik...       3   \n18800  Purchased these in the blue motif. love the he...       5   \n16841  Although i am small (size xs on top, 27 waist)...       3   \n18484  I was thinking this was another maeve winner b...       5   \n\n       Recommended IND  Positive Feedback Count Division Name Department Name  \\\n12302                1                        0     Initmates        Intimate   \n13962                1                        2       General         Dresses   \n5731                 1                        0       General            Tops   \n10224                1                        0     Initmates        Intimate   \n7366                 0                        2       General         Jackets   \n...                ...                      ...           ...             ...   \n22578                1                        0       General         Bottoms   \n18634                0                        1       General         Dresses   \n18800                1                        0       General         Bottoms   \n16841                0                        0       General         Dresses   \n18484                1                        7       General         Dresses   \n\n      Class Name  \n12302      Sleep  \n13962    Dresses  \n5731       Knits  \n10224      Sleep  \n7366     Jackets  \n...          ...  \n22578      Pants  \n18634    Dresses  \n18800      Pants  \n16841    Dresses  \n18484    Dresses  \n\n[18788 rows x 10 columns]'
-
-
-
+```
 
 ```python
 vocab_size = 10000
@@ -696,10 +686,10 @@ for index, row in train.iterrows():
     text = row['Review Text']
     encoded_docs.append(one_hot(text, vocab_size))
 ```
-
+```python
     0
     20000
-
+```
 
 
 ```python
@@ -735,7 +725,8 @@ model.summary()
 
 model.fit(padded_docs, labels, epochs=10, verbose=2)
 ```
-    _________________________________________________________________
+ ```python
+ _________________________________________________________________
     Layer (type)                 Output Shape              Param #   
     =================================================================
     embedding_1 (Embedding)      (None, 116, 50)           500000    
@@ -769,7 +760,7 @@ model.fit(padded_docs, labels, epochs=10, verbose=2)
      - 4s - loss: 0.0778 - acc: 0.9842
     Epoch 10/10
      - 4s - loss: 0.0629 - acc: 0.9869
-
+```
 
 
 ```python
@@ -780,11 +771,11 @@ for index, row in test.iterrows():
     text = row['Review Text']
     encoded_docs_test.append(one_hot(text, vocab_size))
 ```
-
-    10000
-
-
 ```python
+    10000
+```
+
+```python!
 padded_docs_test = pad_sequences(encoded_docs_test, maxlen=max_length, padding='post')
 print(padded_docs_test)
 
@@ -792,7 +783,7 @@ labels_test = test['Rating']
 loss, accuracy = model.evaluate(padded_docs_test, labels_test, verbose=2)
 print('Accuracy: %f' % (accuracy*100))
 ```
-
+```python
     [[3857 6716 8953 ...    0    0    0]
      [9695 8550 1499 ...    0    0    0]
      [1262 7550  998 ...    0    0    0]
@@ -801,6 +792,6 @@ print('Accuracy: %f' % (accuracy*100))
      [2444 3728  502 ...    0    0    0]
      [9695 3522 3671 ...    0    0    0]]
     Accuracy: 60.323542
-
+```
 
 After the training, testing splitting, and the cleaning of the Reviews text. We passed the data through the 4 mentioned BOW models plus the Word Embedding model. Based on the accuracy, the model that gave the best efficiency was the Count model, which gave the highest accuracy among the rest as 67%.
