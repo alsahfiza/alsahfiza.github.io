@@ -1072,7 +1072,7 @@ Here we are also encoding our categorical values into binary format so that our 
 ## Plotting Histogram
 Below we are using matplotlib for Plotting of Histogram. This is used for checking the frequency distribution of different values inside a column or feature. Each column is a different unique feature for our model. As we can see from the output there are 3 labels Yes, No and Maryville.We are plotting for FeatureA and FeatureB.
 
-{:style="text-align:center;"}
+{:.text-align-center}
 ![png](/images/TradeUnion/output_24_0.png)
 ![png](/images/TradeUnion/output_25_0.png)
 
@@ -1704,7 +1704,7 @@ Here we are removing the outlier by simply providing the threshold value. The va
 ## Scatter and violin Plot:
 We are again plotting scatter plots to confirm that our outliers has been removed and as we cansee our values are good now. Below we are plotting a Scatter and violin plot. The violin plot simply tells the density about how much distributed values we have in our data.
 
-{:style="text-align:center;"}
+{:.text-align-center}
 ![png](/images/TradeUnion/output_56_0.png)
 ![png](/images/TradeUnion/output_57_1.png)
 
