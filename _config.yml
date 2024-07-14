@@ -138,6 +138,11 @@ defaults:
     values:
       # https://applause-button.com/
       applause_button:       true
+  - scope:
+      type:            powerbi
+    values:
+      # https://applause-button.com/
+      applause_button:       true
       
   # Don't include documents in assets in the sitemap
   - scope:
