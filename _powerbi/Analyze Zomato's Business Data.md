@@ -11,13 +11,35 @@ image:
     480w:    /assets/powerbi/Zomato.png
 
 description: >
-              Zomato is a restaurant search and discovery service. Operating in several countries worldwide,
-              they provide detailed information and customer reviews of various restaurants. The owners of Zomato,
-              want to unearth the hidden anomalies in their business data. The final aim is to analyze the data in 
-              a way that helps them to accurately judge their business performance.
+              This dashboard provides an in-depth analysis of Zomato's restaurant data, helping to uncover hidden anomalies and accurately judge business performance. It includes key metrics and visualizations that offer insights into restaurant counts, ratings, and average costs across different regions.
   
 links:
   - title:   Veiw
     url:     https://app.powerbi.com/view?r=eyJrIjoiYjUyZGQ5NWEtNTE4My00ZmEzLWIyNWEtZTVmN2NkOTgzZjYzIiwidCI6IjZiY2E4MzUxLTAxZDMtNDI1Mi04NWVhLWJkYThmOGQyMzViZCIsImMiOjl9
 featured:    false
 ---
+#### Key Insights:
+
+1.  **Overall Metrics:**
+    
+    -   **Restaurant Count:** 9,551
+    -   **Average Rating:** 2.67
+    -   **Average Cost for 2:** 1,199.21
+2.  **Geographic Distribution:**
+    
+    -   Restaurants are distributed across various continents including North America, South America, Europe, Africa, Asia, and Oceania.
+    -   Users can select a city from the map to view the top 5 restaurants by average cost.
+3.  **Average Rating by Restaurant:**
+    
+    -   Visualization of average ratings across different restaurants.
+    -   Includes a wide range of cities such as Ahmedabad, Bangalore, New York, London, and more.
+4.  **City-wise Analysis:**
+    
+    -   Detailed view of top restaurants in selected cities.
+    -   Enables comparison of restaurant performance based on location.
+
+#### Objective:
+
+The primary aim is to analyze Zomato's business data to identify trends, anomalies, and opportunities for improvement. By understanding these aspects, Zomato can enhance their service, improve customer satisfaction, and boost overall business performance.
+
+This dashboard serves as a valuable tool for Zomato's owners and management team, providing the necessary insights to make informed decisions and drive strategic growth.
