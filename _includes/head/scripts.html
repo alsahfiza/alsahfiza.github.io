@@ -24,13 +24,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   w._noNavbar = {{    site.hydejack.no_navbar     | default:false }};
   w._noToc = {{       site.hydejack.no_toc        | default:false }};
   w._noSearch = {{    site.hydejack.no_search     | default:false }};
+  w._advertise = {% if site.hydejack.advertise %}true{% else %}false{% endif %};
   w._search = {
     DATA_URL: '{{ "/assets/sitedata.json?no-cache" | relative_url }}',
     STORAGE_KEY: 'mini-search{{ "/" | relative_url }}',
     INDEX_KEY: 'index--{{ site.time | date_to_xmlschema }}',
   };
-}(window);
-</script>
+}(window);</script>
 
 {% if site.kramdown.math_engine == 'mathjax' %}
 <script async src="{{ 'assets/bower_components/MathJax/es5/tex-mml-chtml.js' | relative_url }}" id="_MathJax"></script>
