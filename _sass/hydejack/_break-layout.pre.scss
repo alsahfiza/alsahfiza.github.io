@@ -20,8 +20,8 @@ pre, table:not(.highlight), .katex-display, .break-layout, mjx-container[jax="CH
   @media screen {
     position: relative;
     width: calc(100% + #{$pad});
-    border-top-right-radius: 0!important;
-    border-bottom-right-radius: 0!important;
+    // border-top-right-radius: 0!important;
+    // border-bottom-right-radius: 0!important;
   }
 
   @media screen and (min-width: $content-width) {
