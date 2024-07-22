@@ -59,7 +59,7 @@
       {% unless no_link_title %}<a href="{{ post.url | relative_url }}" class="no-hover no-print-link {% unless post.hide_image %}flip-project{% endunless %}" tabindex="-1">{% endunless %}
         <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
 <!--           {% if no_lightbox %} -->
-            {% include_cached components/hy-img.html img=post.image alt=post.title class="no-lightbox" width=864 height=486 %}
+            {% include_cached components/hy-img.html img=post.image alt=post.title width=864 height=486 %}
 <!--           {% else %}
             {% include_cached components/hy-img.html img=post.image alt=post.title width=864 height=486 %}
           {% endif %} -->
