@@ -17,10 +17,10 @@
 layout: compress
 ---
 
-{% assign version = jekyll.version | split:'.' %}
+<!-- {% assign version = jekyll.version | split:'.' %}
 {% assign major = v[0] %}
 {% assign minor = v[1] %}
-{% assign patch = v[2] %}
+{% assign patch = v[2] %} -->
 
 {% assign plugins = site.plugins | default:site.gems %}
 
@@ -30,9 +30,9 @@ layout: compress
 {% assign color       = site.accent_color | default:'rgb(79,177,186)' %}
 {% assign theme_color = site.theme_color  | default:'rgb(8,46,57)' %}
 
-{% if page.accent_image %}{% assign image       = page.accent_image %}{% endif %}
+<!-- {% if page.accent_image %}{% assign image       = page.accent_image %}{% endif %}
 {% if page.accent_color %}{% assign color       = page.accent_color %}{% endif %}
-{% if page.theme_color  %}{% assign theme_color = page.theme_color  %}{% endif %}
+{% if page.theme_color  %}{% assign theme_color = page.theme_color  %}{% endif %} -->
 
 <head>
   {% include head/index.html %}
