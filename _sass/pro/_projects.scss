@@ -2,16 +2,30 @@
 
 main:not(.layout-resume) {
   $gutter: 1rem;
-
+  
   .columns {
     margin-left: -$gutter;
     display: flex;
     flex-wrap: wrap;
+    contain: content;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    padding-right: 1rem;
+    margin-right: -1rem;
 
     &::after {
       @extend .clearfix;
     }
   }
+  // .columns {
+  //   margin-left: -$gutter;
+  //   display: flex;
+  //   flex-wrap: wrap;
+
+  //   &::after {
+  //     @extend .clearfix;
+  //   }
+  // }
 
   .column {
     float: left;
