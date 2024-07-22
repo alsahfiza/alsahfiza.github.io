@@ -14,21 +14,8 @@ layout: base
 {% include_cached components/post.html post=page no_link_title=true no_excerpt=true hide_image=page.hide_image hide_description=page.hide_description %}
 <article
   id="project"
-  class="page mb6"
-
-    
-          
-            
-    
-
-          
-          Expand Down
-    
-    
-  
-  role="article"
-  {% unless nsd %}vocab="http://schema.org/" typeof="CreativeWork" resource="#project"{% endunless %}
-  >
+  class="page mb6" role="article"
+  {% unless nsd %}vocab="http://schema.org/" typeof="CreativeWork" resource="#project"{% endunless %}>
   <header>
     <h1 class="page-title" property="name">{{ project.title }}</h1>
     <p class="post-date heading">
