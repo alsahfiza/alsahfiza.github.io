@@ -358,13 +358,14 @@ date_formats:
 exclude:
   - .jekyll-cache
   - .sass-cache
+  - '*.toml'
   - vendor
   - Gemfile
   - Gemfile.lock
-  - README.md
-  - LICENSE
+  - node_modules
 include:
   - .well-known
+  - LICENSE.md
 
 
 ########################################################################################################################
