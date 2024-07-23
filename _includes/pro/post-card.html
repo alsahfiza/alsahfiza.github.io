@@ -25,8 +25,10 @@
 {% assign sizes = sizes | strip_newlines %}
 
 <article class="project-card">
-  <a href="{{ post.url | relative_url }}" class="no-hover no-print-link {% unless post.hide_image %}flip-project{% endunless %}" tabindex="-1">
-<!--     <div class="project-card-img {% if post.image %}flip-project-img{% else %}fallback-img{% endif %}"> -->
+  <a href="{{ post.url | relative_url }}" class="flip-project" tabindex="-1">
+<!--     <div class="project-card-img {% if post.image %}flip-project-img{% else %}fallback-img{% endif %}"> 
+    class="no-hover no-print-link {% unless post.hide_image %}flip-project{% endunless %}"
+    -->
     <div class="project-card-img flip-project-img">
       {% if post.image %}
         {% include_cached components/hy-img.html img=post.image alt=post.title sizes=sizes width=864 height=486 %}
