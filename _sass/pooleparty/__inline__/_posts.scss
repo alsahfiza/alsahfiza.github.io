@@ -35,7 +35,7 @@
   }
 
   .aspect-ratio.sixteen-nine.lead {
-    @extend .border-radius;
+    @extend .border-radius !optional;
   }
 }
 
