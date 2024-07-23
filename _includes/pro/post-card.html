@@ -25,7 +25,7 @@
 {% assign sizes = sizes | strip_newlines %}
 
 <article class="project-card">
-  <a href="{{ post.url | relative_url }}" class="no-hover no-print-link flip-project">
+  <a href="{{ post.url | relative_url }}" class="no-hover flip-project">
     <div class="project-card-img flip-project-img fallback-img">
       {% if post.image %}
         {% include_cached components/hy-img.html img=post.image alt=post.title sizes=sizes width=864 height=486 %}
