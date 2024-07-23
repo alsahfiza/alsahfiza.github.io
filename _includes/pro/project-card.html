@@ -36,9 +36,9 @@
 
   <a href="{{ project.url | relative_url }}" class="no-hover no-print-link flip-project" tabindex="-1">
     <div class="project-card-img flip-project-img {% unless screenshot %}fallback-img{% endunless %}">
-<!--       {% if screenshot %}
+      {% if screenshot %}
         {% include_cached components/hy-img.html img=screenshot alt=project.title sizes=sizes width=864 height=186 %}
-      {% endif %} -->
+      {% endif %}
     </div>
   </a>
   <h3 class="project-card-title flip-project-title">
