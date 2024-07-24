@@ -26,10 +26,11 @@
 
 <article class="project-card">
   <a href="{{ post.url | relative_url }}" class="no-hover flip-project">
-    <div class="project-card-img flip-project-img fallback-img">
-<!--       {% if post.image %}
+    <div class="project-card-img fallback-img"> 
+<!--       flip-project-img  -->
+      {% if post.image %}
         {% include_cached components/hy-img.html img=post.image alt=post.title sizes=sizes width=864 height=486 %}
-      {% endif %} -->
+      {% endif %}
     </div>
   </a>
   <h3 class="project-card-title flip-project-title">
