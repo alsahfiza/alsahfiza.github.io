@@ -168,11 +168,6 @@ defaults:
       seo:
         type:         WebPage
   - scope:
-      type:           projects
-    values:
-      seo:
-        type:         WebPage
-  - scope:
       type:           tableau
     values:
       seo:
@@ -200,7 +195,7 @@ collections:
     permalink:         /powerbi/:path/
     output:            true
   projects:
-    permalink:         /projects/:path/
+    permalink:         /posts/:path/
     output:            true
   tableau:
     permalink:          /tableau/:path/
