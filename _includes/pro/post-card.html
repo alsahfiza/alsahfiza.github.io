@@ -24,7 +24,7 @@
 {% endif %}
 {% assign sizes = sizes | strip_newlines %}
 
-<article class="project-card">
+<article class="project-card" href="{{ post.url | relative_url }}">
   <a href="{{ post.url | relative_url }}" class="no-hover flip-project">
     <div class="project-card-img flip-project-title"> 
 <!--       flip-project-img  -->
