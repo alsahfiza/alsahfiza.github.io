@@ -43,12 +43,11 @@ const KATEX_FONT = "{{ 'assets/bower_components/katex/dist/katex.min.css' | rela
 
 // {% assign google_fonts = site.google_fonts %}
 // {% if google_fonts %}
-const GOOGLE_FONTS = "https://fonts.googleapis.com/css?family={{ google_fonts | uri_escape }}&display=swap";
+const GOOGLE_FONTS = "{{ site.google_fonts_url | default:'https://fonts.googleapis.com' }}/css?family={{ google_fonts | uri_escape }}&display=swap";
 // {% endif %}
 
 const SHELL_FILES = [
   "{{ '/assets/css/hydejack-9.1.6.css' | relative_url }}",
-  // "{{ '/assets/js/search-worker-9.0.4.js' | relative_url }}",
   "{{ '/assets/js/service-worker.js' | relative_url }}",
 ];
 
@@ -119,11 +118,11 @@ const warn = (e) => {
 async function getIconFontFiles() {
   const fontURLs = STATIC_FILES.filter(x => (
     x.startsWith('{{ "/assets/icomoon/fonts/" | relative_url }}') &&
-    x.endsWith('.woff') 
+    x.endsWith('.woff')
   ));
   return [ICON_FONT, ...fontURLs];
 }
- 
+
 async function getKaTeXFontFiles() {
   const fontURLs = STATIC_FILES.filter(x => (
     x.startsWith('{{ "/assets/bower_components/katex/dist/fonts/" | relative_url }}') &&
@@ -133,7 +132,7 @@ async function getKaTeXFontFiles() {
 }
 
 async function getMathJaxFiles() {
-  // NOTE: Removed due to MathJax' enormous size. 
+  // NOTE: Removed due to MathJax' enormous size.
   // Uncomment if you're using MathJax and don't mind forcing a 50 MB download on every visitor...
   /*
   const mathJaxFiles = STATIC_FILES.filter(x => (
