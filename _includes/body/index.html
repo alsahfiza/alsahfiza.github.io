@@ -10,7 +10,7 @@
   hashchange
 >
   {% capture sidebar %}{% include_cached body/sidebar.html cover=page.cover invert=page.invert_sidebar theme_color=page.theme_color image=image color=color %}{% endcapture %}
-<!--   {% if page.cover %}{{ sidebar }}{% endif %} -->
+  {% if page.cover %}{{ sidebar }}{% endif %}
   {% include_cached body/menu.html %}
   {% include body/main.html %}
   {% unless page.cover %}{{ sidebar }}{% endunless %}
