@@ -4,7 +4,7 @@
 
 @media screen and (prefers-color-scheme: dark) {
   body {
-    @include dark-mode();
+    @include darkmode();
   }
 
   .tippy-content {
