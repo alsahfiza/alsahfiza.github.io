@@ -94,7 +94,7 @@ menu:
   - title:             About Me
     url:               /about/
 
-copyright:             © 2019. Zakaria Alsahfi. All rights reserved.
+copyright:             © 2020. Zakaria Alsahfi. All rights reserved.
 
 permalink:             /:categories/:year-:month-:day-:title/ #/projects/:title
 # permalink:             none
@@ -259,7 +259,7 @@ hydejack:
 
   # Set to `true` if you don't intend on changing the accent color on a per-page basis.
   # This will increase site build speed!
-  no_page_style:     true
+  no_page_style:     false
 
   # Code blocks and tables "break" the layout by spanning the full available width.
   # Set this to true if you want them to be the same width as other content.
@@ -304,7 +304,7 @@ hydejack:
   # setting).
     dynamic:        true
   # Set to `true` to allow visitors to switch between light and dark mode.
-    icon:           false
+    icon:           true
 
 
 # Separators
