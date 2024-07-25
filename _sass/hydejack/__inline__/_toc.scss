@@ -38,7 +38,7 @@ body:not(.no-toc) #markdown-toc {
 
     position: absolute;
     z-index: 4;
-    width: 20.5rem;
+    width: calc(50% - #{$half-content});
     right: 0;
     margin: auto;
     overflow: auto;
