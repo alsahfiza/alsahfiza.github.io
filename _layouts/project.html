@@ -74,8 +74,8 @@ layout: base
   {% case addon %}
   {% when 'about' %}
      {% include_cached components/about.html author=page.author %}
-  {% when 'newsletter' %}
-    {% include if-non-null try="pro/newsletter.html" %}
+<!--   {% when 'newsletter' %}
+    {% include if-non-null try="pro/newsletter.html" %} -->
   {% when 'other' %}
     {% include if-non-null try="pro/other-projects.html" %}
   {% when 'comments' %}
