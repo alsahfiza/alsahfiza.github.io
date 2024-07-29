@@ -48,7 +48,7 @@ layout: base
       </span>
     </p>
     {% assign screenshot = project.screenshot | default:project.image %}
-    <div class="img-wrapper lead aspect-ratio sixteen-nine">
+    <div class="img-wrapper ">
       {% if screenshot %}
         {% include_cached components/hy-img.html
           img=screenshot
