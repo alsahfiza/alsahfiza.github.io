@@ -1,6 +1,6 @@
 ---
 # file: _tableau/Identifying and Recommending Best Restaurants.md
-layout:      project
+layout:      dashboards
 title:       Identifying and Recommending Best Restaurants
 date:        02 May 2021
 image:
