@@ -1,6 +1,6 @@
 ---
 # file: _tableau/Sales Performance Analysis.md
-layout:      project
+layout:      dashboards
 title:       Sales Performance Analysis
 date:        14 March 2022
 image:
