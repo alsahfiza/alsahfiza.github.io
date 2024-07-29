@@ -1,6 +1,6 @@
 ---
 # file: _powerbi/Saudi Arabia Population 2022.md
-layout:      project
+layout:      dashboards
 title:       Saudi Arabia Population
 date:        08 July 2023
 image:
