@@ -1,6 +1,6 @@
 ---
 # file: _powerbi/Student statistics in Saudi universities.md
-layout:      project
+layout:      dashboards
 title:       Student statistics in Saudi universities
 date:        08 Jan 2023
 image:
