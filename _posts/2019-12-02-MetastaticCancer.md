@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Identify Metastatic Cancer"
+image: "/assets/projects/Metastatic-Cancer.png"
 date: 2019-12-02
 excerpt_separator: <!--more-->
 tags: [Data Science, Machine Learning, Deep Learning, Python, Healthcare]
-image: "/images/perceptron/Metastatic-Cancer.png"
 mathjax: "true"
 ---
 
