@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "TV Script Generation"
+image: "/assets/projects/tvscript.jpg"
 date: 2021-05-10
 excerpt_separator: <!--more-->
 tags: [Data Science, Machine Learning, Deep Learning, Text Mining, Python]
-image: "/images/perceptron/tvscript.jpg"
 mathjax: "true"
 ---
 
