@@ -49,7 +49,7 @@
 }
 
 #lightbox span {
-  display: none;
+  display: block;
 }
 
 #lightbox .videoWrapperContainer {
