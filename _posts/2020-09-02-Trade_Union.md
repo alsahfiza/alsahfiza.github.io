@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Determining Trade Union Status"
+image: "/assets/projects/United Data Scientists Union.jpg"
 date: 2020-09-02
 excerpt_separator: <!--more-->
 tags: [data science, Machine Learning, Python, Commerce, Transport]
-image: "/images/perceptron/United Data Scientists Union.jpg"
 mathjax: "true"
 ---
 
