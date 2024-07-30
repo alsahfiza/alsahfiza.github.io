@@ -48,37 +48,37 @@ function setGallery(el) {
   }
 }
 
-function apply_lightbox_to_img_tag() {
-  Array.from(document.querySelectorAll("img")).forEach((img_element) => {
-    if (img_element.classList.contains("no-lightbox")) {
-      return;
-    }
-    var wrapper = document.createElement("a");
-    var url = img_element.getAttribute("src");
-    wrapper.href = url;
-    if (is_youtubelink(url)) {
-      wrapper.classList.add("lightbox-youtube");
-      wrapper.setAttribute("data-id", is_youtubelink(url));
-    } else if (is_imagelink(url)) {
-      wrapper.classList.add("lightbox-image");
-      var href = wrapper.getAttribute("href");
-      var filename = href.split("/").pop();
-      var name = filename.split(".")[0];
-      wrapper.setAttribute("title", name);
-    } else {
-      return;
-    }
-    img_element.parentNode.insertBefore(wrapper, img_element);
-    wrapper.appendChild(img_element);
-  });
-}
+// function apply_lightbox_to_img_tag() {
+//   Array.from(document.querySelectorAll("img")).forEach((img_element) => {
+//     if (img_element.classList.contains("no-lightbox")) {
+//       return;
+//     }
+//     var wrapper = document.createElement("a");
+//     var url = img_element.getAttribute("src");
+//     wrapper.href = url;
+//     if (is_youtubelink(url)) {
+//       wrapper.classList.add("lightbox-youtube");
+//       wrapper.setAttribute("data-id", is_youtubelink(url));
+//     } else if (is_imagelink(url)) {
+//       wrapper.classList.add("lightbox-image");
+//       var href = wrapper.getAttribute("href");
+//       var filename = href.split("/").pop();
+//       var name = filename.split(".")[0];
+//       wrapper.setAttribute("title", name);
+//     } else {
+//       return;
+//     }
+//     img_element.parentNode.insertBefore(wrapper, img_element);
+//     wrapper.appendChild(img_element);
+//   });
+// }
 
 function apply_lightbox() {
   var newdiv = document.createElement("div");
   newdiv.setAttribute("id", "lightbox");
   document.body.appendChild(newdiv);
 
-  apply_lightbox_to_img_tag();
+  // apply_lightbox_to_img_tag();
 
   // remove the clicked lightbox
   document
