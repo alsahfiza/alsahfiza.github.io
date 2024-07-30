@@ -78,7 +78,7 @@ function apply_lightbox() {
   newdiv.setAttribute("id", "lightbox");
   document.body.appendChild(newdiv);
 
-  apply_lightbox_to_img_tag();
+  // apply_lightbox_to_img_tag();
 
   //remove the clicked lightbox
   // document
