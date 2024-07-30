@@ -78,17 +78,17 @@ function apply_lightbox() {
   newdiv.setAttribute("id", "lightbox");
   document.body.appendChild(newdiv);
 
-  // apply_lightbox_to_img_tag();
+  apply_lightbox_to_img_tag();
 
-  //remove the clicked lightbox
-  // document
-  //   .getElementById("lightbox")
-  //   .addEventListener("click", function (event) {
-  //     if (event.target.id != "next" && event.target.id != "prev") {
-  //       this.innerHTML = "";
-  //       document.getElementById("lightbox").style.display = "none";
-  //     }
-  //   });
+  // remove the clicked lightbox
+  document
+    .getElementById("lightbox")
+    .addEventListener("click", function (event) {
+      if (event.target.id != "next" && event.target.id != "prev") {
+        this.innerHTML = "";
+        document.getElementById("lightbox").style.display = "none";
+      }
+    });
 
   //add the youtube lightbox on click
   document.querySelectorAll("a.lightbox-youtube").forEach((element) => {
