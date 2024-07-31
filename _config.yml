@@ -12,9 +12,10 @@ baseurl: ""
 lang: en
 title: Zakaria Alsahfi
 description:     > 
-                  Data Scientist<br>  
-                  Data Analyst<br>  
-                  Financial Data Analyst
+                  Check out my portfolio where I showcase my dedication as a data science professional and analyst. 
+                  Explore a variety of projects and insights highlighting my expertise in data analysis, visualization, 
+                  and programming. See how I blend technical skills with innovative solutions to address real-world 
+                  data challenges.
 # A shorter description for the sidebar.
 tagline:         > 
                   Data Scientist<br>  
@@ -96,8 +97,8 @@ menu:
 
 copyright:             © 2020. Zakaria Alsahfi. All rights reserved.
 
-permalink:             /:categories/:year-:month-:day-:title/ #/projects/:title
-# permalink:             none
+permalink:             /:categories/:year-:month-:day-:title/
+
 ########################################################################################################################
 # Jekyll Customizations                                                                                                #
 ########################################################################################################################
@@ -129,24 +130,21 @@ font:               Noto Sans, Helvetica, Arial, sans-serif
 font_heading:       Roboto Slab, Helvetica, Arial, sans-serif
 
 # The font used for code blocks. Expects a string that is a valid CSS font-family value.
-font_code:           Fira Code, Menlo, Monaco, Consolas, monospace;
+font_code:           ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
 defaults:
   # You can use the following to enable comments on all posts.
   - scope:
       type:            posts
     values:
-      # https://applause-button.com/
       applause_button:       true
   - scope:
       type:            powerbi
     values:
-      # https://applause-button.com/
       applause_button:       true
   - scope:
       type:            tableau
     values:
-      # https://applause-button.com/
       applause_button:       true 
       
   # Don't include documents in assets in the sitemap
@@ -179,7 +177,7 @@ defaults:
       sitemap:         false
 
 kramdown:
-  math_engine:        katex
+  math_engine:        mathjax
   math_engine_opts:   {}
   footnote_backlink:   "&#x21a9;&#xfe0e;"
 
@@ -235,7 +233,7 @@ hydejack:
   post_addons:       [newsletter, about, related, random, comments]
 
   # Set to `true` if you don't want to show an icon indicating external links
-  no_mark_external:   true
+  no_mark_external:   false
 
   # Set to `true` if third party plugins fail to work with dynamically loaded pages
   no_push_state:      false
@@ -276,6 +274,10 @@ hydejack:
   # Set to `true` if you don't like oversized headlines on large screens.
   no_large_headings: true
 
+  # Set to `true` if you do not want to expose your resume and projects
+  # in machine-readable formats.
+  no_structured_data: false
+
   # You can set this to `true` if you don't want to set the `theme-color` meta tag,
   # This only affects the meta tag, not the color specified in the app manifest.
   no_theme_color:   false
@@ -285,16 +287,18 @@ hydejack:
 
   # When using Google Analytics, set to `true` to display a cookie notice banner.
   # When enabled, no user-related data will be stored until the user gives consent.
-  cookies_banner:    true
+  cookies_banner:    false
 
   # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
   # Note that this setting has no effect when using the free version.
-  advertise:         false
+  advertise:         true
 
   # Buyers of the PRO version can opt to hide all dates from the theme.
   # Frequent consumers of online content will know that nothing devalues a post like
   # seeing an old date.
   hide_dates:       false
+  # TODO
+  hide_last_modified: false
 
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
@@ -416,3 +420,58 @@ links:
 - https://www.linkedin.com/in/zakariaalsahfi
 - https://scholar.google.co.uk/citations?user=aJR6B78AAAAJ&hl=en
 
+# Plugin Configs
+# ---------------------------------------------------------------------------------------
+optional_front_matter:
+  remove_originals: true
+
+readme_index:
+  remove_originals: true
+  with_frontmatter: true
+
+relative_links:
+  collections: true
+
+titles_from_headings:
+  strip_title: true
+  collections: true
+
+compress_html:
+  comments: ["<!--", "-->"]
+  clippings: all
+  endings: all
+  ignore:
+    envs: [development]
+
+sass:
+  style: compressed
+
+# Jekyll Compose Defaults
+# ---------------------------------------------------------------------------------------
+
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      layout: post
+      description: > 
+        A short ~160 character description of your post for search engines,
+        social media previews, etc.
+      image:
+        path: /assets/img/bg-blue.jpg
+    posts:
+      layout: post
+      description: > 
+        A short ~160 character description of your post for search engines,
+        social media previews, etc.
+      image:
+        path: /assets/img/bg-blue.jpg
+    projects:
+      layout: project
+      description: > 
+        A short ~160 character description of your post for search engines,
+        social media previews, etc.
+      image:
+        path: /assets/img/sidebar-bg.jpg
+      links:
+        - title: Project Link
+          url: https://example.com
