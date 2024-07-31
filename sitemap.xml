@@ -6,58 +6,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://alsahfiza.github.io/Time%20Series/</loc>
-        <changefreq>yearly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://alsahfiza.github.io/2019-05-15-womenclothing/</loc>
-        <changefreq>yearly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://alsahfiza.github.io/2019-12-02-MetastaticCancer/</loc>
-        <changefreq>yearly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://alsahfiza.github.io/2020-09-02-Trade_Union/</loc>
-        <changefreq>yearly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://alsahfiza.github.io/2021-05-10-tv_script_generation/</loc>
-        <changefreq>yearly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://alsahfiza.github.io/2021-06-08-bike_sharing_data/</loc>
-        <changefreq>yearly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://alsahfiza.github.io/2021-06-30-landmark/</loc>
-        <changefreq>yearly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://alsahfiza.github.io/2021-07-03-facegeneration/</loc>
-        <changefreq>yearly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://alsahfiza.github.io/2021-07-13-SageMakerProject/</loc>
-        <changefreq>yearly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-<!-- URLs for projects section -->
-    <url>
-        <loc>https://alsahfiza.github.io/projects/</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
         <loc>https://alsahfiza.github.io/posts/</loc>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
@@ -107,8 +55,6 @@
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
-
-
 
 <!-- URLs for powerbi section -->
     <url>
