@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: welcome
 image: /assets/img/logo.png
 description: >
   Hello
