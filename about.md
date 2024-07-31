@@ -1,11 +1,6 @@
 ---
-layout: welcome
-title: >
-  > whoami
-permalink: /about/
-
-# TODO
-image: /assets/img/blog/hydejack-8.png
+layout: about
+image: /assets/img/logo.png
 ---
 
 I'm **Zakaria Alsahfi**, a data-driven professional and the Director of Information Affairs at the University of Business and Technology. My passion lies in transforming complex data into actionable insights that drive strategic decisions. My expertise includes:
