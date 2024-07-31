@@ -1,9 +1,9 @@
 ---
 layout: about
-#image: /assets/img/blog/hydejack-9.jpg
+image: /assets/img/logo.png
 description: >
   Hello
-hide_description: true
+hide_description: false
 redirect_from:
   - /download/
 ---
