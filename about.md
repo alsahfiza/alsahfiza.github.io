@@ -3,7 +3,7 @@ layout: welcome
 image: /assets/img/logo.png
 description: >
   Hello
-hide_description: false
+hide_description: true
 redirect_from:
   - /download/
 ---
