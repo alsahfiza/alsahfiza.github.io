@@ -2,7 +2,7 @@
 layout: about
 description: Hello
 hide_description: true
-redirect_form: /download/
+redirect_form: /about/
 ---
 
 I'm **Zakaria Alsahfi**, a data-driven professional and the Director of Information Affairs at the University of Business and Technology. My passion lies in transforming complex data into actionable insights that drive strategic decisions. My expertise includes:
