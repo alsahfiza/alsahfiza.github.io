@@ -1,6 +1,6 @@
 ---
-layout: welcome
-image: /assets/img/logo.png
+layout: about
+#image: /assets/img/logo.png
 description: >
   Hello
 hide_description: true
