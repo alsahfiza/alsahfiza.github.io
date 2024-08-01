@@ -8,6 +8,7 @@ permalink: /about/
 #Engineering team focused on end-user computing.
 #hide_description: false
 ---
+<!--author-->
 
 I'm **Zakaria Alsahfi**, a data-driven professional and the Director of Information Affairs at the University of Business and Technology. My passion lies in transforming complex data into actionable insights that drive strategic decisions. My expertise includes:
 
