@@ -37,7 +37,6 @@ layout: base
   <header>
     <h1 class="page-title">{{ page.title }}</h1>
     {% include components/message.html text=page.description hide=page.hide_description %}
-    {% include components/avatar-tag.html user=avatar %}
     {% include_cached components/hy-img.html class="avatar" img=author.picture alt=author.name width="120" height="120" %}
   </header>
 
