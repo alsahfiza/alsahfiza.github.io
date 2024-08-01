@@ -1,6 +1,6 @@
 ---
 layout: about
-#image: /assets/img/logo.png
+image: /assets/img/logo.png
 title: About Me
 description: >
   I am currently a Senior Solutions Architect by day with Nutanix in the Solutions Engineering team focused on end-user computing.
