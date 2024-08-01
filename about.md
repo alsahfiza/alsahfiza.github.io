@@ -1,10 +1,11 @@
 ---
 layout: about
-image: /assets/img/logo.png
-title: About Me
-description: >
-  I am currently a Senior Solutions Architect by day with Nutanix in the Solutions Engineering team focused on end-user computing.
-hide_description: false
+#image: /assets/img/logo.png
+#title: About Me
+#description: >
+#I am currently a Senior Solutions Architect by day with Nutanix in the Solutions
+#Engineering team focused on end-user computing.
+#hide_description: false
 ---
 
 I'm **Zakaria Alsahfi**, a data-driven professional and the Director of Information Affairs at the University of Business and Technology. My passion lies in transforming complex data into actionable insights that drive strategic decisions. My expertise includes:
