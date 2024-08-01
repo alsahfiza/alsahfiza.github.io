@@ -1,5 +1,6 @@
 ---
-layout: about
+layout: welcome
+permalink: /about/
 #image: /assets/img/logo.png
 #title: About Me
 #description: >
