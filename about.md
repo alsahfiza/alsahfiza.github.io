@@ -12,10 +12,10 @@ As the Director of Information Affairs at the University of Business and Technol
 
 | Logo | Certificate | Years earned |
 |:-:|:--|:--|
-| ![GOOGLE]({{site.baseurl}}/assets/img/about/google.png){width="50",hight="50",loading=lazy} | [Google Advanced Data Analytics](https://coursera.org/share/27e195403c8822f96c4275e1f9315956) | Mat 2024 |
-| ![IBM]({{site.baseurl}}/assets/img/about/IBM.png){width="20",hight="20",loading=lazy} | [IBM Data Analyst Professional Certificate](https://coursera.org/share/d0d047bd84c90920567f01bd79a4b682) | Nov 2023 |
-| ![SIMPLILEARN SDA]({{site.baseurl}}/assets/img/about/simplilearn.png){width="30",hight="30",loading=lazy} | [Business and Data Analyst](https://success.simplilearn.com/2f7719d5-42c4-4d92-b576-bc5e76af0971) | Nov 2021 |
-| ![UDACITY]({{site.baseurl}}/assets/img/about/udacity.png){width="40",hight="40",loading=lazy} | [Deep Learning](https://www.udacity.com/certificate/e/34f2e9b2-c200-11eb-be31-df842f0a9f3c) | Jul 2021 |
+| ![GOOGLE]({{site.baseurl}}/assets/img/about/google.png =165x67) | [Google Advanced Data Analytics](https://coursera.org/share/27e195403c8822f96c4275e1f9315956) | Mat 2024 |
+| ![IBM]({{site.baseurl}}/assets/img/about/IBM.png =100x20) | [IBM Data Analyst Professional Certificate](https://coursera.org/share/d0d047bd84c90920567f01bd79a4b682) | Nov 2023 |
+| ![SIMPLILEARN SDA]({{site.baseurl}}/assets/img/about/simplilearn.png =120x30) | [Business and Data Analyst](https://success.simplilearn.com/2f7719d5-42c4-4d92-b576-bc5e76af0971) | Nov 2021 |
+| ![UDACITY]({{site.baseurl}}/assets/img/about/udacity.png =120x60) | [Deep Learning](https://www.udacity.com/certificate/e/34f2e9b2-c200-11eb-be31-df842f0a9f3c) | Jul 2021 |
 {:.smaller}
 
 - **Data Analysis and Interpretation**: I analyze and interpret student enrollment data, uncovering patterns and trends essential for strategic planning and precision for both internal and external stakeholders.
