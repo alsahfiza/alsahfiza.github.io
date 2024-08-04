@@ -11,7 +11,7 @@ As the Director of Information Affairs at the University of Business and Technol
 ## Certificates
 
 | Logo | Certificate | Years earned |
-|:-:|:--|:--|
+|:-:|:-:|:-:|
 | ![GOOGLE]({{site.baseurl}}/assets/img/about/google.png){:height="165px" width="67px"} | [Google Advanced Data Analytics](https://coursera.org/share/27e195403c8822f96c4275e1f9315956) | Mat 2024 |
 | ![IBM]({{site.baseurl}}/assets/img/about/IBM.png){:height="165px" width="67px"} | [IBM Data Analyst Professional Certificate](https://coursera.org/share/d0d047bd84c90920567f01bd79a4b682) | Nov 2023 |
 | ![SIMPLILEARN SDA]({{site.baseurl}}/assets/img/about/simplilearn.png){:height="165px" width="67px"} | [Business and Data Analyst](https://success.simplilearn.com/2f7719d5-42c4-4d92-b576-bc5e76af0971) | Nov 2021 |
