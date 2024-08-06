@@ -1,7 +1,7 @@
 ---
 # file: _tableau/Regional Sales Metrics.md
 layout:      dashboards
-title:       Managerial Sales Data and Regional Shipping Costs Analysis
+title:       Regional Sales Metrics
 date:        18 July 2024
 image:
   path:       /assets/tableau/Regional Sales Metrics.png
