@@ -1,6 +1,6 @@
 ---
 # file: _tableau/Regional Sales Metrics.md
-layout:      dashboards
+layout:      project
 title:       Regional Sales Metrics
 date:        18 July 2024
 image:
