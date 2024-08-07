@@ -1,6 +1,6 @@
 ---
 # file: _powerbi/Insurance Co. Agent Performance.md
-layout:      dashboards
+layout:      project
 title:       Insurance Co. Agent Performance
 date:        30 May 2023
 image:
