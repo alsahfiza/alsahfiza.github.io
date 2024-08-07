@@ -1,6 +1,6 @@
 ---
 # file: _tableau/Comparative Study of Countries.md
-layout:      dashboards
+layout:      project
 title:       Comparative Study of Countries
 date:        15 May 2020
 image:
