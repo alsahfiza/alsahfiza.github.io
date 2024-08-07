@@ -1,6 +1,6 @@
 ---
 # file: _powerbi/Pharmaceutical Sales.md
-layout:      dashboards
+layout:      project
 title:       Pharmaceutical Sales
 date:        15 April 2023
 image:
