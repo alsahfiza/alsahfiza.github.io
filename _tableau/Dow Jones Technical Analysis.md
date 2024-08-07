@@ -1,6 +1,6 @@
 ---
 # file: _tableau/Dow Jones Technical Analysis.md
-layout:      dashboards
+layout:      project
 title:       Dow Jones Technical Analysis
 date:        5 Aug 2024
 image:
