@@ -1,6 +1,6 @@
 ---
 # file: _powerbi/E-Commerce Sales.md
-layout:      dashboards
+layout:      project
 title:       E-Commerce Sales
 date:        24 May 2023
 image:
