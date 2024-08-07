@@ -1,6 +1,6 @@
 ---
 # file: _powerbi/Coffee Quality Analysis.md
-layout:      dashboards
+layout:      project
 title:       Coffee Quality Analysis
 date:        08 Jun 2023
 image:
