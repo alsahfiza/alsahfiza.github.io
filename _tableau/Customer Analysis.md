@@ -1,6 +1,6 @@
 ---
 # file: _tableau/Customer Analysis.md
-layout:      dashboards
+layout:      project
 title:       Customer Analysis
 date:        19 July 2020
 image:
