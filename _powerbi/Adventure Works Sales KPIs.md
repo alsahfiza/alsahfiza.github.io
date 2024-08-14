@@ -24,7 +24,7 @@ links:
 
 1.  **Sales Performance:**
     - **Total Sales:** $1.04M over three months with an average of $64.75K per order.
-    - **Order Volume:**16 orders processed during the same period.
+    - **Order Volume:** 16 orders processed during the same period.
     - **Sales Trend:** Sales increased from May to June, then decreased in July.
 2. **Sales by Team:**
     - **Team Performance:** Team B (East and South) outperformed Team A (North and West) in terms of sales.
