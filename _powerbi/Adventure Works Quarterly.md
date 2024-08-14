@@ -11,8 +11,7 @@ image:
     480w:    /assets/powerbi/Adventure_Works.png
 
 description: >
-              This dashboard offers a comprehensive overview of Adventure Works' sales performance,
- highlighting key metrics such as total sales, top performers, product categories, regional distribution, and sales trends over time. It provides valuable insights for identifying sales opportunities, optimizing resource allocation, and driving overall business growth.
+              This dashboard offers a comprehensive overview of Adventure Works' sales performance, highlighting key metrics such as total sales, top performers, product categories, regional distribution, and sales trends over time. It provides valuable insights for identifying sales opportunities, optimizing resource allocation, and driving overall business growth.
   
 links:
   - title:   Veiw
@@ -47,8 +46,7 @@ featured:    false
    - **Production Balance:** Balancing production across categories is crucial to meet customer demand and optimize inventory.
 
 **Additional Notes:**
-
-    - **Data Timeframe:** The dashboard presents data for the years 2017 to 2020.
-    - **Data Gaps:** Missing data for some salespersons and quarters limits the depth of analysis.
+- **Data Timeframe:** The dashboard presents data for the years 2017 to 2020.
+- **Data Gaps:** Missing data for some salespersons and quarters limits the depth of analysis.
 
 Overall, the dashboard provides valuable insights into Adventure Works' sales performance. To optimize sales strategies, it's essential to delve deeper into factors driving top performance, address sales force disparities, and explore opportunities for product diversification and market expansion.
