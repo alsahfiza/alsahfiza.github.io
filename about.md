@@ -12,12 +12,12 @@ As the Director of Information Affairs at the University of Business and Technol
 
 | Logo | Certificate | Years earned |
 |:-:|:-:|:-:|
-| ![COURSERA]({{site.baseurl}}/assets/img/about/coursera.png){:height="165px" width="67px"} | [Microsoft Power BI Data Analyst](https://coursera.org/share/2265021260dcc3db86cf7d9b8e789df7) | Aug 2024 |
-| ![COURSERA]({{site.baseurl}}/assets/img/about/coursera.png){:height="165px" width="67px"} | [Tableau Trading Dashboard](https://coursera.org/share/955e6c88be63bb8c412f6dd3a4d1ca06) | Aug 2024 |
-| ![COURSERA]({{site.baseurl}}/assets/img/about/coursera.png){:height="165px" width="67px"} | [Google Advanced Data Analytics](https://coursera.org/share/27e195403c8822f96c4275e1f9315956) | May 2024 |
+| ![Microsoft]({{site.baseurl}}/assets/img/about/microsoft-logo.png){:height="165px" width="67px"} | [Microsoft Power BI Data Analyst](https://coursera.org/share/2265021260dcc3db86cf7d9b8e789df7) | Aug 2024 |
+| ![CFI]({{site.baseurl}}/assets/img/about/CFIlogo.webp){:height="165px" width="67px"} | [Tableau Trading Dashboard](https://coursera.org/share/955e6c88be63bb8c412f6dd3a4d1ca06) | Aug 2024 |
+| ![Google]({{site.baseurl}}/assets/img/about/google-logo.jpg){:height="165px" width="67px"} | [Google Advanced Data Analytics](https://coursera.org/share/27e195403c8822f96c4275e1f9315956) | May 2024 |
 | ![IBM]({{site.baseurl}}/assets/img/about/IBM.png){:height="165px" width="67px"} | [IBM Data Analyst Professional Certificate](https://coursera.org/share/d0d047bd84c90920567f01bd79a4b682) | Nov 2023 |
 | ![SIMPLILEARN]({{site.baseurl}}/assets/img/about/simplilearn.png){:height="165px" width="67px"} | [Business and Data Analyst](https://success.simplilearn.com/2f7719d5-42c4-4d92-b576-bc5e76af0971) | Nov 2021 |
-| ![UDACITY]({{site.baseurl}}/assets/img/about/udacity.jpg){:height="165px" width="67px"} | [Deep Learning](https://www.udacity.com/certificate/e/34f2e9b2-c200-11eb-be31-df842f0a9f3c) | Jul 2021 |
+| ![UDACITY]({{site.baseurl}}/assets/img/about/udacity-logo.png){:height="165px" width="67px"} | [Deep Learning](https://www.udacity.com/certificate/e/34f2e9b2-c200-11eb-be31-df842f0a9f3c) | Jul 2021 |
 {:.smaller}
 
 - **Data Analysis and Interpretation**: I analyze and interpret student enrollment data, uncovering patterns and trends essential for strategic planning and precision for both internal and external stakeholders.
