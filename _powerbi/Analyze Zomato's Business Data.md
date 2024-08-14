@@ -1,7 +1,7 @@
 ---
 # file: _powerbi/Analyze Zomato's Business Data.md
 layout:      project
-title:       Analyze Zomato's Business Data*
+title:       Analyze Zomato's Business Data
 date:        14 May 2022
 image:
   path:       /assets/powerbi/Zomato.png
