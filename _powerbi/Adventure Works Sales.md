@@ -2,7 +2,7 @@
 # file: _powerbi/Adventure Works Sales.md
 layout:      project
 title:       Adventure Works Sales Report
-date:        14 Aug 2024
+date:        01 Aug 2024
 image:
   path:       /assets/powerbi/Adventure_Works_Sales.png
   srcset:
