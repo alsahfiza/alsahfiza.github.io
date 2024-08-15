@@ -16,7 +16,7 @@ description: >
               health, assess the impact of revenue fluctuations on profitability, and identify opportunities to enhance overall financial performance.
 links:
   - title:   Veiw
-  - url:     https://app.powerbi.com/reportEmbed?reportId=f159d434-64a9-4bc9-a82f-e5b394d313f1&autoAuth=true&ctid=801585e2-0e6a-4322-a002-e7fc8457bab4
+    url:     https://app.powerbi.com/reportEmbed?reportId=f159d434-64a9-4bc9-a82f-e5b394d313f1&autoAuth=true&ctid=801585e2-0e6a-4322-a002-e7fc8457bab4
 featured:    false
 ---
 
