@@ -62,15 +62,15 @@ education:
     
 certificate:
   - institution: "Coursera"
-      area: "Microsoft Power BI Data Analyst"
-      date: "2024-08-13"
-      highlights:
-        - "Completed the Microsoft Power BI Data Analyst program, gaining proficiency in transforming data into actionable insights and creating compelling reports and dashboards."
-        - "Mastered key Power BI concepts including data modeling with Star schema, DAX calculations, and advanced data analysis techniques." 
-        - "Applied hands-on skills in preparing data for analysis in Excel and Power BI, enhancing data-driven decision-making capabilities." 
-        - "Engaged in learning how generative AI tools and techniques are utilized in business intelligence."
-        - "Prepared for and earned a 50% discount voucher towards the PL-300 Microsoft Power BI Data Analyst Certification Exam."
-        
+    area: "Microsoft Power BI Data Analyst"
+    date: "2024-08-13"
+    highlights:
+      - "Completed the Microsoft Power BI Data Analyst program, gaining proficiency in transforming data into actionable insights and creating compelling reports and dashboards."
+      - "Mastered key Power BI concepts including data modeling with Star schema, DAX calculations, and advanced data analysis techniques." 
+      - "Applied hands-on skills in preparing data for analysis in Excel and Power BI, enhancing data-driven decision-making capabilities." 
+      - "Engaged in learning how generative AI tools and techniques are utilized in business intelligence."
+      - "Prepared for and earned a 50% discount voucher towards the PL-300 Microsoft Power BI Data Analyst Certification Exam."
+    
   - institution: "Coursera"
     area: "Google Advanced Data Analytics"
     date: "2024-05-01"
