@@ -60,13 +60,24 @@ education:
     endDate:   "2018-12-14"
     website: "https://www.fontbonne.edu/"
     
-certificate: 
+certificate:
+  - institution: "Coursera"
+      area: "Microsoft Power BI Data Analyst"
+      date: "2024-08-13"
+      highlights:
+        - "Completed the Microsoft Power BI Data Analyst program, gaining proficiency in transforming data into actionable insights and creating compelling reports and dashboards."
+        - "Mastered key Power BI concepts including data modeling with Star schema, DAX calculations, and advanced data analysis techniques." 
+        - "Applied hands-on skills in preparing data for analysis in Excel and Power BI, enhancing data-driven decision-making capabilities." 
+        - "Engaged in learning how generative AI tools and techniques are utilized in business intelligence."
+        - "Prepared for and earned a 50% discount voucher towards the PL-300 Microsoft Power BI Data Analyst Certification Exam."
+        
   - institution: "Coursera"
     area: "Google Advanced Data Analytics"
     date: "2024-05-01"
     highlights:
       - "Gained ability in advanced data analysis techniques, including statistical modeling and data visualization."
       - "Applied Google Cloud tools and technologies for comprehensive data analysis solutions."
+      
   - institution: "IBM on Coursera"
     area: "Data Visualization with Python"
     date: "2023-11-01"
@@ -75,6 +86,7 @@ certificate:
       - "Craft various charts like line, area, histograms, bar, pie, box, scatter, and bubble."
       - "Produce waffle charts, word clouds, regression plots, and map visualizations."
       - "Build interactive dashboards with Dash and Plotly, featuring diverse chart types."
+      
   - institution: "SDA Simplilearn"
     area: "Business and Data Analyst"
     date: "2021-11-01"
@@ -83,16 +95,7 @@ certificate:
       - "Ability to work with SQL databases, and program with R and Python for data analysis tasks."
       - "Skills in creating insightful data visualizations and applying predictive analytics."
       - "Hands-on experience through industry-based projects, enhancing job readiness."
-  - institution: "Udacity Nano Degree"
-    area: "Deep-Learning"
-    date: "2021-07-01"
-    highlights:
-       - "Generative adversarial networks (GANs), model evaluation, deep learning techniques, and more​​."
-       - "Application of CNNs in real-world projects like landmark classification for social media​."
-       - "Understanding of RNNs, LSTM, and transformers, with projects on text translation and sentiment analysis​​."
-       - "Skills in building and training advanced GANs for realistic image generation​."
-       - "Career services focused on improving LinkedIn and GitHub profiles to enhance job search and networking​."
-    
+      
 publications:
   - name: "Machine Learning Classifiers Help to Manage COVID-19 Distribution in China."
     publisher: "Scientific Report, impact factor: 4.996(Springer Nature)"
