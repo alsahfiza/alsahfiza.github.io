@@ -11,7 +11,7 @@ image:
     480w:    /assets/powerbi/Tailwind_Traders_Sales.png
 
 description: >
-              The Tailwind Traders Sales Report offers insights into the company's sales performance across various regions. The UK is the leading market, contributing 63.49% of total sales, with significant sales also seen in the USA and France. The report highlights the top-selling products, such as Floral Wallpaper and the ProCarpenter Toolkit, and notes strong customer loyalty in the UK. Sales trends indicate seasonal fluctuations, with notable peaks in September and October 2023. The dashboard suggests opportunities for growth in underperforming regions and further optimization of loyalty programs outside the UK.
+              This report offers insights into Tailwind Traders' sales performance across multiple regions. It features key metrics such as stock levels, quantity sold by product, and median sales over time. The report also includes a breakdown of sales distribution by country and loyalty points earned, giving a detailed view of the company's sales activities.
   
 links:
   - title:   Veiw
