@@ -11,7 +11,7 @@ image:
     480w:    /assets/powerbi/Adventure_Works_Revenue.png
 
 description: >
-              This dashboard offers a comprehensive overview of Adventure Works' sales performance, highlighting key metrics such as total sales, top performers, product categories, regional distribution, and sales trends over time. It provides valuable insights for identifying sales opportunities, optimizing resource allocation, and driving overall business growth.
+              This dashboard provides a comprehensive overview of Adventure Works' 2023 revenue performance. Key highlights include a strong profit margin of 24.23%, well above the target, and impressive sales volume with 261 units sold. Europe leads in revenue generation among product regions, and Blue is the top-selling product color. However, shipping times need improvement, as they fell short of the goal. The report also identifies potential operational areas for enhancement, particularly in reducing canceled orders and optimizing daily revenue trends.
   
 links:
   - title:   Veiw
