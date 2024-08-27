@@ -12,5 +12,6 @@ the world in the hopes will be beneficial.
 ## Latest Posts
 
 <!--posts-->
-See [Posts](/posts/) for more
-{:.read-more}
+
+
+See [Posts](/posts/) for more {:.read-more}
