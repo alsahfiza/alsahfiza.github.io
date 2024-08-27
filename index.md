@@ -14,4 +14,5 @@ the world in the hopes will be beneficial.
 <!--posts-->
 
 
-See [Posts](/posts/) for more {:.read-more}
+See [Posts](/posts/) for more 
+{:.read-more}
