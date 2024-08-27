@@ -59,6 +59,16 @@ group :jekyll_plugins do
   gem 'github-pages'
   gem 'jekyll-include-cache'
   gem 'jekyll-compose'
+  gem "jekyll-default-layout", github: "benbalter/jekyll-default-layout", branch: "main"
+  gem "jekyll-feed"
+  gem "jekyll-optional-front-matter"
+  gem "jekyll-redirect-from"
+  gem "jekyll-relative-links"
+  gem "jekyll-seo-tag", github: "hydecorp/jekyll-seo-tag"
+  gem "jekyll-sitemap"
+  gem "jekyll-titles-from-headings"
+  gem "jekyll-include-cache", github: "hydecorp/jekyll-include-cache"
+  gem "jekyll-last-modified-at"
 end
 
 gem 'wdm' if Gem.win_platform?
