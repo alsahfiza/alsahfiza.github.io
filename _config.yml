@@ -105,7 +105,7 @@ permalink:             /:categories/:year-:month-:day-:title/
 
 # Sidebar image and theme color of the site.
 
-accent_image:         /assets/img/bg-blue.jpg
+#accent_image:         /assets/img/bg-blue.jpg
 # accent_image:
 #   background:          /assets/img/background .webp
 #   overlay:             false
