@@ -109,7 +109,7 @@ accent_image:         /assets/img/bg-blue.jpg
 # accent_image:
 #   background:          /assets/img/background .webp
 #   overlay:             false
-accent_color:         rgb(0,174,239)
+#accent_color:         rgb(0,174,239)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
@@ -145,7 +145,7 @@ defaults:
   - scope:
       type:            tableau
     values:
-      applause_button:       true 
+      applause_button:        true 
       
   # Don't include documents in assets in the sitemap
   - scope:
@@ -172,7 +172,7 @@ defaults:
         type:         WebPage
   # Don't include site verification file(for google) in the sitemap
   - scope:
-      path:            google7a5b54f96ae6fbc3.html
+      path:            googled3b87d81c531b9a2.html
     values:
       sitemap:         false
 
