@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Women’s Clothing E-Commerce Reviews"
-image: "/assets/projects/WomenClothing.jpg"
+image: "/assets/projects/WomenClothing..webp"
 date: 2019-05-15
 excerpt_separator: <!--more-->
 tags: [Data Science, Machine Learning, Text Mining, Python, E-Commerce]
