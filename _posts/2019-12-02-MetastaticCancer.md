@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Identify Metastatic Cancer"
-image: "/assets/projects/Metastatic-Cancer.png"
+image: "/assets/projects/Metastatic-Cancer.webp"
 date: 2019-12-02
 excerpt_separator: <!--more-->
 tags: [Data Science, Machine Learning, Deep Learning, Python, Healthcare]
