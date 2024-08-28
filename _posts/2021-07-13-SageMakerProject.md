@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sentiment Analysis Web App"
-image: "/assets/projects/SentimentAnalysis.jpeg"
+image: "/assets/projects/SentimentAnalysis.webp"
 date: 2021-07-13
 excerpt_separator: <!--more-->
 tags: [Data Science, Machine Learning, Deep Learning, Python, PyTorch, SageMaker]
