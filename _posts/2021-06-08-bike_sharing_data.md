@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Predicting Bike Sharing"
-image: "/assets/projects/bike-sharing.jpg"
+image: "/assets/projects/bike-sharing.webp"
 date: 2021-06-08
 excerpt_separator: <!--more-->
 tags: [Data Science, Machine Learning, Deep Learning, Python, Commerce, Transport]
