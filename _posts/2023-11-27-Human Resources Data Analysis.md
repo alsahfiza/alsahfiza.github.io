@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Human Resources Data Analysis"
-image: "/assets/projects/Human Resources Data Analysis.jpg"
+image: "/assets/projects/Human Resources Data Analysis.webp"
 date: 2023-11-27
 excerpt_separator: <!--more-->
 tags: [Data Science,data Analysis, Python]
