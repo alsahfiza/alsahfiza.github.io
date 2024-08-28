@@ -83,8 +83,12 @@ applause-button {
 .text-align-center {
   text-align: center;
 }
+.img {
+  width: 100%; /* or max-width: 100%; */
+  height: auto;
+}
 
-img.centered {
+.img.centered {
   display: block;
   margin-left: auto;
   margin-right: auto;
