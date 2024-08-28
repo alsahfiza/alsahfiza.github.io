@@ -105,24 +105,24 @@ function apply_lightbox() {
   });
 
   // //add the image lightbox on click
-  document.querySelectorAll("a.lightbox-image").forEach((element) => {
-    element.addEventListener("click", function (event) {
-      event.preventDefault();
-      document.getElementById("lightbox").innerHTML =
-        '<a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="img" style="background: url(\'' +
-        this.getAttribute("href") +
-        '\') center center / contain no-repeat;" title="' +
-        this.getAttribute("title") +
-        '" ><img src="' +
-        this.getAttribute("href") +
-        '" alt="' +
-        this.getAttribute("title") +
-        '" /></div><span>' +
-        this.getAttribute("title") +
-        "</span>";
-      document.getElementById("lightbox").style.display = "block";
+  // document.querySelectorAll("a.lightbox-image").forEach((element) => {
+  //   element.addEventListener("click", function (event) {
+  //     event.preventDefault();
+  //     document.getElementById("lightbox").innerHTML =
+  //       '<a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="img" style="background: url(\'' +
+  //       this.getAttribute("href") +
+  //       '\') center center / contain no-repeat;" title="' +
+  //       this.getAttribute("title") +
+  //       '" ><img src="' +
+  //       this.getAttribute("href") +
+  //       '" alt="' +
+  //       this.getAttribute("title") +
+  //       '" /></div><span>' +
+  //       this.getAttribute("title") +
+  //       "</span>";
+  //     document.getElementById("lightbox").style.display = "block";
 
-      setGallery(this);
-    });
-  });
+  //     setGallery(this);
+  //   });
+  // });
 }
