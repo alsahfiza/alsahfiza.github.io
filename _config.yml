@@ -109,13 +109,13 @@ accent_image:         /assets/img/bg-blue.jpg
 # accent_image:
 #   background:          /assets/img/background .webp
 #   overlay:             false
-#accent_color:         rgb(0,174,239)
+accent_color:         rgb(0,174,239)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
 #theme_color:         rgb(8,46,57)
-#theme_color:           rgb(31,55,75)
+theme_color:           rgb(31,55,75)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
