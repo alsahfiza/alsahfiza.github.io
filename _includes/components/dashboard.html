@@ -67,9 +67,9 @@
       {% unless no_link_title %}<a href="{{ post.url | relative_url }}" class="no-hover no-print-link flip-project">{% endunless %}
         <div class="img-wrapper lead flip-project-img">
           {% if no_lightbox %}
-            {% include_cached components/hy-img.html img=post.image alt=post.title class="no-lightbox" width=864 height=486 %}
+            {% include_cached components/hy-img.html img=post.image alt=post.title class="no-lightbox" %}
           {% else %}
-            {% include_cached components/hy-img.html img=post.image alt=post.title width=864 height=486 %}
+            {% include_cached components/hy-img.html img=post.image alt=post.title %}
           {% endif %}
         </div>
       {% unless no_link_title %}</a>{% endunless %}
