@@ -4,8 +4,8 @@ sitemap: true
 cover: true
 ---
 
-This website aims to document *interesting* data that I've visualized and analyzed and share those solutions with 
-the world in the hopes will be beneficial.
+This website aims to compile and showcase captivating data visualizations and analyses. 
+By sharing these insights with the world, I hope to provide valuable solutions and knowledge to benefit others.
 {:.lead}
 
 
@@ -14,4 +14,4 @@ the world in the hopes will be beneficial.
 <!--posts-->
 
 
-See [Posts](/posts/) for more
+See **[Posts](/posts/)** for more
