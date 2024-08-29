@@ -127,10 +127,10 @@ font:               Noto Sans, Helvetica, Arial, sans-serif
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font_heading:       Roboto Slab, Helvetica, Arial, sans-serif
+font_heading:       Noto Sans KR, Helvetica, Arial, sans-serif
 
 # The font used for code blocks. Expects a string that is a valid CSS font-family value.
-font_code:           ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+font_code:           JetBrains Mono, Nanum Gothic Coding, Menlo, Monaco, Consolas, monospace;
 
 defaults:
   # You can use the following to enable comments on all posts.
@@ -233,7 +233,7 @@ hydejack:
   post_addons:       [newsletter, about, related, random, comments]
 
   # Set to `true` if you don't want to show an icon indicating external links
-  no_mark_external:   false
+  no_mark_external:   true
 
   # Set to `true` if third party plugins fail to work with dynamically loaded pages
   no_push_state:      false
@@ -283,15 +283,15 @@ hydejack:
   no_theme_color:   false
 
   # Set to `true` when building with the `--lsi` option
-  use_lsi:           true
+  use_lsi:           false
 
   # When using Google Analytics, set to `true` to display a cookie notice banner.
   # When enabled, no user-related data will be stored until the user gives consent.
-  cookies_banner:    false
+  cookies_banner:    true
 
   # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
   # Note that this setting has no effect when using the free version.
-  advertise:         true
+  advertise:         false
 
   # Buyers of the PRO version can opt to hide all dates from the theme.
   # Frequent consumers of online content will know that nothing devalues a post like
@@ -355,6 +355,7 @@ date_formats:
 ########################################################################################################################
 
 exclude:
+  - .jekyll-cache
   - .sass-cache
   - '*.toml'
   - vendor
@@ -394,10 +395,10 @@ google_analytics:    GTM-T3D88WDW
 google-site-verification: "ULEUQTgeP918_7Ne8oTWQBhH5P0Yp-HV5J9Y27p9uZI"
 # -- or --
 # webmaster_verifications:
-#   google:  ULEUQTgeP918_7Ne8oTWQBhH5P0Yp-HV5J9Y27p9uZI
-# bing: <verification-id>
-# alexa:<verification-id>
-# yandex:  <verification-id>
+#   google:  <verification-id>
+#   bing: <verification-id>
+#   alexa:<verification-id>
+#   yandex:  <verification-id>
 
 
 # Used for twitter cards
@@ -422,28 +423,28 @@ links:
 # Plugin Configs
 # ---------------------------------------------------------------------------------------
 optional_front_matter:
-  remove_originals: true
+  remove_originals:   true
 
 readme_index:
-  remove_originals: true
-  with_frontmatter: true
+  remove_originals:   true
+  with_frontmatter:   true
 
 relative_links:
-  collections: true
+  collections:        true
 
 titles_from_headings:
-  strip_title: true
-  collections: true
+  strip_title:        true
+  collections:        true
 
 compress_html:
-  comments: ["<!--", "-->"]
-  clippings: all
-  endings: all
+  comments:            ["<!--", "-->"]
+  clippings:           all
+  endings:             all
   ignore:
-    envs: [development]
+    envs:              [development]
 
 sass:
-  style: compressed
+  style:               compressed
 
 # Jekyll Compose Defaults
 # ---------------------------------------------------------------------------------------
