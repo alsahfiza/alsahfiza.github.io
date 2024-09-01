@@ -96,10 +96,7 @@ publications:
     releaseDate: "2022-08-18"
     website: "https://doi.org/10.21203/rs.3.rs-1954642/v1"
     summary: >
-              The authors detail the use of machine learning classifiers to predict and manage the spread of COVID-19 in China. 
-              The research explores the efficacy of different algorithms in understanding the virus's transmission and informing 
-              public health decisions. The findings suggest that machine learning can play a crucial role in epidemic response strategies 
-              by providing accurate predictions and supporting data-driven decision-making.
+              The authors outline how machine learning classifiers predict and manage the spread of COVID-19 in China. The research delves into the effectiveness of various algorithms in comprehending the virus's transmission and guiding public health decisions. The findings indicate that machine learning can be a pivotal tool in epidemic response strategies by delivering precise predictions and, importantly, facilitating data-driven decision-making to improve the approach's reliability.
 # languages:
 #   - language: "Arabic"
 #     fluency: "Native speaker"
