@@ -95,7 +95,7 @@ publications:
     publisher: "Scientific Report, impact factor: 4.996(Springer Nature)"
     releaseDate: "2022-08-18"
     website: "https://doi.org/10.21203/rs.3.rs-1954642/v1"
-    highlights: >
+    summary: >
               The authors detail the use of machine learning classifiers to predict and manage the spread of COVID-19 in China. 
               The research explores the efficacy of different algorithms in understanding the virus's transmission and informing 
               public health decisions. The findings suggest that machine learning can play a crucial role in epidemic response strategies 
