@@ -58,8 +58,11 @@
     content: attr(title)!important;
   }
 }
-
-.note_default{
+.note {
   @extend .note-sm;
   font-size: 1rem;
 }
+// .note_default{
+//   @extend .note-sm;
+//   font-size: 1rem;
+// }
