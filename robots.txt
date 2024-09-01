@@ -1,9 +1,0 @@
-User-agent: Googlebot
-Disallow: /clients/
-Disallow: /not-for-google
-Allow: /
-User-agent: *
-Disallow: /archive/
-Disallow: /support/
-Allow: /
-Sitemap: https://alsahfiza.github.io/sitemap.xml
