@@ -115,7 +115,7 @@ accent_color:         rgb(0,174,239)
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
 #theme_color:         rgb(8,46,57)
-theme_color:           rgb(31,55,75)
+#theme_color:           rgb(31,55,75)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
@@ -217,7 +217,7 @@ google_analytics: G-MQVC3P7J7K
 tinyletter:           TsekNet
 
 font-awesome:
-  assets: true
+  assets:              true
   
 lightbox:              true
 
@@ -253,7 +253,7 @@ hydejack:
 
   # Set to `true` if you do not want parts of the css inlined in <head/>
   # This will increase site build speed dramatically!
-  no_inline_css:     false
+  no_inline_css:     true
 
   # Set to `true` if you don't intend on changing the accent color on a per-page basis.
   # This will increase site build speed!
@@ -264,7 +264,7 @@ hydejack:
   no_break_layout:   true
 
   # Set to `true` to disable the dynamic Table of Contents on large screens.
-  no_toc:             false
+  no_toc:             true
 
   # When set to `true`, will not extend the content in the "third column" on large screens.
   # Instead, all content will remains within the center column.
@@ -276,7 +276,7 @@ hydejack:
 
   # Set to `true` if you do not want to expose your resume and projects
   # in machine-readable formats.
-  no_structured_data: false
+  no_structured_data: true
 
   # You can set this to `true` if you don't want to set the `theme-color` meta tag,
   # This only affects the meta tag, not the color specified in the app manifest.
@@ -391,7 +391,7 @@ plugins:
 ########################################################################################################################
 
 #  Where you proof that you own this site (used by jekyll-seo-tag)
-google_analytics:    GTM-T3D88WDW
+# google_analytics:    GTM-T3D88WDW
 google-site-verification: "ULEUQTgeP918_7Ne8oTWQBhH5P0Yp-HV5J9Y27p9uZI"
 # -- or --
 # webmaster_verifications:
