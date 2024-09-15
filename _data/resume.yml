@@ -8,8 +8,12 @@ basics:
   email: "zakaria.sahfi@gmail.com"
   phone: "(+966) 05-3335-2211"
   website: ""
-  summary: >
-              I am a highly motivated, team-oriented, and responsible data analyst with extensive experience in improving professionals' comprehension of reports and presentations at all levels. With a strong educational background and proficiency in both Arabic and English, I bring a diverse perspective to any project. I am dedicated to providing accurate and meaningful insights through data analysis and visualization. My commitment to continuously improving my skills and staying up-to-date with the latest industry trends ensures that I am always striving to excel.
+  # summary: >
+  #             I am a highly motivated, team-oriented, and responsible data analyst with extensive experience in improving professionals'
+  #             comprehension of reports and presentations at all levels. With a strong educational background and proficiency in both Arabic 
+  #             and English, I bring a diverse perspective to any project. I am dedicated to providing accurate and meaningful insights through 
+  #             data analysis and visualization. My commitment to continuously improving my skills and staying up-to-date with the latest 
+  #             industry trends ensures that I am always striving to excel.
   
   profiles:
     - network: "Twitter"
