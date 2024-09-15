@@ -45,9 +45,9 @@
     top: 0;
   }
 
-  &[title]:before {
-    content: attr(title)!important;
-  }
+  // &[title]:before {
+  //   content: attr(title)!important;
+  // }
 }
 
 .note_default{
