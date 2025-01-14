@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Enhancing Student Data Analysis with Python"
-image: "/assets/projects/WomenClothing.webp"
+image: "/assets/projects/Student Analysis Application.webp"
 date: 2024-12-15
 excerpt_separator: <!--more-->
 tags: [Data Analysis, Python, PyQt5, XlsxWriter, ReportLab]
