@@ -64,7 +64,7 @@ offline:
   home_link: Head back home
 
 error:
-  title: Error
+  title: "Error"
   message: |
     Sorry, an error occurred while loading <!--link-->.
 
