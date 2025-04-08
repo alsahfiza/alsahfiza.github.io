@@ -1,6 +1,5 @@
 ---
 layout: home
-title: "Zakaria Alsahfi – Data Science Portfolio"
 sitemap: true
 cover: true
 ---
