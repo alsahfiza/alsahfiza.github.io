@@ -18,7 +18,7 @@ layout: base
   class="page mb6" role="article"
   {% unless nsd %}vocab="http://schema.org/" typeof="CreativeWork" resource="#project"{% endunless %}>
   <header>
-    <h1 class="page-title" property="name">{{ project.title }}</h1>
+    <h1 class="page-title" property="name">{{ project.title | default:strings.home | default:"Project"}}</h1>
     <p class="post-date heading">
       <span class="ellipsis mr1">
         {% if major >= 4 and minor >= 1 %}
