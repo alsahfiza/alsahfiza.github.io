@@ -174,7 +174,7 @@ defaults:
   - scope:
       path:            googled3b87d81c531b9a2.html
     values:
-      sitemap:         false
+      sitemap:         true
 
 kramdown:
   math_engine:        mathjax
