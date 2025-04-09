@@ -4,13 +4,10 @@ title: "Predicting Bike Sharing"
 image: "/assets/projects/bike-sharing.webp"
 permalink: /2021-06-08-bike_sharing_data/
 date: 2021-06-08
-excerpt_separator: <!--more-->
+description: "In this project, we will build a neural network and use it to predict daily bike rental ridership."
 tags: [Data Science, Machine Learning, Deep Learning, Python, Commerce, Transport]
 mathjax: "true"
 ---
-
-In this project, we will build a neural network and use it to predict daily bike rental ridership.
-<!--more-->
 
 ## Load and prepare the data
 A critical step in working with neural networks is preparing the data correctly. Variables on different scales make it difficult for the network to efficiently learn the correct weights. Below, we've written the code to load and prepare the data. 
