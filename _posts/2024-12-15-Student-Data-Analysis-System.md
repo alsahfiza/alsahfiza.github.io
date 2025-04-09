@@ -2,6 +2,7 @@
 layout: post
 title: "Enhancing Student Data Analysis with Python"
 image: "/assets/projects/Student.webp"
+permalink: /2024-12-15-Student-Data-Analysis-System/
 date: 2024-12-15
 excerpt_separator: <!--more-->
 tags: [Data Analysis, Python, PyQt5, XlsxWriter, ReportLab]
