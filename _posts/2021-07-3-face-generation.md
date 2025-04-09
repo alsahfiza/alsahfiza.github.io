@@ -2,6 +2,7 @@
 layout: post
 title: "Face Generation"
 image: "/assets/projects/face_data.webp"
+permalink: /2021-07-3-face-generation/
 date: 2021-07-03
 excerpt_separator: <!--more-->
 tags: [Data Science, Machine Learning, Deep Learning, Python]
