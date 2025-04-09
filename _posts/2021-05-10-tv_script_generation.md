@@ -2,6 +2,7 @@
 layout: post
 title: "TV Script Generation"
 image: "/assets/projects/tvscript.webp"
+permalink: /2021-05-10-tv_script_generation/
 date: 2021-05-10
 excerpt_separator: <!--more-->
 tags: [Data Science, Machine Learning, Deep Learning, Text Mining, Python]
