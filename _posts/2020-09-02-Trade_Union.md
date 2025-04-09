@@ -4,14 +4,10 @@ title: "Determining Trade Union Status"
 image: "/assets/projects/United Data Scientists Union.webp"
 permalink: /2020-09-02-Trade_Union/
 date: 2020-09-02
-excerpt_separator: <!--more-->
+description: "This project involves implementing various models and performing preprocessing on the data to compare the results and performance of different models.  We applied statistical techniques to see which model is performing best. In this project, we will create a binary classifier that predicts whether a data scientist will remain a USDU member or not."
 tags: [data science, Machine Learning, Python, Commerce, Transport]
 mathjax: "true"
 ---
-
-This Project deals with implementation of different models and doing preprocessing with the data in order to compare the results and performance of different models.  Weapplied statistical techniques to see which model is performing best. In this project we will create a binary classifier which will predict that either the data scientist will remaina USDU member or not.
-<!--more-->
-
 
 ## Reading data for preprocessing
 
