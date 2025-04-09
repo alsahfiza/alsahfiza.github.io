@@ -4,12 +4,10 @@ title: "Building a Comprehensive Data Validation and Reporting Tool with Python"
 image: "/assets/projects/ExcelValidationTool_2.webp"
 permalink: /2025-01-05-Excel-Validation-Python-Tool/
 date: 2025-01-05
-excerpt_separator: <!--more-->
+description: "In a world driven by data, maintaining data quality is essential for informed decision-making. Whether it’s analyzing student records, financial data, or operational metrics, inconsistencies in data can lead to incorrect insights. To address these challenges, I developed a **Data Validation and Reporting Tool** that automates quality checks, ensures compliance, and provides clear, actionable insights through detailed reports."
 tags: [Data Validation, Python, Tkinter, GUI, Excel, PDF]
 mathjax: "true"
 ---
-
-In a world driven by data, maintaining data quality is essential for informed decision-making. Whether it’s analyzing student records, financial data, or operational metrics, inconsistencies in data can lead to incorrect insights. To address these challenges, I developed a **Data Validation and Reporting Tool** that automates quality checks, ensures compliance, and provides clear, actionable insights through detailed reports.
 
 This post walks through the features, design, and technology behind the tool.
 
