@@ -4,7 +4,7 @@ title: "Women’s Clothing E-Commerce Reviews"
 image: "/assets/projects/WomenClothing.webp"
 permalink: /2019-05-15-women-clothing/
 date: 2019-05-15
-excerpt_separator: <!--more-->
+description: "This study aims to assist the e-commerce company in developing a machine learning model that can automatically assess customer feedback to determine whether a product is recommended"
 tags: [Data Science, Machine Learning, Text Mining, Python, E-Commerce]
 mathjax: "true"
 ---
