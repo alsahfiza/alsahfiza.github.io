@@ -4,7 +4,7 @@ title: "Identify Metastatic Cancer"
 image: "/assets/projects/Metastatic-Cancer.webp"
 permalink: /2019-12-02-Identify-Metastatic-Cancer/
 date: 2019-12-02
-excerpt_separator: <!--more-->
+description: "In this project, we develop an algorithm to identify metastatic cancer in small image patches taken from larger digital pathology scans. The data for this competition is a slightly modified version of the PatchCamelyon (PCam) benchmark dataset. The original PCam dataset contains duplicate images due to probabilistic sampling; however, the version presented on Kaggle does not include duplicates."
 tags: [Data Science, Machine Learning, Deep Learning, Python, Healthcare]
 mathjax: "true"
 ---
