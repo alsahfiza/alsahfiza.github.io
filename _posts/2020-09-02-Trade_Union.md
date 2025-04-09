@@ -2,6 +2,7 @@
 layout: post
 title: "Determining Trade Union Status"
 image: "/assets/projects/United Data Scientists Union.webp"
+permalink: /2020-09-02-Trade_Union/
 date: 2020-09-02
 excerpt_separator: <!--more-->
 tags: [data science, Machine Learning, Python, Commerce, Transport]
