@@ -4,11 +4,11 @@ layout:      project
 title:       Identifying and Recommending Best Restaurants
 date:        02 May 2021
 image:
-  path:       /assets/tableau/Identifying and Recommending Best Restaurants.png
+  path:       /assets/tableau/identifying-best-restaurants-tableau.png
   srcset:
-    1920w:   /assets/tableau/Identifying and Recommending Best Restaurants.png
-    960w:    /assets/tableau/Identifying and Recommending Best Restaurants.png
-    480w:    /assets/tableau/Identifying and Recommending Best Restaurants.png
+    1920w:   /assets/tableau/identifying-best-restaurants-tableau.png
+    960w:    /assets/tableau/identifying-best-restaurants-tableau.png
+    480w:    /assets/tableau/identifying-best-restaurants-tableau.png
 
 description: >
               This dashboard helps users explore restaurant data, providing a comprehensive understanding to identify "star" restaurants based on various metrics such as franchise presence, cuisine served, and customer preferences.
