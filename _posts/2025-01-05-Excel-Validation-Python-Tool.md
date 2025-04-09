@@ -2,6 +2,7 @@
 layout: post
 title: "Building a Comprehensive Data Validation and Reporting Tool with Python"
 image: "/assets/projects/ExcelValidationTool_2.webp"
+permalink: /2025-01-05-Excel-Validation-Python-Tool/
 date: 2025-01-05
 excerpt_separator: <!--more-->
 tags: [Data Validation, Python, Tkinter, GUI, Excel, PDF]
