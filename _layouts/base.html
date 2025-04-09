@@ -106,4 +106,37 @@ layout: compress
     ]
   }
   </script>
+{% elsif page.url == "/about/" %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Zakaria Alsahfi",
+    "jobTitle": "Freelance Data Analyst",
+    "image": "https://alsahfiza.github.io/assets/img/my_photo.webp",
+    "email": "zakaria.sahfi@gmail.com",
+    "telephone": "+9660533352211",
+    "url": "https://alsahfiza.github.io/",
+    "sameAs": [
+      "https://www.linkedin.com/in/zakariaalsahfi",
+      "https://twitter.com/alsahfiza",
+      "https://github.com/zakaria-alsahfi",
+      "https://scholar.google.co.uk/citations?hl=en&user=aJR6B78AAAAJ"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "SA"
+    },
+    "alumniOf": [
+      {
+        "@type": "EducationalOrganization",
+        "name": "Maryville University of Saint Louis"
+      },
+      {
+        "@type": "EducationalOrganization",
+        "name": "Fontbonne University of Saint Louis"
+      }
+    ]
+  }
+  </script>
 {% endif %}
