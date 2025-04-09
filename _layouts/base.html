@@ -57,4 +57,20 @@ layout: compress
       "image": "{{ page.image | default: site.logo | absolute_url }}"
 }
   </script>
+{% elsif page.url == "/powerbi/" or page.url == "/tableau/" %}
+  <!-- Schema for dashboard collections -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "{{ page.title | escape }}",
+    "description": "{{ page.description | escape }}",
+    "url": "{{ page.url | absolute_url }}",
+    "author": {
+      "@type": "Person",
+      "name": "Zakaria Alsahfi",
+      "url": "https://alsahfiza.github.io/about/"
+    }
+  }
+  </script>
 {% endif %}
