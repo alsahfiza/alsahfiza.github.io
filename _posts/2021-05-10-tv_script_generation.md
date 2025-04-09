@@ -4,15 +4,10 @@ title: "TV Script Generation"
 image: "/assets/projects/tvscript.webp"
 permalink: /2021-05-10-tv_script_generation/
 date: 2021-05-10
-excerpt_separator: <!--more-->
+description: "In this project, we will generate your own [Seinfeld](https://en.wikipedia.org/wiki/Seinfeld) TV scripts using RNNs.  We will be using part of the [Seinfeld dataset](https://www.kaggle.com/thec03u5/seinfeld-chronicles#scripts.csv) of scripts from 9 seasons.  The Neural Network we will build will generate a new ,"fake" TV script, based on patterns it recognizes in this training data."
 tags: [Data Science, Machine Learning, Deep Learning, Text Mining, Python]
 mathjax: "true"
 ---
-
-
-In this project, we will generate your own [Seinfeld](https://en.wikipedia.org/wiki/Seinfeld) TV scripts using RNNs.  We will be using part of the [Seinfeld dataset](https://www.kaggle.com/thec03u5/seinfeld-chronicles#scripts.csv) of scripts from 9 seasons.  The Neural Network we will build will generate a new ,"fake" TV script, based on patterns it recognizes in this training data.
-<!--more-->
-
 
 ## Get the Data
 
