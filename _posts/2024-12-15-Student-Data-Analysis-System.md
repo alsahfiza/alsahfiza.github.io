@@ -4,14 +4,11 @@ title: "Enhancing Student Data Analysis with Python"
 image: "/assets/projects/Student.webp"
 permalink: /2024-12-15-Student-Data-Analysis-System/
 date: 2024-12-15
-excerpt_separator: <!--more-->
+description: "In today's data-driven education environment, effectively managing and analyzing student data is paramount. My recent work on a Python-based **Student Data Analysis System** showcases my expertise in building scalable solutions that streamline data processing, visualization, and reporting. This blog highlights the system's design, features, and the value it brings to educational institutions.
+"
 tags: [Data Analysis, Python, PyQt5, XlsxWriter, ReportLab]
 mathjax: "true"
 ---
-
-
-In today's data-driven education environment, effectively managing and analyzing student data is paramount. My recent work on a Python-based **Student Data Analysis System** showcases my expertise in building scalable solutions that streamline data processing, visualization, and reporting. This blog highlights the system's design, features, and the value it brings to educational institutions.
-
 
 ## Project Overview
 
