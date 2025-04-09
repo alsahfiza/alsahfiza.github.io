@@ -2,7 +2,7 @@
 layout: post
 title: "Sentiment Analysis Web App"
 image: "/assets/projects/SentimentAnalysis.webp"
-permalink: /2021-07-13-SageMakerProject/
+permalink: /2021-07-13-Sage-Maker-Project/
 date: 2021-07-13
 excerpt_separator: <!--more-->
 tags: [Data Science, Machine Learning, Deep Learning, Python, PyTorch, SageMaker]
