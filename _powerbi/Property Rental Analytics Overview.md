@@ -23,9 +23,9 @@ featured:    true
 
 **Rental Performance Overview**
 
-**Average Rent:** Indicates the standard market rate, essential for benchmarking property value and affordability. 
-**Maximum Rent:** Helps identify premium property potential and peak seasonal pricing opportunities. 
-**Minimum Rent:** Useful for detecting underperforming units or budget-friendly options. 
+**Average Rent:** Indicates the standard market rate, essential for benchmarking property value and affordability.
+**Maximum Rent:** Helps identify premium property potential and peak seasonal pricing opportunities.
+**Minimum Rent:** Useful for detecting underperforming units or budget-friendly options.
 **Year-over-Year Changes:** Provide context for rent fluctuations and help assess market stability and growth potential.
 
 **Rental Duration Trends**
