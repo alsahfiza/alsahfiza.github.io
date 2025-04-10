@@ -23,15 +23,15 @@ featured:    true
 
 **Rental Performance Overview**
 
-**Average Rent:** Indicates the standard market rate, essential for benchmarking property value and affordability.
-**Maximum Rent:** Helps identify premium property potential and peak seasonal pricing opportunities.
-**Minimum Rent:** Useful for detecting underperforming units or budget-friendly options.
-**Year-over-Year Changes:** Provide context for rent fluctuations and help assess market stability and growth potential.
+- **Average Rent:** Indicates the standard market rate, essential for benchmarking property value and affordability.
+- **Maximum Rent:** Helps identify premium property potential and peak seasonal pricing opportunities.
+- **Minimum Rent:** Useful for detecting underperforming units or budget-friendly options.
+- **Year-over-Year Changes:** Provide context for rent fluctuations and help assess market stability and growth potential.
 
 **Rental Duration Trends**
 
-**Average Rental Days:** Reflect tenant commitment and market demand. 
-**Minimum & Maximum Days:** Highlight variability across different units or time periods.
+- **Average Rental Days:** Reflect tenant commitment and market demand.
+- **Minimum & Maximum Days:** Highlight variability across different units or time periods.
 
 **Profitability Insights**
 
@@ -53,9 +53,9 @@ This analysis aims to provide a comprehensive overview of rental market performa
 
 **Applications**
 
-**Real Estate Companies:** Strategic planning based on market data.
-**Investors:** Evaluate performance and return on investment.
-**Analysts:** Monitor rental trends and make data-driven forecasts.
+- **Real Estate Companies:** Strategic planning based on market data.
+- **Investors:** Evaluate performance and return on investment.
+- **Analysts:** Monitor rental trends and make data-driven forecasts.
 
 ***Visual Dashboard Credit:***
 
