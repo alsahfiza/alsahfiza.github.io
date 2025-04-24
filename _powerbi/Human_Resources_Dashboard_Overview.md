@@ -15,7 +15,7 @@ description: >
 
 links:
   - title:   Veiw
-    url:     https://app.powerbi.com/reportEmbed?reportId=fcaf53be-7055-4d62-b9d7-b4c93fb073a4&autoAuth=true&ctid=6bca8351-01d3-4252-85ea-bda8f8d235bd
+    url:     https://app.powerbi.com/view?r=eyJrIjoiZDllZDhkNDgtNDg5Ni00YjliLThlZGItOGQzOTRiY2Y1ZDFhIiwidCI6IjZiY2E4MzUxLTAxZDMtNDI1Mi04NWVhLWJkYThmOGQyMzViZCIsImMiOjl9
 featured:    true
 ---
 
