@@ -1,7 +1,7 @@
 ########################################################################################################################
 # Site Settings                                                                                                        #
 ########################################################################################################################
-url: https://alsahfiza.github.io
+url: https://nicholasjameswilliams.github.io
 baseurl: ""
 
 
@@ -10,7 +10,7 @@ baseurl: ""
 ########################################################################################################################
 
 lang: en
-title: Zakaria Alsahfi
+title: Nicholas Williams
 description:     > 
                   Check out my portfolio where I showcase my dedication as a data science professional and analyst. 
                   Explore a variety of projects and insights highlighting my expertise in data analysis, visualization, 
@@ -70,8 +70,8 @@ logo: /assets/img/my_photo.webp
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name: Zakaria Alsahfi
-  email: zakaria.sahfi@gmail.com
+  name: Nicholas Williams
+  email: nicholas-williams@live.co.uk
   # # Used by `jekyll-seo-tag`:
   twitter: AlsahfiZA
   rss: true
@@ -95,7 +95,7 @@ menu:
   - title:             About Me
     url:               /about/
 
-copyright:             © 2020. Zakaria Alsahfi. All rights reserved.
+copyright:             © 2025. Nicholas Williams. All rights reserved.
 
 permalink:             /:categories/:year-:month-:day-:title/
 
