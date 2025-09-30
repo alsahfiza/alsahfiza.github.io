@@ -70,7 +70,7 @@ layout: about
 {% assign content = content | replace:"<!--project-->", projects_x %}
 {% endif %}
 
-{% if content contains "<!--posts-->" %}
+{% if content contains "<!--posts-->" or "<!--project--> %}
 {% capture posts_x %}
 {% if page.selected_posts %}
   <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
