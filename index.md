@@ -15,6 +15,7 @@ By sharing these insights with the world, I hope to provide valuable solutions a
 
 <!--posts-->
 
+{:.lead}
 ## Power Bi
 
 <!--powerbi-->
