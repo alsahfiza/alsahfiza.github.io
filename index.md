@@ -13,26 +13,11 @@ By sharing these insights with the world, I hope to provide valuable solutions a
 ---
 
 ## Power BI Projects
-<ul>
-{% for item in site.powerbi %}
-  <li>
-    <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-  </li>
-{% endfor %}
-</ul>
-
----
+<!--powerbi-->
 
 ## Tableau Dashboards
-<ul>
-{% for item in site.tableau %}
-  <li>
-    <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-  </li>
-{% endfor %}
-</ul>
+<!--tableau-->
 
----
 <!--posts-->
-<!--project-->
+
 See **[Posts](/posts/)** for more
