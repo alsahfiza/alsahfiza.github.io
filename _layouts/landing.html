@@ -16,7 +16,7 @@ layout: about
   {% capture posts_x %}
     {% if site.powerbi.size > 1 %}
       <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
-        {% for post in site.powerbi limit:4 %}
+        {% for post in site.powerbi %}
           <div class="column column-1-2">
             {% include_cached pro/post-card.html post=post %}
           </div>
