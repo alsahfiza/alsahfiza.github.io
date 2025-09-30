@@ -9,8 +9,6 @@ cover: true
 <!--author-->
 ---
 
-## Power BI Projects
 <!--powerbi-->
 
-## Tableau Dashboards
 <!--tableau-->
