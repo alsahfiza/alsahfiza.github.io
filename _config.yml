@@ -17,10 +17,10 @@ description:     >
                   and programming. See how I blend technical skills with innovative solutions to address real-world 
                   data challenges.
 # A shorter description for the sidebar.
-tagline:         > 
-                  Data Scientist<br>  
-                  Data Analyst<br>  
-                  Financial Data Analyst
+# tagline:         > 
+#                   Data Scientist<br>  
+#                   Data Analyst<br>  
+#                   Financial Data Analyst
 
 keywords: [
   'zakaria',
@@ -83,17 +83,17 @@ share-links-active:
   googlescholar: true
 
 # Add links to the sidebar.
-menu:
-  - title:             Blog
-    url:               /posts/
-  - title:           Power Bi
-    url:              /powerbi/
-  - title:            Tableau
-    url:              /tableau/
-  - title:             Resume
-    url:               /resume/
-  - title:             About Me
-    url:               /about/
+# menu:
+#   - title:             Blog
+#     url:               /posts/
+#   - title:           Power Bi
+#     url:              /powerbi/
+#   - title:            Tableau
+#     url:              /tableau/
+#   - title:             Resume
+#     url:               /resume/
+#   - title:             About Me
+#     url:               /about/
 
 copyright:             © 2020. Zakaria Alsahfi. All rights reserved.
 
