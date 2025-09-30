@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: Zakaria Alsahfi – Freelance Data Analyst & Data Visualization Portfolio
 description: Freelance data analyst Zakaria Alsahfi showcases a powerful data visualization portfolio with Python, Excel, and real-world dashboards solving analytical challenges.
 sitemap: true
@@ -10,41 +10,28 @@ This website aims to compile and showcase captivating data visualizations and an
 By sharing these insights with the world, I hope to provide valuable solutions and knowledge to benefit others.
 {:.lead}
 
-<!-- Welcome / About -->
-<section id="about">
-  {% include_relative welcome.html %}
-</section>
+---
 
-<!-- Power BI -->
-<section id="powerbi">
-  <h2>Power BI Projects</h2>
-  {% assign powerbi_pages = site.pages | where:"layout","powerbi" %}
-  <div class="columns mt2 columns-break">
-    {% for page in powerbi_pages %}
-      <div class="column column-1-2">
-        {% include_cached pro/project-card.html project=page %}
-      </div>
-    {% endfor %}
-  </div>
-</section>
+## Power BI Projects
+<ul>
+{% for item in site.powerbi %}
+  <li>
+    <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+  </li>
+{% endfor %}
+</ul>
 
-<!-- Tableau -->
-<section id="tableau">
-  <h2>Tableau Dashboards</h2>
-  {% assign tableau_pages = site.pages | where:"layout","tableau" %}
-  <div class="columns mt2 columns-break">
-    {% for page in tableau_pages %}
-      <div class="column column-1-2">
-        {% include_cached pro/project-card.html project=page %}
-      </div>
-    {% endfor %}
-  </div>
-</section>
+---
 
-<!-- Resume -->
-<section id="resume">
-  {% include_relative resume.html %}
-</section>
+## Tableau Dashboards
+<ul>
+{% for item in site.tableau %}
+  <li>
+    <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+  </li>
+{% endfor %}
+</ul>
 
+---
 
 See **[Posts](/posts/)** for more
