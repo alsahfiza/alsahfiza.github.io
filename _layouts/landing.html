@@ -1,5 +1,4 @@
 ---
-# Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
 layout: about
 ---
 
@@ -14,33 +13,37 @@ layout: about
 {% assign nodes = site.html_pages | concat: site.documents %}
 
 {% if content contains "<!--posts-->" %}
-{% capture posts_x %}
-{% if page.selected_posts %}
-  <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
-    {% for post_path in page.selected_posts %}
-      {% if major >= 4 and minor >= 1 %}
-        {% assign post = site.posts | find_exp:"post", "post_path == post.path or post_path == post.url" %}
-      {% else %}
-                         {% assign post = site.posts | where_exp:"post", "post_path == post.path" | first %}
-        {% unless post %}{% assign post = site.posts | where_exp:"post", "post_path == post.url"  | first %}{% endunless %}
-      {% endif %}
-      <div class="column column-1-2">
-        {% if post %}
-          {% include_cached pro/post-card.html post=post %}
-        {% else %}
-          Post with path <code>{{ post_path }}</code> not found.
-        {% endif %}
+  {% capture posts_x %}
+    {% if page.selected_posts %}
+      <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
+        {% for post_path in page.selected_posts %}
+          {% if major >= 4 and minor >= 1 %}
+            {% assign post = site.posts | find_exp:"post", "post_path == post.path or post_path == post.url" %}
+          {% else %}
+            {% assign post = site.posts | where_exp:"post", "post_path == post.path" | first %}
+            {% unless post %}{% assign post = site.posts | where_exp:"post", "post_path == post.url" | first %}{% endunless %}
+          {% endif %}
+          <div class="column column-1-2">
+            {% if post %}
+              {% include_cached pro/post-card.html post=post %}
+            {% else %}
+              Post with path <code>{{ post_path }}</code> not found.
+            {% endif %}
+          </div>
+        {% endfor %}
       </div>
-    {% endfor %}
-  </div>
-{% elsif site.posts.size > 1 %}
-  <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
-    {% for post in site.posts limit:4 %}
-      <div class="column column-1-2">
-        {% include_cached pro/post-card.html post=post %}
+    {% elsif site.posts.size > 1 %}
+      <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
+        {% for post in site.posts limit:4 %}
+          <div class="column column-1-2">
+            {% include_cached pro/post-card.html post=post %}
+          </div>
+        {% endfor %}
       </div>
-    {% endfor %}
-  </div
-{% endcapture %}
+    {% endif %}
+  {% endcapture %}
+
+  {% assign content = content | replace:"<!--posts-->", posts_x %}
+{% endif %}
 
 {{ content }}
