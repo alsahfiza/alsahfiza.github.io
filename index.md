@@ -12,12 +12,10 @@ By sharing these insights with the world, I hope to provide valuable solutions a
 
 ---
 
+<!--author-->
+
 ## Power BI Projects
 <!--powerbi-->
 
 ## Tableau Dashboards
 <!--tableau-->
-
-<!--posts-->
-
-See **[Posts](/posts/)** for more
