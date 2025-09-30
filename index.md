@@ -15,5 +15,10 @@ By sharing these insights with the world, I hope to provide valuable solutions a
 
 <!--posts-->
 
+## Power Bi
+<!--powerbi-->
+
+## Tableau
+<!--tableau-->
 
 See **[Posts](/posts/)** for more
