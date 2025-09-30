@@ -14,10 +14,10 @@ layout: about
 {% assign nodes = site.html_pages | concat: site.documents %}
 
 {% if content contains "<!--project-->" %}
-{% capture projects_x %}
-{% if page.selected_projects %}
+{% capture project_x %}
+{% if page.selected_project %}
   <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
-    {% for project_path in page.selected_projects %}
+    {% for project_path in page.selected_project %}
       {% if major >= 4 and minor >= 1 %}
        {% assign project = site.documents | find_exp:"project", "project_path == project.path or project_path == project.url" %}
       {% else %}
@@ -35,10 +35,10 @@ layout: about
       </div>
     {% endfor %}
   </div>
-{% elsif site.projects.size > 1 %}
+{% elsif site.project.size > 1 %}
   <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
-    {% assign ordered_projects = site.projects | sort:"date" | reverse %}
-    {% for project in ordered_projects limit:2 %}
+    {% assign ordered_project = site.project | sort:"date" | reverse %}
+    {% for project in ordered_project limit:2 %}
       {% assign featured = page.featured | default:project.featured | default:page.big_project | default:project.big_project %}
       <div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">
         {% include_cached pro/project-card.html project=project featured=featured %}
@@ -47,27 +47,27 @@ layout: about
   </div>
 {% endif %}
 
-{% assign projects_page = page.projects_page | default:page.more_projects %}
-{% if projects_page %}
+{% assign project_page = page.project_page | default:page.more_project %}
+{% if project_page %}
   {% if major >= 4 and minor >= 1 %}
-    {% assign more_projects = nodes | find_exp:"page", "projects_page == page.path or projects_page == page.url" %}
+    {% assign more_project = nodes | find_exp:"page", "project_page == page.path or project_page == page.url" %}
   {% else %}
-                              {% assign more_projects = nodes | where_exp:"page", "projects_page == page.path" | first %}
-    {% unless more_projects %}{% assign more_projects = nodes | where_exp:"page", "projects_page == page.url"  | first %}{% endunless %}
+                              {% assign more_project = nodes | where_exp:"page", "project_page == page.path" | first %}
+    {% unless more_project %}{% assign more_project = nodes | where_exp:"page", "project_page == page.url"  | first %}{% endunless %}
   {% endif %}
 
-  {% if more_projects %}
-    {% capture projects_title %}<a class="heading flip-title" href="{{ more_projects.url | relative_url }}">{{ more_projects.title }}</a>{% endcapture %}
-    {% assign text = strings.welcome.more_projects | default:"See <!--projects_title--> for more" %}
+  {% if more_project %}
+    {% capture project_title %}<a class="heading flip-title" href="{{ more_project.url | relative_url }}">{{ more_project.title }}</a>{% endcapture %}
+    {% assign text = strings.welcome.more_project | default:"See <!--project_title--> for more" %}
     <p class="read-more mt1">
-      {{ text | replace:"<!--projects_title-->", projects_title }}
+      {{ text | replace:"<!--project_title-->", project_title }}
     </p>
   {% else %}
-    Page with path <code>{{ projects_page }}</code> not found.
+    Page with path <code>{{ project_page }}</code> not found.
   {% endif  %}
 {% endif %}
 {% endcapture %}
-{% assign content = content | replace:"<!--project-->", projects_x %}
+{% assign content = content | replace:"<!--project-->", project_x %}
 {% endif %}
 
 {% if content contains "<!--posts-->" or "<!--project--> %}
