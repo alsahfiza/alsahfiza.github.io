@@ -10,11 +10,6 @@ This website aims to compile and showcase captivating data visualizations and an
 By sharing these insights with the world, I hope to provide valuable solutions and knowledge to benefit others.
 {:.lead}
 
-
-## Latest Posts
-
-<!--posts-->
-
 <!-- Welcome / About -->
 <section id="about">
   {% include_relative welcome.html %}
