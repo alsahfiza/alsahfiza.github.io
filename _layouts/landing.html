@@ -28,4 +28,19 @@ layout: about
   {% assign content = content | replace:"<!--powerbi-->", posts_x %}
 {% endif %}
 
+{% if content contains "<!--tableau-->" %}
+  {% capture posts_x %}
+    {% if site.tableau.size > 1 %}
+      <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
+        {% for post in site.tableau %}
+          <div class="column column-1-2">
+            {% include_cached pro/post-card.html post=post %}
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endcapture %}
+
+  {% assign content = content | replace:"<!--tableau-->", posts_x %}
+{% endif %}
 {{ content }}
