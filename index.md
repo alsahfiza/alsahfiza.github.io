@@ -6,9 +6,5 @@ sitemap: true
 cover: true
 ---
 
-<!--author-->
----
 
-<!--powerbi-->
-
-<!--tableau-->
+<!--posts-->
