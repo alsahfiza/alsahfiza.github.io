@@ -1,39 +1,57 @@
 ---
 layout: about
 ---
+
+{% assign version = jekyll.version | split:'.' %}
+{% assign major = version[0] | plus:0 %}
+{% assign minor = version[1] | plus:0 %}
+{% assign patch = version[2] | plus:0 %}
+
+{% assign strings = site.data.strings %}
+{% assign no_third_column = page.no_third_column | default:site.hydejack.no_third_column | default:false %}
+
 {% assign nodes = site.html_pages | concat: site.documents %}
 
-   {{ content }}
-
+{%- comment -%}
+  ---------------------
+  POWER BI SECTION
+  ---------------------
+{%- endcomment -%}
 {% if content contains "<!--powerbi-->" %}
-  {% capture posts_x %}
-    {% if site.powerbi.size > 0 %}
-      <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
-        {% assign ordered_powerbi = site.powerbi | sort:"date" | reverse %}
-        {% for post in ordered_powerbi limit:4 %}
-          <div class="column column-1-2">
-            {% include_cached pro/post-card.html post=post %}
-          </div>
-        {% endfor %}
-      </div>
-    {% endif %}
-  {% endcapture %}
-  {% assign content = content | replace:"<!--powerbi-->", posts_x %}
+{% capture powerbi_x %}
+  {% if site.powerbi.size > 0 %}
+    <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
+      {% assign ordered_powerbi = site.powerbi | sort:"date" | reverse %}
+      {% for post in ordered_powerbi limit:4 %}
+        <div class="column column-1-2">
+          {% include_cached pro/post-card.html post=post %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endcapture %}
+{% assign content = content | replace:"<!--powerbi-->", powerbi_x %}
 {% endif %}
 
+{%- comment -%}
+  ---------------------
+  TABLEAU SECTION
+  ---------------------
+{%- endcomment -%}
 {% if content contains "<!--tableau-->" %}
-  {% capture posts_x %}
-    {% if site.tableau.size > 0 %}
-      <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
-        {% assign ordered_tableau = site.tableau | sort:"date" | reverse %}
-        {% for post in ordered_tableau limit:4 %}
-          <div class="column column-1-2">
-            {% include_cached pro/post-card.html post=post %}
-          </div>
-        {% endfor %}
-      </div>
-    {% endif %}
-  {% endcapture %}
-  {% assign content = content | replace:"<!--tableau-->", posts_x %}
+{% capture tableau_x %}
+  {% if site.tableau.size > 0 %}
+    <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
+      {% assign ordered_tableau = site.tableau | sort:"date" | reverse %}
+      {% for post in ordered_tableau limit:4 %}
+        <div class="column column-1-2">
+          {% include_cached pro/post-card.html post=post %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endcapture %}
+{% assign content = content | replace:"<!--tableau-->", tableau_x %}
 {% endif %}
 
+{{ content }}
