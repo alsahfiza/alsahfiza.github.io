@@ -84,8 +84,8 @@ share-links-active:
 
 # Add links to the sidebar.
 menu:
-  - title:             Blog
-    url:               /posts/
+  # - title:             Blog
+  #  url:               /posts/
   - title:           Power Bi
     url:              /powerbi/
   - title:            Tableau
