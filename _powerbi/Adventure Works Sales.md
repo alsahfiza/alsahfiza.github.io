@@ -14,10 +14,13 @@ description: >
               Training project using Microsoft sample data; this is not a client project.
               This dashboard provides a comprehensive overview of order performance across different regions and product categories. Key metrics such as total orders, order status, sales growth, and product sales are visualized to identify trends and opportunities. Users can gain insights into product popularity, regional sales performance, and overall business growth.
 links:
-  - title:   View
+  - title:   View (Microsoft sign-in required)
     url:     https://app.powerbi.com/reportEmbed?reportId=561c2cde-2fe8-47ec-8fab-195e8eab9b51&autoAuth=true&ctid=801585e2-0e6a-4322-a002-e7fc8457bab4
 featured:    false
 ---
+
+**Access:** The interactive report requires Microsoft sign-in and permission from the report owner. A dashboard preview is shown on this page.
+
 
 **Training project using Microsoft sample data; this is not a client project.**
 

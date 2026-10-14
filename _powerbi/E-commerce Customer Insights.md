@@ -18,10 +18,13 @@ description: >
           These insights enable targeted interventions to enhance customer satisfaction, loyalty, and overall business growth.
   
 links:
-  - title:   View
+  - title:   View (Microsoft sign-in required)
     url:     https://app.powerbi.com/reportEmbed?reportId=1c74a875-2193-44d5-86d5-358f5040899a&autoAuth=true&ctid=801585e2-0e6a-4322-a002-e7fc8457bab4
 featured:    false
 ---
+
+**Access:** The interactive report requires Microsoft sign-in and permission from the report owner. A dashboard preview is shown on this page.
+
 #### Key Insights:
 
 1. **Customer Base & Churn:**

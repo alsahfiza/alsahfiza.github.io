@@ -14,9 +14,12 @@ description: >
               Training project using Microsoft sample data; this is not a client project.
               This dashboard analysis provides a comprehensive overview of sales performance and marketing effectiveness across different regions.Key findings include significant sales disparities between regions, the impact of marketing expenditure on sales, and the varying success of ad campaigns.These insights can be used to optimize marketing strategies, allocate resources effectively, and drive overall sales growth.
 links:
-  - title:   View
+  - title:   View (Microsoft sign-in required)
     url:     https://app.powerbi.com/reportEmbed?reportId=c1f858c2-37dd-44bb-9636-eadf1c44f76f&autoAuth=true&ctid=801585e2-0e6a-4322-a002-e7fc8457bab4
 ---
+
+**Access:** The interactive report requires Microsoft sign-in and permission from the report owner. A dashboard preview is shown on this page.
+
 
 **Training project using Microsoft sample data; this is not a client project.**
 

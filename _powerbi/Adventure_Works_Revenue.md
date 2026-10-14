@@ -15,10 +15,13 @@ description: >
               This report provides an overview of Adventure Works' sales performance, highlighting key metrics such as stock levels, quantity purchased, and median sales across various countries. The report also showcases loyalty points by country, median sales distribution, and trends over time, offering a comprehensive snapshot of the company's revenue dynamics.
   
 links:
-  - title:   View
+  - title:   View (Microsoft sign-in required)
     url:     https://app.powerbi.com/reportEmbed?reportId=7ac7e484-6811-42fc-a20e-d4dd0025743a&autoAuth=true&ctid=801585e2-0e6a-4322-a002-e7fc8457bab4
 featured:    false
 ---
+
+**Access:** The interactive report requires Microsoft sign-in and permission from the report owner. A dashboard preview is shown on this page.
+
 
 **Training project using Microsoft sample data; this is not a client project.**
 

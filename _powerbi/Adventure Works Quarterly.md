@@ -15,10 +15,13 @@ description: >
               This dashboard offers a comprehensive overview of Adventure Works' sales performance, highlighting key metrics such as total sales, top performers, product categories, regional distribution, and sales trends over time. It provides valuable insights for identifying sales opportunities, optimizing resource allocation, and driving overall business growth.
   
 links:
-  - title:   View
+  - title:   View (Microsoft sign-in required)
     url:     https://app.powerbi.com/reportEmbed?reportId=e20247ac-4ec7-429f-8627-e17c5c66fd09&autoAuth=true&ctid=801585e2-0e6a-4322-a002-e7fc8457bab4
 featured:    false
 ---
+
+**Access:** The interactive report requires Microsoft sign-in and permission from the report owner. A dashboard preview is shown on this page.
+
 
 **Training project using Microsoft sample data; this is not a client project.**
 

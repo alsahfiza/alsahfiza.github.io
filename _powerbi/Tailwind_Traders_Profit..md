@@ -15,10 +15,13 @@ description: >
               The Tailwind Traders Profit Report highlights the company's financial performance, focusing on net revenue by product and yearly profit margins across different countries. It also tracks profit margin trends over time and provides an overall assessment of the company's profitability, showcasing strong revenue generation and balanced regional contributions.
   
 links:
-  - title:   View
+  - title:   View (Microsoft sign-in required)
     url:     https://app.powerbi.com/reportEmbed?reportId=1c8bbd12-8ba1-4805-ae46-11221499d725&autoAuth=true&ctid=801585e2-0e6a-4322-a002-e7fc8457bab4
 featured:    false
 ---
+
+**Access:** The interactive report requires Microsoft sign-in and permission from the report owner. A dashboard preview is shown on this page.
+
 
 **Training project using Microsoft sample data; this is not a client project.**
 
