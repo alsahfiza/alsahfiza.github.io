@@ -108,7 +108,7 @@ print('Max: ', scaled_img.max())
 
 
 ---
-# Define the Model
+## Define the Model
 
 A GAN is comprised of two adversarial networks, a discriminator and a generator.
 

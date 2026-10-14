@@ -140,7 +140,7 @@ tests.test_tokenize(token_lookup)
 helper.preprocess_and_save_data(data_dir, token_lookup, create_lookup_tables)
 ```
 
-# Check Point
+## Check Point
 
 ```python
 int_text, vocab_to_int, int_to_vocab, token_dict = helper.load_preprocess()
@@ -540,7 +540,7 @@ Once I have trained it, I adjusted the values and keep any that have better resu
 
 With these changes, the loss became less than 3.5, which I was happy with.
 
-# Checkpoint
+## Checkpoint
 
 After running the above training cell, our model will be saved by name, `trained_rnn`, and now we will load in our word:id dictionaries _and_ load in our saved model by name!
 
@@ -704,7 +704,7 @@ print(generated_script)
     elaine: i don't
 
 
-# The TV Script is Not Perfect
+## The TV Script is Not Perfect
 It's ok if the TV script doesn't make perfect sense.
 You can see that there are multiple characters that say (somewhat) complete sentences, but it doesn't have to be perfect! It takes quite a while to get good results, and often, we will have to use a smaller vocabulary (and discard uncommon words), or get more data.  The Seinfeld dataset is about 3.4 MB, which is big enough for our purposes; for script generation we will want more than 1 MB of text, generally.
 

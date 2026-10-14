@@ -9,7 +9,7 @@ tags: [Data Science,data Analysis, Python]
 mathjax: "false"
 ---
 
-# Human Resources Data Analysis
+## Human Resources Data Analysis
 The multifaceted role of Human Resources professionals transcends the perceived simplicity of the job. HR experts engage in a spectrum of workplace activities, from spearheading recruitment efforts and resolving employee issues, to nurturing a positive work environment, and critically evaluating performance and efficiency.
 
 Among their various duties, one of the most intricate tasks HR professionals face is the assessment of employee performance and efficiency. The complexity of this responsibility scales with the size of the employee base, posing a significant challenge to HR's capability to manage effectively. In response to this challenge, we have initiated an Exploratory Data Analysis (EDA) project.

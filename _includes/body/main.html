@@ -2,6 +2,7 @@
   id="_main"
   class="content layout-{{ page.layout }}"
   role="main"
+  {% if site.kramdown.math_engine == 'mathjax' %}{% if page.mathjax == true or page.mathjax == 'true' %}data-mathjax="true"{% endif %}{% endif %}
 >
   {{ content }}
   {% include_cached body/footer.html %}

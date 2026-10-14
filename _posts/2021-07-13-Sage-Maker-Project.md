@@ -694,7 +694,7 @@ estimator.delete_endpoint()
 
     estimator.delete_endpoint() will be deprecated in SageMaker Python SDK v2. Please use the delete_endpoint() function on your predictor instead.
 
-<a id='step6'></a>
+<a id='step6-custom'></a>
 
 ## Step 6 (again) - Deploy the model for the web app
 Now that we know that our model is working, it's time to create some custom inference code so that we can send the model a review which has not been processed and have it determine the sentiment of the review.
@@ -885,7 +885,7 @@ predictor.predict(test_review)
 
 Now that we know our endpoint is working as expected, we can set up the web page that will interact with it. 
 
-<a id='step7'></a>
+<a id='step7-custom'></a>
 
 ## Step 7 (again): Use the model for the web app
 This entire section and the next contain tasks to complete, mostly using the AWS console.

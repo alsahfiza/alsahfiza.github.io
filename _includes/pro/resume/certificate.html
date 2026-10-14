@@ -1,7 +1,7 @@
 {% if resume.certificate.size > 0 %}
 <section>
   <div class="npb">
-  <h2 id="education" class="h3 hr-bottom">
+  <h2 id="certificates" class="h3 hr-bottom">
     {{ strings.resume.certificate | default:"Certificate" }}
     <span class="symbol {{ icons.certificate | default:'icon-library' }}"></span>
   </h2>
@@ -9,7 +9,7 @@
   <section>
     <header class="{% unless forloop.first %}mt2{% endunless %}">
       <p class="faded">
-        <time datetime="{{ edu.date | date_to_xmlschema}}">{{ edu.date | date:from_to_format }}</time>
+        {% if edu.dateLabel %}{{ edu.dateLabel }}{% elsif edu.date %}<time datetime="{{ edu.date | date_to_xmlschema }}">{{ edu.date | date:from_to_format }}</time>{% endif %}
       </p>
       <h3 class="h4 faded">
         {% capture area %}<span class="bc">{{ edu.area }}</span>{% endcapture %}
