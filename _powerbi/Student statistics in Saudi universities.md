@@ -27,42 +27,43 @@ featured:    true
 #### Key Insights:
 
 **Overall Student Enrollment**
-  - **Total enrollment records across 2013–2020:** 12,629,667
-  - **Saudi enrollment records by gender and non-Saudi records:**
-      - **Saudi male**: 6,114,951 (approx. 48.4%)
-      - **Saudi female**: 5,931,634 (approx. 47%)
-      - **Non-Saudi enrollment records:** 583,082 (approx. 4.6%)
-  - **Distribution by institution type:**
-      - **Universities:** 11,075,935 records
-      - **Colleges:** 1,492,793 records
-      - **Institutes:** 60,939 records
+- **Total enrollment records across 2013–2020:** 12,629,667
+- **Saudi enrollment records by gender and non-Saudi records:**
+    - **Saudi male**: 6,114,951 (approx. 48.4%)
+    - **Saudi female**: 5,931,634 (approx. 47%)
+    - **Non-Saudi enrollment records:** 583,082 (approx. 4.6%)
+- **Distribution by institution type:**
+    - **Universities:** 11,075,935 records
+    - **Colleges:** 1,492,793 records
+    - **Institutes:** 60,939 records
 
 **New Enrollment Trends (2013-2020)**
-  - **Total admissions across 2013–2020:** 3,214,799
-  - **Yearly fluctuation trends:**
-        - A **significant decline** of **-14.4%** in 2018.
-        - A slight **increase of 2%** in 2020.
-  - **Highest institutions by new enrollments:**
-        - **The General Organization for Technical and Vocational Training:** 524,241 records
-        - **King Abdulaziz University:** 265,943 records
-        - **King Faisal University:** 189,613 records
+- **Total admissions across 2013–2020:** 3,214,799
+- **Yearly fluctuation trends:**
+    - A **significant decline** of **-14.4%** in 2018.
+    - A slight **increase of 2%** in 2020.
+- **Highest institutions by new enrollments:**
+    - **The General Organization for Technical and Vocational Training:** 524,241 records
+    - **King Abdulaziz University:** 265,943 records
+    - **King Faisal University:** 189,613 records
 
 **Graduation Trends (2013-2020)**
-  - **Total graduation counts across 2013–2020:** 1,810,001
-  - **Annual graduation trends:**
-        - Highest growth in 2014 (+24.4%) and 2017 (+17%).
-        - Decline in 2018 (-6.5%).
-  - **Top institutions by graduation records:**
-        - **General Organization for Technical and Vocational Training:** 196,469 graduation records
-        - **King Abdulaziz University**: 196,327 graduation records
-        - **King Faisal University:** 144,111 graduation records
+- **Total graduation counts across 2013–2020:** 1,810,001
+- **Annual graduation trends:**
+    - Highest growth in 2014 (+24.4%) and 2017 (+17%).
+    - Decline in 2018 (-6.5%).
+- **Top institutions by graduation records:**
+    - **General Organization for Technical and Vocational Training:** 196,469 graduation records
+    - **King Abdulaziz University**: 196,327 graduation records
+    - **King Faisal University:** 144,111 graduation records
 
 **Enrollment by Educational Level**
-    - **Bachelor’s degree:** 10,519,764 records (approx. 83.3%)
-    - **Higher diploma:** 98,252 records (approx. 0.8%)
-    - **Intermediate diploma:** 1,629,393 records (approx. 12.9%)
-    - **Master’s degree:** 316,938 records (approx. 2.5%)
-    - **Doctorate degree:** 56,375 records (approx. 0.4%)
+
+- **Bachelor’s degree:** 10,519,764 records (approx. 83.3%)
+- **Higher diploma:** 98,252 records (approx. 0.8%)
+- **Intermediate diploma:** 1,629,393 records (approx. 12.9%)
+- **Master’s degree:** 316,938 records (approx. 2.5%)
+- **Doctorate degree:** 56,375 records (approx. 0.4%)
 
 **Objectives & Applications of the Analysis**
 **Objective**
