@@ -13,7 +13,7 @@ image:
 description: >
               This dashboard facilitates a comparative analysis of various parameters across different countries using sample insurance datasets and world development indicators. It helps in understanding global trends and performance in life insurance share and growth indicators.
 links:
-  - title:   Veiw
+  - title:   View
     url:     https://public.tableau.com/views/ComparativeStudyofCountries_16335117329240/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
 featured:    false
 ---

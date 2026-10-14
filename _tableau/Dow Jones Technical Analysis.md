@@ -1,7 +1,7 @@
 ---
 # file: _tableau/Dow Jones Technical Analysis.md
 layout:      project
-title:       Dow Jones Technical Analysis
+title:       AMGN Technical Analysis
 date:        5 Aug 2024
 image:
   path:       /assets/tableau/Dow Jones Technical Analysis.png
@@ -11,12 +11,15 @@ image:
     480w:    /assets/tableau/Dow Jones Technical Analysis.png
 
 description: >
-              This dashboard facilitates a comprehensive technical analysis of AMGN stock performance using historical market data and key financial indicators. It helps in understanding trends, market behavior, and relative performance, providing valuable insights for traders, analysts, and investors.
+              Dow Jones is used only as a comparison index. This course dashboard facilitates a comprehensive technical analysis of AMGN stock performance using historical market data and key financial indicators. It helps in understanding trends, market behavior, and relative performance, providing valuable insights for traders, analysts, and investors.
 links:
-  - title:   Veiw
+  - title:   View
     url:   https://public.tableau.com/views/TradingDashboard_17228563479350/DowJonesTechnicalAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 featured:    false
 ---
+
+This course project analyzes AMGN stock, with Dow Jones used only as a comparison index.
+
 #### Key Insights:
 
 1. **Global Overview:**

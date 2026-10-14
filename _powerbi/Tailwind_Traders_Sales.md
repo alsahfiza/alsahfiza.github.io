@@ -11,13 +11,17 @@ image:
     480w:    /assets/powerbi/Tailwind_Traders_Sales.png
 
 description: >
+              Training project using Microsoft sample data; this is not a client project.
               This report offers insights into Tailwind Traders' sales performance across multiple regions. It features key metrics such as stock levels, quantity sold by product, and median sales over time. The report also includes a breakdown of sales distribution by country and loyalty points earned, giving a detailed view of the company's sales activities.
   
 links:
-  - title:   Veiw
+  - title:   View
     url:     https://app.powerbi.com/reportEmbed?reportId=494e7362-bd34-49e1-9689-ae9b07c6fe3f&autoAuth=true&ctid=801585e2-0e6a-4322-a002-e7fc8457bab4
 featured:    false
 ---
+
+**Training project using Microsoft sample data; this is not a client project.**
+
 #### Key Insights:
 1. **Stock and Quantity Purchased:**
    - **Total Stock Available:** 14K

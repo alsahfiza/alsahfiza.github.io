@@ -13,7 +13,7 @@ image:
 description: >
               This dashboard helps users explore restaurant data, providing a comprehensive understanding to identify "star" restaurants based on various metrics such as franchise presence, cuisine served, and customer preferences.
 links:
-  - title:   Veiw
+  - title:   View
     url:     https://public.tableau.com/views/IdentifyingandRecommendingBestRestaurants_16350643249890/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
 featured:    false
 ---

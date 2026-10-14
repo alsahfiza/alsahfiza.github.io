@@ -9,6 +9,8 @@ tags: [Data Science, Machine Learning, Deep Learning, Python]
 mathjax: "true"
 ---
 
+No public source repository is available for this project.
+
 ### Get the Data
 We will use [CelebFaces Attributes Dataset (CelebA)](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) to train your adversarial networks.
 

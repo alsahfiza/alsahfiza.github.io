@@ -14,7 +14,7 @@ description: >
               This dashboard is designed to analyze the sales performance of products across various regions and brands for a pharmaceutical company. It provides insights into sales quantities, revenue, and commissions to external agents, with user control functionality for easy data manipulation and visualization.
 
 links:
-  - title:   Veiw
+  - title:   View
     url:     https://app.powerbi.com/view?r=eyJrIjoiYjJhNmQ1NGMtYzhlNi00ZThkLWFmZjgtZTVlNWE3ZjM4NWUwIiwidCI6IjZiY2E4MzUxLTAxZDMtNDI1Mi04NWVhLWJkYThmOGQyMzViZCIsImMiOjl9
 featured:    true
 ---

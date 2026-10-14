@@ -13,7 +13,7 @@ image:
 description: >
               This dashboard provides a comprehensive analysis of retail products and company customer metrics across different regions. It aims to help users understand product performance, customer distribution, and regional differences.
 links:
-  - title:   Veiw
+  - title:   View
     url:     https://public.tableau.com/views/CustomerAnalysis_16338506116350/CustomerAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link
 featured:    false
 ---

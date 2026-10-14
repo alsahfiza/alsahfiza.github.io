@@ -11,13 +11,17 @@ image:
     480w:    /assets/powerbi/Adventure_Works.png
 
 description: >
+              Training project using Microsoft sample data; this is not a client project.
               This dashboard offers a comprehensive overview of Adventure Works' sales performance, highlighting key metrics such as total sales, top performers, product categories, regional distribution, and sales trends over time. It provides valuable insights for identifying sales opportunities, optimizing resource allocation, and driving overall business growth.
   
 links:
-  - title:   Veiw
+  - title:   View
     url:     https://app.powerbi.com/reportEmbed?reportId=e20247ac-4ec7-429f-8627-e17c5c66fd09&autoAuth=true&ctid=801585e2-0e6a-4322-a002-e7fc8457bab4
 featured:    false
 ---
+
+**Training project using Microsoft sample data; this is not a client project.**
+
 #### Key Insights:
 
 1.  **Total Sales:**

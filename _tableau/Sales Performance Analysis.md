@@ -13,7 +13,7 @@ image:
 description: >
               This dashboard provides a detailed monthly analysis of sales performance by product segment (Consumer, Corporate, Home Office) and product category (Furniture, Office Supplies, Technology). It helps clients identify which segments and categories have met or exceeded their sales targets and which ones have not.
 links:
-  - title:   Veiw
+  - title:   View
     url:     https://public.tableau.com/views/SalesPerformanceAnalysis_16339499599040/SalesPerformancevsTargetDashboard?:language=en-US&:display_count=n&:origin=viz_share_link
 featured:    false
 ---

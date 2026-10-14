@@ -14,7 +14,7 @@ description: >
               This dashboard provides an in-depth analysis of Zomato's restaurant data, helping to uncover hidden anomalies and accurately judge business performance. It includes key metrics and visualizations that offer insights into restaurant counts, ratings, and average costs across different regions.
   
 links:
-  - title:   Veiw
+  - title:   View
     url:     https://app.powerbi.com/view?r=eyJrIjoiYjUyZGQ5NWEtNTE4My00ZmEzLWIyNWEtZTVmN2NkOTgzZjYzIiwidCI6IjZiY2E4MzUxLTAxZDMtNDI1Mi04NWVhLWJkYThmOGQyMzViZCIsImMiOjl9
 featured:    false
 ---

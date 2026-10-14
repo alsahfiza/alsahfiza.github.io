@@ -11,11 +11,15 @@ image:
     480w:    /assets/powerbi/Adventure_Works_kpi.png
 
 description: >
+              Training project using Microsoft sample data; this is not a client project.
               This dashboard analysis provides a comprehensive overview of sales performance and marketing effectiveness across different regions.Key findings include significant sales disparities between regions, the impact of marketing expenditure on sales, and the varying success of ad campaigns.These insights can be used to optimize marketing strategies, allocate resources effectively, and drive overall sales growth.
 links:
-  - title:   Veiw
+  - title:   View
     url:     https://app.powerbi.com/reportEmbed?reportId=c1f858c2-37dd-44bb-9636-eadf1c44f76f&autoAuth=true&ctid=801585e2-0e6a-4322-a002-e7fc8457bab4
 ---
+
+**Training project using Microsoft sample data; this is not a client project.**
+
 #### Key Insights:
 
 1.  **Sales Performance:**

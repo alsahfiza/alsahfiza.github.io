@@ -4,10 +4,13 @@ title: "Determining Trade Union Status"
 image: "/assets/projects/United Data Scientists Union.webp"
 permalink: /2020-09-02-Trade_Union/
 date: 2020-09-02
-description: "This project involves implementing various models and performing preprocessing on the data to compare the results and performance of different models.  We applied statistical techniques to see which model is performing best. In this project, we will create a binary classifier that predicts whether a data scientist will remain a USDU member or not."
+description: "To predict whether a data scientist would remain a USDU member, I preprocessed membership data and compared binary classification models. The displayed evaluation reports accuracy of 0.751515 on 330 samples. Source repository: https://github.com/Zakaria-Alsahfi/MACHINE-LEARNING"
+
 tags: [data science, Machine Learning, Python, Commerce, Transport]
 mathjax: "true"
 ---
+
+To predict whether a data scientist would remain a USDU member, I preprocessed membership data and compared binary classification models. The displayed evaluation reports accuracy of 0.751515 on 330 samples. [Source repository](https://github.com/Zakaria-Alsahfi/MACHINE-LEARNING).
 
 ## Reading data for preprocessing
 

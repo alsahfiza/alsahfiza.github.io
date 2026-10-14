@@ -14,7 +14,7 @@ description: >
               This dashboard provides comprehensive insights into coffee quality data, focusing on key metrics to evaluate the overall quality of coffee. It highlights various coffee types, regions, and processing methods, identifying opportunities to enhance specific coffee varieties and growing locations.
 
 links:
-  - title:   Veiw
+  - title:   View
     url:     https://app.powerbi.com/view?r=eyJrIjoiN2YyMDA3MmUtYWVlNS00MTQ1LWE1ZDQtY2Y3ZDA0ZGJhNjQ5IiwidCI6IjZiY2E4MzUxLTAxZDMtNDI1Mi04NWVhLWJkYThmOGQyMzViZCIsImMiOjl9
 featured:    true
 ---

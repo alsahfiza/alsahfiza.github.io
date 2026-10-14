@@ -4,12 +4,14 @@ title: "Women’s Clothing E-Commerce Reviews"
 image: "/assets/projects/WomenClothing.webp"
 permalink: /2019-05-15-women-clothing/
 date: 2019-05-15
-description: "This study aims to assist the e-commerce company in developing a machine learning model that can automatically assess customer feedback to determine whether a product is recommended"
+description: "To classify product recommendations from women’s clothing reviews, I cleaned and vectorized review text and compared bag-of-words and word-embedding models. The article reports 67% accuracy for the Count model. Source repository: https://github.com/Zakaria-Alsahfi/Womens-Clothing-E-Commerce-Reviews"
+
 tags: [Data Science, Machine Learning, Text Mining, Python, E-Commerce]
 mathjax: "true"
 ---
 
-Customer reviews provide valuable insight into product quality and opportunities for improvement. This dataset of women's clothing reviews aims to help the e-commerce company develop a machine learning model that can automatically determine from customer feedback whether a product is recommended or not.
+To classify product recommendations from women’s clothing reviews, I cleaned and vectorized review text and compared bag-of-words and word-embedding models. The article reports 67% accuracy for the Count model. [Source repository](https://github.com/Zakaria-Alsahfi/Womens-Clothing-E-Commerce-Reviews).
+
 <!--more-->
 With over 23,000 reviews, manually analyzing this volume of feedback is time-consuming and subjective. An automated classification model offers a scalable and consistent approach. However, given the unstructured nature of review text, several techniques must be combined to extract meaningful information for prediction.
 

@@ -1,4 +1,6 @@
 ---
+home_feature: true
+home_order: 1
 layout: post
 title: "Building a Comprehensive Data Validation and Reporting Tool with Python"
 image: "/assets/projects/ExcelValidationTool_2.webp"
@@ -8,6 +10,9 @@ description: "In a world driven by data, maintaining data quality is essential f
 tags: [Data Validation, Python, Tkinter, GUI, Excel, PDF]
 mathjax: "true"
 ---
+
+The source code has not been published yet.
+
 
 This post walks through the features, design, and technology behind the tool.
 
@@ -69,10 +74,12 @@ The validation process is powered by customizable rules stored in JSON files. Ea
 - **Date Format Validation:** Checks date formats for consistency.
 
 **Code Example:**
+{% raw %}
 ```python
 def validate_length(column_data, length=10):
     return column_data.astype(str).str.fullmatch(fr'\d{{{length}}}').value_counts().get(False, 0)
 ```
+{% endraw %}
 ### 3. **Dynamic Reporting**
 
 The tool generates both Excel and PDF reports, enriched with visualizations and compliance summaries. These reports include:

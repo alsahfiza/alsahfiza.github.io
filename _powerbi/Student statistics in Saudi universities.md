@@ -1,4 +1,6 @@
 ---
+home_feature: true
+home_order: 2
 # file: _powerbi/Student statistics in Saudi universities.md
 layout:      project
 title:       Student statistics in Saudi universities
@@ -14,7 +16,7 @@ description: >
               The dashboard helps universities, policymakers, and educators enhance strategic planning, optimize program offerings, and allocate resources efficiently to strengthen Saudi Arabia's higher education system.
 
 links:
-  - title:   Veiw
+  - title:   View
     url:     https://app.powerbi.com/view?r=eyJrIjoiNTc5MzU1MmMtYTVkMy00M2ZlLTg0NzQtYTYxZjg2NDBjNTEyIiwidCI6IjZiY2E4MzUxLTAxZDMtNDI1Mi04NWVhLWJkYThmOGQyMzViZCIsImMiOjl9
 featured:    true
 ---

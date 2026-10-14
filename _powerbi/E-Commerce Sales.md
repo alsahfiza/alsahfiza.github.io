@@ -14,7 +14,7 @@ description: >
              This dashboard is designed for an Online E-Commerce Company to analyze sales across various product categories. It provides detailed insights into sales trends, quantities, profits, and geographic distribution. The dashboard is equipped with user controls for selecting specific product categories to observe month-wise and product-wise trends.
 
 links:
-  - title:   Veiw
+  - title:   View
     url:     https://app.powerbi.com/view?r=eyJrIjoiYzIyODJkYTItZjNlNS00YWJkLWE4OGItMzgzOGQxNzQ0NTkyIiwidCI6IjZiY2E4MzUxLTAxZDMtNDI1Mi04NWVhLWJkYThmOGQyMzViZCIsImMiOjl9
 featured:    true
 ---

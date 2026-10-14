@@ -4,12 +4,14 @@ title: "Identify Metastatic Cancer"
 image: "/assets/projects/Metastatic-Cancer.webp"
 permalink: /2019-12-02-Identify-Metastatic-Cancer/
 date: 2019-12-02
-description: "In this project, we develop an algorithm to identify metastatic cancer in small image patches taken from larger digital pathology scans. The data for this competition is a slightly modified version of the PatchCamelyon (PCam) benchmark dataset. The original PCam dataset contains duplicate images due to probabilistic sampling; however, the version presented on Kaggle does not include duplicates."
+description: "To identify metastatic cancer in digital pathology image patches, I trained and evaluated an image classifier on the modified PatchCamelyon dataset, reviewing loss, accuracy, ROC, and confusion-matrix outputs. The displayed classification report records 0.84 accuracy on 1,600 samples. Source repository: https://github.com/Zakaria-Alsahfi/identify-metastatic-cancer-"
+
 tags: [Data Science, Machine Learning, Deep Learning, Python, Healthcare]
 mathjax: "true"
 ---
 
-In this project, we create an algorithm to identify metastatic cancer in small image patches taken from larger digital pathology scans. The data for this competition is a slightly modified version of the PatchCamelyon (PCam) benchmark dataset. The original PCam dataset contains duplicate images due to its probabilistic sampling, however, the version presented on Kaggle does not contain duplicates.
+To identify metastatic cancer in digital pathology image patches, I trained and evaluated an image classifier on the modified PatchCamelyon dataset, reviewing loss, accuracy, ROC, and confusion-matrix outputs. The displayed classification report records 0.84 accuracy on 1,600 samples. [Source repository](https://github.com/Zakaria-Alsahfi/identify-metastatic-cancer-).
+
 <!--more-->
 
 

@@ -14,7 +14,7 @@ description: >
               This dashboard provides a visual summary of key rental market metrics, including average rent, rental duration, income distribution, and profit potential. It helps property managers, investors, and analysts make informed decisions by highlighting trends, performance variations, and opportunities across different regions and time periods. Dashboard design inspired by **[DataTraining.io](https://datatraining.io)**.
 
 links:
-  - title:   Veiw
+  - title:   View
     url:     https://app.powerbi.com/view?r=eyJrIjoiNDQ4MzA2ZmItY2Y2My00ZTcxLTg3MTMtM2MyMWM0NDU5M2RlIiwidCI6IjZiY2E4MzUxLTAxZDMtNDI1Mi04NWVhLWJkYThmOGQyMzViZCIsImMiOjl9
 featured:    true
 ---

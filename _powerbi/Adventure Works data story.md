@@ -11,14 +11,18 @@ image:
     480w:    /assets/powerbi/Adventure_Works_data_story.png
     
 description: >
+              Training project using Microsoft sample data; this is not a client project.
               This dashboard provides a high-level overview of Adventure Works' financial performance, focusing on revenue and profitability trends over time. Key metrics such as total revenue,
               profit margin, and growth rates are visualized to identify patterns and areas for improvement.The dashboard is designed to help stakeholders understand the company's financial 
               health, assess the impact of revenue fluctuations on profitability, and identify opportunities to enhance overall financial performance.
 links:
-  - title:   Veiw
+  - title:   View
     url:     https://app.powerbi.com/reportEmbed?reportId=f159d434-64a9-4bc9-a82f-e5b394d313f1&autoAuth=true&ctid=801585e2-0e6a-4322-a002-e7fc8457bab4
 featured:    false
 ---
+
+**Training project using Microsoft sample data; this is not a client project.**
+
 
 #### Key Insights:
 

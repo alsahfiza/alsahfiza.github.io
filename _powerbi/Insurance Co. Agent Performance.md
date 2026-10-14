@@ -14,7 +14,7 @@ description: >
               This dashboard provides a comprehensive analysis of the performance of agents in an insurance group comprising 10 property and casualty insurance, life insurance, and insurance brokerage companies. The dashboard focuses on key performance indicators (KPIs) to evaluate agent effectiveness and highlight areas for improvement.
 
 links:
-  - title:   Veiw
+  - title:   View
     url:     https://app.powerbi.com/view?r=eyJrIjoiOGE4NTg3YTItNzdkNi00YWJlLTg4ZDctMDVkYmRhMGU1ZjMzIiwidCI6IjZiY2E4MzUxLTAxZDMtNDI1Mi04NWVhLWJkYThmOGQyMzViZCIsImMiOjl9
 featured:    true
 ---

@@ -13,7 +13,7 @@ image:
 description: >
               This dashboard provides an in-depth analysis of sales performance, shipping costs, and return rates by region over the last four years. The visualizations offer insights into regional sales managed by different managers, monthly shipping expenses, and return metrics compared to targets.
 links:
-  - title:   Veiw
+  - title:   View
     url:   https://public.tableau.com/views/RegionalSalesMetrics/ManagerialSalesDataandRegionalShippingCostsAnalysis?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 featured:    false
 ---

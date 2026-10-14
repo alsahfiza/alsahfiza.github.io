@@ -19,10 +19,10 @@ layout: about
 {%- endcomment -%}
 {% if content contains "<!--powerbi-->" %}
 {% capture powerbi_x %}
-  {% if site.powerbi.size > 0 %}
+  {% assign home_projects = site.posts | concat: site.powerbi | where:"home_feature", true | sort:"home_order" %}
+  {% if home_projects.size > 0 %}
     <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
-      {% assign ordered_powerbi = site.powerbi | sort:"date" | reverse %}
-      {% for post in ordered_powerbi limit:4 %}
+      {% for post in home_projects %}
         <div class="column column-1-2">
           {% include_cached pro/post-card.html post=post %}
         </div>

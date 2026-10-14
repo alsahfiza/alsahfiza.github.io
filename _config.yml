@@ -11,15 +11,15 @@ baseurl: ""
 
 lang: en
 title: Zakaria Alsahfi
-description:     > 
-                  Check out my portfolio where I showcase my dedication as a data science professional and analyst. 
-                  Explore a variety of projects and insights highlighting my expertise in data analysis, visualization, 
-                  and programming. See how I blend technical skills with innovative solutions to address real-world 
+description:     >
+                  Check out my portfolio where I showcase my dedication as a data science professional and analyst.
+                  Explore a variety of projects and insights highlighting my expertise in data analysis, visualization,
+                  and programming. See how I blend technical skills with innovative solutions to address real-world
                   data challenges.
 #A shorter description for the sidebar.
-tagline:         > 
-                  Data Scientist<br>  
-                  Data Analyst<br>  
+tagline:         >
+                  Data Scientist<br>
+                  Data Analyst<br>
                   Financial Data Analyst
 
 keywords: [
@@ -44,23 +44,8 @@ keywords: [
   'Data Mining',
   'TensorFlow',
   'Statistics',
-  'Statstical Modeling',
-  'Algorithm',
-  'Recruitment Portfolio',
-  'Professional Portfolio',
-  'Candidate Portfolio',
-  'Job Seeker Portfolio',
-  'Hiring Portfolio',
-  'Talent Showcase Portfolio',
-  'Industry Expert Portfolio',
-  'Professional Experience Portfolio',
-  'Career Highlights Portfolio',
-  'Skilled Professional Portfolio',
-  'Portfolio for marketing job recruiters',
-  'Tech job candidate online portfolio',
-  'Best portfolio websites for finance professionals',
-  'Graphic designer portfolio for creative headhunters',
-  'Software developer work portfolio for tech recruiters'
+  'statistical modeling',
+  'Algorithm'
   ]
 
 # A (square) logo for the sidebar.
@@ -73,7 +58,7 @@ author:
   name: Zakaria Alsahfi
   email: zakaria.sahfi@gmail.com
   # # Used by `jekyll-seo-tag`:
-  twitter: AlsahfiZA
+  twitter: alsahfiza
   rss: true
 
 share-links-active:
@@ -84,9 +69,9 @@ share-links-active:
 
 # Add links to the sidebar.
 menu:
-  # - title:             Blog
-  #  url:               /posts/
-  - title:           Power Bi
+  - title:             Projects
+    url:               /posts/
+  - title:           Power BI
     url:              /powerbi/
   - title:            Tableau
     url:              /tableau/
@@ -95,7 +80,7 @@ menu:
   - title:             About Me
     url:               /about/
 
-copyright:             © 2020. Zakaria Alsahfi. All rights reserved.
+copyright:             © 2020–2026. Zakaria Alsahfi. All rights reserved.
 
 permalink:             /:categories/:year-:month-:day-:title/
 
@@ -137,16 +122,16 @@ defaults:
   - scope:
       type:            posts
     values:
-      applause_button:       true
+      applause_button:       false
   - scope:
       type:            powerbi
     values:
-      applause_button:       true
+      applause_button:       false
   - scope:
       type:            tableau
     values:
-      applause_button:        true 
-      
+      applause_button:        false
+
   # Don't include documents in assets in the sitemap
   - scope:
       path:           assets/
@@ -198,7 +183,7 @@ collections:
   tableau:
     permalink:          /tableau/:path/
     output:             true
-    
+
 
 ########################################################################################################################
 # 3rd Party Integrations                                                                                               #
@@ -218,7 +203,7 @@ tinyletter:           TsekNet
 
 font-awesome:
   assets:              true
-  
+
 lightbox:              true
 
 mermaid:               true
@@ -337,7 +322,7 @@ date_formats:
   project:             '%Y'
   projects_group_by:   '%Y'
   resume:              '%b %Y'
-  
+
 ########################################################################################################################
 # Only use if you know what Service Workers are and how they can impact the                                            #
 # site!                                                                                                                #
@@ -403,7 +388,7 @@ google-site-verification: "ULEUQTgeP918_7Ne8oTWQBhH5P0Yp-HV5J9Y27p9uZI"
 
 # Used for twitter cards
 twitter:
-  username:  AlsahfiZA
+  username:  alsahfiza
 
 # Used for facebook open graph
 # facebook:
@@ -415,7 +400,7 @@ twitter:
 social:
   name: Zakaria Alsahfi
 links:
-- https://twitter.com/AlsahfiZA
+- https://twitter.com/alsahfiza
 - https://github.com/Zakaria-Alsahfi
 - https://www.linkedin.com/in/zakariaalsahfi
 - https://scholar.google.co.uk/citations?user=aJR6B78AAAAJ&hl=en
@@ -433,7 +418,8 @@ relative_links:
   collections:        true
 
 titles_from_headings:
-  strip_title:        true
+  enabled:            false
+  strip_title:        false
   collections:        true
 
 compress_html:
@@ -453,14 +439,14 @@ jekyll_compose:
   default_front_matter:
     drafts:
       layout: post
-      description: > 
+      description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
         path: /assets/img/bg-blue.jpg
     posts:
       layout: post
-      description: > 
+      description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:

@@ -1,4 +1,6 @@
 ---
+home_feature: true
+home_order: 3
 # file: _powerbi/Human_Resources_Dashboard_Overview.md
 layout:      project
 title:       Human Resources Dashboard Overview
@@ -14,7 +16,7 @@ description: >
               This interactive HR dashboard visualizes employee distribution, salary insights, talent assessments, and hiring activities. It empowers HR teams to track workforce metrics, optimize recruitment, and manage employee performance effectively. Dashboard layout inspired by **[DataTraining.io](https://datatraining.io)**.
 
 links:
-  - title:   Veiw
+  - title:   View
     url:     https://app.powerbi.com/view?r=eyJrIjoiZDllZDhkNDgtNDg5Ni00YjliLThlZGItOGQzOTRiY2Y1ZDFhIiwidCI6IjZiY2E4MzUxLTAxZDMtNDI1Mi04NWVhLWJkYThmOGQyMzViZCIsImMiOjl9
 featured:    true
 ---

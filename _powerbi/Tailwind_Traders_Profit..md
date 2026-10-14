@@ -11,13 +11,17 @@ image:
     480w:    /assets/powerbi/Tailwind_Traders_Profit.png
 
 description: >
+              Training project using Microsoft sample data; this is not a client project.
               The Tailwind Traders Profit Report highlights the company's financial performance, focusing on net revenue by product and yearly profit margins across different countries. It also tracks profit margin trends over time and provides an overall assessment of the company's profitability, showcasing strong revenue generation and balanced regional contributions.
   
 links:
-  - title:   Veiw
+  - title:   View
     url:     https://app.powerbi.com/reportEmbed?reportId=1c8bbd12-8ba1-4805-ae46-11221499d725&autoAuth=true&ctid=801585e2-0e6a-4322-a002-e7fc8457bab4
 featured:    false
 ---
+
+**Training project using Microsoft sample data; this is not a client project.**
+
 #### Key Insights:
 1. **Net Revenue by Product:**
    - **Top Performers:** The Modular Sofa Set leads with the highest net revenue, closely followed by the Motion Sensor Alarm and Bamboo Plant Pot. These products are the main drivers of revenue.

@@ -11,13 +11,17 @@ image:
     480w:    /assets/powerbi/Adventure_Works_Revenue.png
 
 description: >
+              Training project using Microsoft sample data; this is not a client project.
               This report provides an overview of Adventure Works' sales performance, highlighting key metrics such as stock levels, quantity purchased, and median sales across various countries. The report also showcases loyalty points by country, median sales distribution, and trends over time, offering a comprehensive snapshot of the company's revenue dynamics.
   
 links:
-  - title:   Veiw
+  - title:   View
     url:     https://app.powerbi.com/reportEmbed?reportId=7ac7e484-6811-42fc-a20e-d4dd0025743a&autoAuth=true&ctid=801585e2-0e6a-4322-a002-e7fc8457bab4
 featured:    false
 ---
+
+**Training project using Microsoft sample data; this is not a client project.**
+
 #### Key Insights:
 
 1. **Profit Margin by Order Date:**

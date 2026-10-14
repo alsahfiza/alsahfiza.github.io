@@ -18,7 +18,7 @@ description: >
           These insights enable targeted interventions to enhance customer satisfaction, loyalty, and overall business growth.
   
 links:
-  - title:   Veiw
+  - title:   View
     url:     https://app.powerbi.com/reportEmbed?reportId=1c74a875-2193-44d5-86d5-358f5040899a&autoAuth=true&ctid=801585e2-0e6a-4322-a002-e7fc8457bab4
 featured:    false
 ---
