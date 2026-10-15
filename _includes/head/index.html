@@ -13,3 +13,11 @@
 {% include_cached head/styles.html layout=page.layout color=color theme_color=theme_color %}
 
 {% include my-head.html %}
+
+<!-- Keep the cover out of document flow before the drawer upgrades, as it is after initialization. -->
+<style>
+  @media screen {
+    hy-drawer.cover:not(.loaded) { position: absolute; top: 0; left: 0; }
+  }
+</style>
+<noscript><style>hy-drawer.cover:not(.loaded) { position: relative; }</style></noscript>

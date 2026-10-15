@@ -1,0 +1,28 @@
+/assets/powerbi/HR_Dashboard_Data.png:
+  path: /assets/img/previews/hr-dashboard-480.webp
+  srcset:
+    480w: /assets/img/previews/hr-dashboard-480.webp
+    960w: /assets/img/previews/hr-dashboard-960.webp
+  width: 480
+  height: 360
+/assets/powerbi/Student_statistics.png:
+  path: /assets/img/previews/student-statistics-480.webp
+  srcset:
+    480w: /assets/img/previews/student-statistics-480.webp
+    960w: /assets/img/previews/student-statistics-960.webp
+  width: 480
+  height: 269
+/assets/projects/ExcelValidationTool_2.webp:
+  path: /assets/img/previews/excel-validation-480.webp
+  srcset:
+    480w: /assets/img/previews/excel-validation-480.webp
+    960w: /assets/img/previews/excel-validation-960.webp
+  width: 480
+  height: 304
+/assets/img/my_photo.webp:
+  path: /assets/img/previews/zakaria-avatar-112.webp
+  srcset:
+    112w: /assets/img/previews/zakaria-avatar-112.webp
+    224w: /assets/img/previews/zakaria-avatar-224.webp
+  width: 112
+  height: 114

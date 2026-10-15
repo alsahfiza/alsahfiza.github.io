@@ -23,12 +23,15 @@
   {% endcapture %}
 {% endif %}
 {% assign sizes = sizes | strip_newlines %}
+{% assign image_key = post.image.path | default:post.image.src | default:post.image %}
+{% assign preview = site.data.card_images[image_key] %}
+{% assign card_image = preview | default:post.image %}
 
 <article class="project-card">
   <a href="{{ post.url | relative_url }}" class="no-hover no-print-link {% unless post.hide_image %}flip-project{% endunless %}" tabindex="-1">
     <div class="project-card-img aspect-ratio {% if post.image %}flip-project-img{% else %}fallback-img{% endif %}">
       {% if post.image %}
-        {% include_cached components/hy-img.html img=post.image alt=post.title sizes=sizes %}
+        {% include_cached components/hy-img.html img=card_image alt=post.title sizes=sizes width=preview.width height=preview.height class="no-lightbox" %}
       {% endif %}
     </div>
   </a>

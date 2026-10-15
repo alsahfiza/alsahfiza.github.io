@@ -50,7 +50,7 @@ function setGallery(el) {
 
 function apply_lightbox_to_img_tag() {
   Array.from(document.querySelectorAll("img")).forEach((img_element) => {
-    if (img_element.classList.contains("no-lightbox")) {
+    if (img_element.classList.contains("no-lightbox") || img_element.closest("a")) {
       return;
     }
     var wrapper = document.createElement("a");

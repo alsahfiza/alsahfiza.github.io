@@ -2,7 +2,10 @@
   <div class="sidebar-about">
     {% if site.logo %}
       <a class="no-hover" href="{{ '/' | relative_url }}" tabindex="-1">
-        <img src="{% include_cached smart-url url=site.logo %}" class="avatar" alt="{{ site.short_title | default:site.title }}" loading="lazy" />
+        {% assign logo_preview = site.data.card_images[site.logo] %}
+        {% assign logo_image = logo_preview | default:site.logo %}
+        {% assign logo_alt = site.short_title | default:site.title %}
+        {% include_cached components/hy-img.html img=logo_image class="avatar no-lightbox" alt=logo_alt sizes="112px" width=logo_preview.width height=logo_preview.height %}
       </a>
     {% endif %}
     <a class="sidebar-title" href="{{ '/' | relative_url }}"><h2 class="h1">{{ site.short_title | default:site.title }}</h2></a>

@@ -26,6 +26,8 @@
 
 {% assign screenshot = project.screenshot | default:project.image %}
 {% assign image_base = screenshot.src | default:screenshot.path | default:screenshot %}
+{% assign preview = site.data.card_images[image_base] %}
+{% assign card_image = preview | default:screenshot %}
 
 <article
   class="project-card"
@@ -37,7 +39,7 @@
   <a href="{{ project.url | relative_url }}" class="no-hover no-print-link flip-project" tabindex="-1">
     <div class="project-card-img aspect-ratio flip-project-img {% unless screenshot %}fallback-img{% endunless %}">
       {% if screenshot %}
-        {% include_cached components/hy-img.html img=screenshot alt=project.title sizes=sizes %}
+        {% include_cached components/hy-img.html img=card_image alt=project.title sizes=sizes width=preview.width height=preview.height class="no-lightbox" %}
       {% endif %}
     </div>
   </a>
