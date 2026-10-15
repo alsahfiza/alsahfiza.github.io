@@ -6,6 +6,12 @@
 {% include_cached head/meta-static.html %}
 
 {% include        head/links.html lang=page.lang %}
+{% if page.cover %}
+  {% assign cover_image = page.accent_image | default:site.accent_image %}
+  {% unless cover_image.background or cover_image == 'none' %}
+    {% if cover_image %}<link rel="preload" as="image" href="{% include_cached smart-url url=cover_image %}" fetchpriority="high">{% endif %}
+  {% endunless %}
+{% endif %}
 {% include_cached head/links-static.html %}
 
 {% include_cached head/scripts.html %}

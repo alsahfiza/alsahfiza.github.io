@@ -1,4 +1,5 @@
-{% if site.google_analytics %}
+{% comment %}The legacy analytics.js integration only accepts Universal Analytics IDs. GA4 is configured in head/scripts.html.{% endcomment %}
+{% if site.google_analytics contains 'UA-' %}
   <script>!function(w, d) {
     w.ga=w.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
 
